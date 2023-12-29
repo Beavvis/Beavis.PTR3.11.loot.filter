@@ -1,4 +1,4 @@
-﻿// *******************************************************************************
+// *******************************************************************************
 //			THIS FILTER WORKS FOR PTR ONLY
 // *******************************************************************************
 // Beavvis filter	Version 3.1
@@ -56,7 +56,7 @@ ItemDisplay[hp4]:
 ItemDisplay[hp5]: %GREEN%!%RED%HP
 ItemDisplay[mp4 CLVL<70]: %GREEN%!%BLUE%Grt Mana
 ItemDisplay[mp4]: %GREEN%!%BLUE%Grt Mana
-ItemDispay[mp5]: %GREEN%!%BLUE%MP
+ItemDisplay[mp5]: %GREEN%!%BLUE%MP
 ItemDisplay[hp1 CLVL<15]: %GREEN%!%RED%Min HP
 ItemDisplay[hp2 CLVL<18]: %GREEN%!%RED%Lite HP
 ItemDisplay[hp3 CLVL<24]: %GREEN%!%RED%Reg HP
@@ -89,23 +89,23 @@ ItemDisplay[cx7]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** KEY OF CHAOS ****
 // -------------------------------------------------------------------------------------------------------------
 //					UNIDENTIFIED MAPS							|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[ma1 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% **** %WHITE% %NAME% %WHITE% ****		// Icey Cavern
+ItemDisplay[ma1 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% **** %WHITE% %NAME% %WHITE% ****				// Icey Cavern
 ItemDisplay[ma2 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %RED% %NAME% %PURPLE% **** %NL% 	// Forgotten Desert
-ItemDisplay[ma3 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL% 		// Abandoned Precinct [Removed]
-ItemDisplay[ma4 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Desecrated Temple
-ItemDisplay[ma5 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% **** 		// Frigid Highlands
+ItemDisplay[ma3 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL% 			// Abandoned Precinct [Removed]
+ItemDisplay[ma4 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 			// Desecrated Temple
+ItemDisplay[ma5 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% **** 			// Frigid Highlands
 ItemDisplay[ma6 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %RED% %NAME% %PURPLE% **** %NL% 	// Ruined Citadel
-ItemDisplay[ma7 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL%	 	// Burnt Forest
-ItemDisplay[ma8 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Musty Crypt
-ItemDisplay[ma9 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Dim Cellar
-ItemDisplay[ma10 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% **** %NAME% %WHITE% ****			// Icey Cavern
+ItemDisplay[ma7 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL%	 		// Burnt Forest
+ItemDisplay[ma8 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 			// Musty Crypt
+ItemDisplay[ma9 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 			// Dim Cellar
+ItemDisplay[ma10 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% **** %NAME% %WHITE% ****						// Icey Cavern
 ItemDisplay[ma11 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
-ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
+ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  			// Pleasant Pasture
 // -------------------------------------------------------------------------------------------------------------
 //					IDENTIFIED MAPS								|
 // -------------------------------------------------------------------------------------------------------------
 //ItemDisplay[]: %NAME% %RED%[Report me %CODE% to Beavis]
-ItemDisplay[ma1]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%   				// Icey Cavern
+ItemDisplay[ma1]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%   			// Icey Cavern
 ItemDisplay[ma2]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %RED% %NAME% 				// Forgotten Desert
 ItemDisplay[ma3]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME%-ma3 			// Abandoned Precinct [Removed]
 ItemDisplay[ma4]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 				// Desecrated Temple
@@ -114,12 +114,12 @@ ItemDisplay[ma6]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 				// Ruin
 ItemDisplay[ma7]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 				// Burnt Forest
 ItemDisplay[ma8]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 				// Musty Crypt
 ItemDisplay[ma9]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %YELLOW% %NAME% 				// Dim Cellar
-ItemDisplay[ma10]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% %NAME%				// Icey Cavern
-ItemDisplay[ma11]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  				// TBA
-// ItemDisplay[ma12]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  				// TBA
-// ItemDisplay[ma13]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  				// TBA
-// ItemDisplay[ma14]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  				// TBA
-// ItemDisplay[MAP]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  				// TBA
+ItemDisplay[ma10]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% %NAME%					// Icey Cavern
+ItemDisplay[ma11]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA
+// ItemDisplay[ma12]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA
+// ItemDisplay[ma13]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA
+// ItemDisplay[ma14]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA
+// ItemDisplay[MAP]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA
 // ItemDisplay[(ma1 OR ma3 OR maz)]: %NAME%
 //
 // -------------------------------------------------------------------------------------------------------------
@@ -287,11 +287,11 @@ ItemDisplay[skz]: %NOTIFY(ITEM,HIGH)%%MAPICON(15)% %WHITE%# SKULL #
 //						Unique Charms							|
 // -------------------------------------------------------------------------------------------------------------
 //
-ItemDisplay[cm1 UNI !ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Annihilus %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[cm1 UNI ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Annihilus %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[cm2 UNI !ID]:%NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Hellfire Torch %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[cm2 UNI ID]:%NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Hellfire Torch %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[cm3 UNI !ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%*** %GOLD%Gheed's Fortune %PURPLE%***%NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[cm1 UNI !ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Annihilus %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%%MAPICON(96,1)%
+ItemDisplay[cm1 UNI ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Annihilus %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%%MAPICON(96,1)%
+ItemDisplay[cm2 UNI !ID]:%NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Hellfire Torch %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%%MAPICON(96,1)%
+ItemDisplay[cm2 UNI ID]:%NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Hellfire Torch %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%%MAPICON(96,1)%
+ItemDisplay[cm3 UNI !ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%*** %GOLD%Gheed's Fortune %PURPLE%***%NOTIFYSOUND(2664,HIGH)% %MAPICON(14,5)%
 //
 // -------------------------------------------------------------------------------------------------------------
 //						Grand SKILLERS							|
@@ -328,12 +328,12 @@ ItemDisplay[MAG cm3 ID TABSK50=1]: %NOTIFY(ITEM,HIGH)% %RED% +1 Assasin: Martial
 //						Grand Dammage & Resist						|
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[MAG cm3 ID ITEMSTAT22>7]: %YELLOW% % to Max Damage		// MAX Dammage
-ItemDisplay[MAG cm3 ID ITEMSTAT19>100]: %GREEN% AttackRating		// Attack Rating
-ItemDisplay[MAG cm3 ID ITEMSTAT39>25]: %GREEN%Fire Resist 		// Fire Resist
+ItemDisplay[MAG cm3 ID ITEMSTAT19>100]: %GREEN% AttackRating			// Attack Rating
+ItemDisplay[MAG cm3 ID ITEMSTAT39>25]: %GREEN%Fire Resist 			// Fire Resist
 ItemDisplay[MAG cm3 ID ITEMSTAT41>25]: %GREEN%Lightning Resist 		// Light Resist
-ItemDisplay[MAG cm3 ID ITEMSTAT43>25]: %GREEN%Cold Resist		// Cold Resist
-ItemDisplay[MAG cm3 ID ITEMSTAT45>25]: %GREEN%Poison Resist		// Poison Resist
-ItemDisplay[MAG cm3 ID RES>10]: %GREEN%ALL Resistances			// * ALL Resist *
+ItemDisplay[MAG cm3 ID ITEMSTAT43>25]: %GREEN%Cold Resist			// Cold Resist
+ItemDisplay[MAG cm3 ID ITEMSTAT45>25]: %GREEN%Poison Resist			// Poison Resist
+ItemDisplay[MAG cm3 ID RES>10]: %GREEN%ALL Resistances				// * ALL Resist *
 ItemDisplay[MAG cm3 ID]:
 //
 // -------------------------------------------------------------------------------------------------------------
@@ -354,12 +354,12 @@ ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)% %BLU
 //						Small Charm - PROPERTIES					|
 // -------------------------------------------------------------------------------------------------------------
 //
-// Strength		ITEMSTAT0
-// Energy		ITEMSTAT1
+// Strength			ITEMSTAT0
+// Energy			ITEMSTAT1
 // Dexterity		ITEMSTAT2
-// vitality		ITEMSTAT3
-// Life			ITEMSTAT7
-// maxmana		ITEMSTAT9
+// vitality			ITEMSTAT3
+// Life				ITEMSTAT7
+// maxmana			ITEMSTAT9
 // maxstamina		ITEMSTAT11
 // Attack Rating	ITEMSTAT19
 // Physical Damage	ITEMSTAT22 
@@ -368,13 +368,13 @@ ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)% %BLU
 // Cold Resist		ITEMSTAT43
 // Posion Resist	ITEMSTAT45
 // Fire Damage		ITEMSTAT48
-// 			ITEMSTAT49
+// 					ITEMSTAT49
 // Lightning Damage	ITEMSTAT50
-// 			ITEMSTAT51
+// 					ITEMSTAT51
 // Cold Damage		ITEMSTAT54
-// 			ITEMSTAT55
+// 					ITEMSTAT55
 // Poison Damage	ITEMSTAT57
-// 			ITEMSTAT58
+// 					ITEMSTAT58
 // Gold Find		ITEMSTAT79
 // Magic Find		ITEMSTAT80
 // 3% Run\Walk		ITEMSTAT96
@@ -383,17 +383,17 @@ ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)% %BLU
 // -------------------------------------------------------------------------------------------------------------
 //	Small Charms			PHASE-1 Look for Main Values						|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[cm1 ID RES>1]: %GREEN%%RES% All Resist %CONTINUE%						// +All Resist
-ItemDisplay[cm1 ID DEF>19]: %GREEN% %DEF% Defence %CONTINUE%						// +19 Defence
-ItemDisplay[cm1 ID LIFE>17]: %GREEN% +%STAT(7,0)% Life %CONTINUE%					// +18 Life
+ItemDisplay[cm1 ID RES>1]: %GREEN%%RES% All Resist %CONTINUE%					// +All Resist
+ItemDisplay[cm1 ID DEF>19]: %GREEN% %DEF% Defence %CONTINUE%					// +19 Defence
+ItemDisplay[cm1 ID LIFE>17]: %GREEN% +%STAT(7,0)% Life %CONTINUE%				// +18 Life
 ItemDisplay[cm1 ID ITEMSTAT22=3]: %PURPLE%+3 Dmg %CONTINUE%						// +3 Damage
 ItemDisplay[cm1 ID ITEMSTAT22=2]: %ORANGE%+2 Dmg %CONTINUE%						// +2 Damage
 ItemDisplay[cm1 ID ITEMSTAT22=1]: %WHITE%+1 Dmg %CONTINUE%						// +1 damage
 ItemDisplay[cm1 ID (ITEMSTAT57>0 AND ITEMSTAT58<210) ITEMSTAT58>150]: %GREEN% %STAT(57,0)%%STAT(58,0)% PoisonDmg %CONTINUE%	// +100 Poison
-ItemDisplay[cm1 ID (ITEMSTAT57>0 AND ITEMSTAT58>220)]: %GREEN% %STAT(57,0)%-%STAT(58,0)% PoisonDmg %CONTINUE%			// +200 Poison
-ItemDisplay[cm1 ID (ITEMSTAT48>0 AND ITEMSTAT49>9)]: %RED%  %STAT(48,0)%-%STAT(49,0)% FireDmg %CONTINUE%			// +10 Fire Damage
-ItemDisplay[cm1 ID (ITEMSTAT54>0 AND ITEMSTAT55>9)]: %BLUE%  %STAT(54,0)%-%STAT(55,0)% ColdDmg %CONTINUE% 			// +10 Cold Damage
-ItemDisplay[cm1 ID (ITEMSTAT50>0 AND ITEMSTAT51>29)]: %YELLOW%  %STAT(51,0)% LightDmg %CONTINUE%				// +30 Lightning Damage
+ItemDisplay[cm1 ID (ITEMSTAT57>0 AND ITEMSTAT58>220)]: %GREEN% %STAT(57,0)%-%STAT(58,0)% PoisonDmg %CONTINUE%				// +200 Poison
+ItemDisplay[cm1 ID (ITEMSTAT48>0 AND ITEMSTAT49>9)]: %RED%  %STAT(48,0)%-%STAT(49,0)% FireDmg %CONTINUE%					// +10 Fire Damage
+ItemDisplay[cm1 ID (ITEMSTAT54>0 AND ITEMSTAT55>9)]: %BLUE%  %STAT(54,0)%-%STAT(55,0)% ColdDmg %CONTINUE% 					// +10 Cold Damage
+ItemDisplay[cm1 ID (ITEMSTAT50>0 AND ITEMSTAT51>29)]: %YELLOW%  %STAT(51,0)% LightDmg %CONTINUE%							// +30 Lightning Damage
 // -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //	Small Charms		Elemental Resistances (39,41,43,45)																				|
 // -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1586,7 +1586,7 @@ ItemDisplay[7lw UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Fir
 // ------------------------------------------------------------------------------------------------
 //					CL6 SORCERER ITEMS
 // ------------------------------------------------------------------------------------------------ The Oculus
-ItemDisplay[oba UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** The Oculus **  %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[oba UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** The Oculus **  %NOTIFYSOUND(2664,HIGH)% %
 ItemDisplay[oba UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%The Oculus
 // ------------------------------------------------------------------------------------------------ Eschuta's Temper
 ItemDisplay[obc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE% Eschuta's Temper %RED%***%NL%  %NOTIFYSOUND(2664,HIGH)% 
