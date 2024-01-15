@@ -366,7 +366,7 @@ ItemDisplay[MAG cm3 ID RES>10]: %GREEN%ALL Resistances			// * ALL Resist *
 // -------------------------------------------------------------------------------------------------------------
 //
 ItemDisplay[MAG cm3 ILVL<50]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)% %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
-ItemDisplay[MAG cm3 ILVL>49]: %NOTIFY(ITEM,HIGH)%%BORDER(118,1)% %BGCOLOR(118)%%MAPICON(56,0)%%NL%%GREEN% *** %ORANGE%[%ILVL%]%GREEN% %NAME% %ORANGE%[%ILVL%] %GREEN% *** %NL%		// Unidentified Grand Charms
+ItemDisplay[MAG cm3 !ID ILVL>49]: %NOTIFY(ITEM,HIGH)%%BORDER(118,1)% %BGCOLOR(118)%%MAPICON(56,0)%%NL%%GREEN% *** %ORANGE%[%ILVL%]%GREEN% %NAME% %ORANGE%[%ILVL%] %GREEN% *** %NL%		// Unidentified Grand Charms
 //
 ItemDisplay[MAG cm2 ILVL<80 ]: %GREEN% %NAME% %ORANGE%[%ILVL%]%GREEN% %NAME%
 ItemDisplay[MAG cm2 ILVL>79]: %GRAY% %NAME% %ORANGE%[%ILVL%]
@@ -375,7 +375,7 @@ ItemDisplay[cm3 MAG !ID ILVL>77]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3
 ItemDisplay[cm3 MAG !ID ILVL<78]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3)% %BGCOLOR(140)% %BLUE%* %NAME% %WHITE%[%ILVL%]%BLUE% *   
 //
 ItemDisplay[cm3 MAG CLVL<30]: %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
-ItemDisplay[MAG cm3 ID CLVL>85]: %GREEN% %NAME% %ORANGE%[%ILVL%]
+ItemDisplay[cm3 MAG CLVL>75]: %GREEN% %NAME% %ORANGE%[%ILVL%]
 // -------------------------------------------------------------------------------------------------------------
 //	Small Charms			PHASE-1 Look for Main Values						|
 // -------------------------------------------------------------------------------------------------------------
