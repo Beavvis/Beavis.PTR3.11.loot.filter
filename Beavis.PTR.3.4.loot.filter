@@ -4,7 +4,7 @@
 // Beavvis filter	Version 3.40
 // Date:		January 2024
 //
-// DISCORD:		Beavis_
+// DISCORD:		Beavis_   (Steve)
 // DII Season:		Cornholio
 // DII PTR:		Beavis
 // Twitch.tv		Beavvis
@@ -79,10 +79,10 @@ ItemDisplay[ibk]: %WHITE%Tome of Identify
 // -------------------------------------------------------------------------------------------------------------
 //						Utility pots							|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[wms CLVL<61]: %GREEN%!%YELLOW%Thaw		// Show Thaw when Character Level under 61
-ItemDisplay[wms CLVL>0]: 				// Hide Thaw when Character Level over 61
-ItemDisplay[yps CLVL<61]: %GREEN%!%DGREEN%Anidote	// Hide Anidote Character Level under 61
-ItemDisplay[yps]: %GREEN%!%WHITE%A%GREEN%!%WHITE%A	// Show Antidote all levels (Edit Here to hide)
+ItemDisplay[wms CLVL<61]: %GREEN%!%YELLOW%Thaw					// Show Thaw when Character Level under 61
+ItemDisplay[wms CLVL>0]: 							// Hide Thaw when Character Level over 61
+ItemDisplay[yps CLVL<61]: %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Hide Anidote Character Level under 61
+ItemDisplay[yps]:  %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Show Antidote all levels (Edit Here to hide)
 ItemDisplay[vps CLVL<30]: %GREEN%!%WHITE%Stam
 ItemDisplay[vps CLVL>29]:
 // -------------------------------------------------------------------------------------------------------------
@@ -375,7 +375,7 @@ ItemDisplay[cm3 MAG !ID ILVL>77]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3
 ItemDisplay[cm3 MAG !ID ILVL<78]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3)% %BGCOLOR(140)% %BLUE%* %NAME% %WHITE%[%ILVL%]%BLUE% *   
 //
 ItemDisplay[cm3 MAG CLVL<30]: %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
-// ItemDisplay[MAG cm3 ID]:						// Hide Low Grand Charms
+ItemDisplay[MAG cm3 ID CLVL>85]: %GREEN% %NAME% %ORANGE%[%ILVL%]
 // -------------------------------------------------------------------------------------------------------------
 //	Small Charms			PHASE-1 Look for Main Values						|
 // -------------------------------------------------------------------------------------------------------------
