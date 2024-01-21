@@ -1,7 +1,7 @@
 // *******************************************************************************
 //			THIS FILTER WORKS FOR PTR ONLY
 // *******************************************************************************
-// Beavvis filter	Version 3.30
+// Beavvis filter	Version 3.40
 // Date:		January 2024
 //
 // DISCORD:		Beavis_
@@ -19,9 +19,9 @@
 // - Improvements are on-going, and Sounds, MAPICONs, and COLORs are still being experimented with.
 // **********************************************************************************************************************************************
 //
-// =====================================
-// |NOTE: FilterLevel working - TESTING|
-// =====================================
+// =======================================
+// | NOTE: FilterLevel working - TESTING |
+// =======================================
 FilterLevel[1]: Normal
 FilterLevel[2]: NightMare
 FilterLevel[3]: Hell
