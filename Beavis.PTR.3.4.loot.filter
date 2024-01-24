@@ -425,7 +425,7 @@ ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR ITEMSTAT3>0 OR ITEMSTAT19>0 OR ITEMSTAT22
 // -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR ITEMSTAT3>0 OR ITEMSTAT19>0 OR ITEMSTAT22>0 OR ITEMSTAT57>0 OR ITEMSTAT19>0 OR ITEMSTAT80>0) AND (ITEMSTAT48>0 AND ITEMSTAT49<10))]: %NAME%%RED% %STAT(49,0)% FireDmg %CONTINUE%				// Fire Damage
 ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR ITEMSTAT3>0 OR ITEMSTAT19>0 OR ITEMSTAT22>0 OR ITEMSTAT57>0 OR ITEMSTAT48>0 OR ITEMSTAT50>0 OR ITEMSTAT80>0) AND (ITEMSTAT54>0 AND ITEMSTAT55<10))]: %NAME%%BLUE% %STAT(54,0)% ColdDmg %CONTINUE%	// Cold Damage
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR ITEMSTAT3>0 OR ITEMSTAT19>0 OR ITEMSTAT22>0 OR ITEMSTAT57>0 OR ITEMSTAT48>0 OR ITEMSTAT54>0 OR ITEMSTAT80>) AND (ITEMSTAT50>0 AND ITEMSTAT51<30))]: %NAME%%YELLOW% %STAT(50,0)% LightDmg %CONTINUE%	// Lightning Damage
+ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR ITEMSTAT3>0 OR ITEMSTAT19>0 OR ITEMSTAT22>0 OR ITEMSTAT57>0 OR ITEMSTAT48>0 OR ITEMSTAT54>0 OR ITEMSTAT80>0) AND (ITEMSTAT50>0 AND ITEMSTAT51<30))]: %NAME%%YELLOW% %STAT(50,0)% LightDmg %CONTINUE%	// Lightning Damage
 ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR ITEMSTAT3>0 OR ITEMSTAT19>0 OR ITEMSTAT22>0 OR ITEMSTAT48 OR ITEMSTAT54>0 OR ITEMSTAT50>0 OR ITEMSTAT80>0) AND (ITEMSTAT57>0 AND ITEMSTAT58<80))]: %NAME%%GREEN% %STAT(58,0)% PoisonDmg %CONTINUE% 	// -80 Poison Damage
 //					HIGH-ELEMENTAL-RESIST (39,41,43,45)
 ItemDisplay[cm1 ID ITEMSTAT39>8]: %RED% +%STAT(39,0)% FireRes %CONTINUE%		// +Fire Resist
@@ -2233,7 +2233,7 @@ ItemDisplay[7wh NMAG ETH ED=15 !SOCK=1 !SOCK=2 !SOCK=4]: %GRAY%ETH %DGREEN%%NAME
 ItemDisplay[7wh NMAG ETH ED>0 ED<15 !SOCK=1 !SOCK=2 !SOCK=4]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
 ItemDisplay[7wh NMAG !ETH ED=15 !SOCK=1 !SOCK=2 !SOCK=4]: %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7wh NMAG !ETH ED>0 ED<15 !SOCK=1 !SOCK=2 !SOCK=4]: %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
-ItemDisplay[7wh NMAG ETH !SOCK=1 !SOCK=2 !SOCK=4]]: ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[7wh NMAG ETH !SOCK=1 !SOCK=2 !SOCK=4]: ETH %NAME% %RED%[%SOCKETS%]
 // -------------------------------------------------------------------------------------------------------------
 //					Thunder Maul
 // -------------------------------------------------------------------------------------------------------------
