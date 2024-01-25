@@ -1,0 +1,301 @@
+// ------------------------------------------------------------------------------------------------
+//			SET ITEMS
+// ------------------------------------------------------------------------------------------------ AMULETS
+ItemDisplay[amu SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %BGCOLOR(131)%%NL%%GREEN%**** Amulet ****%NL%[%ILVL%]%BORDER(132,3)%
+// ------------------------------------------------------------------------------------------------
+///					ANGELIC RAIMENT
+// ------------------------------------------------------------------------------------------------ Angelic Mantle
+ItemDisplay[FILTERLVL<3 rng SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Angelic
+// ------------------------------------------------------------------------------------------------ Angelic Sickle
+ItemDisplay[FILTERLVL<3 sbr SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Angelic
+///					ARCANNA'S TRICKS
+// ------------------------------------------------------------------------------------------------ Arcanna's Head
+ItemDisplay[FILTERLVL<3 skp SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Arcanna's
+// ------------------------------------------------------------------------------------------------ Arcanna's Flesh
+ItemDisplay[FILTERLVL<3 ltp SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Arcanna's
+// ------------------------------------------------------------------------------------------------ Arcanna's Deathwand
+ItemDisplay[FILTERLVL<3 wst SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Arcanna's
+// ------------------------------------------------------------------------------------------------
+//					ARCTIC GEAR
+// ------------------------------------------------------------------------------------------------ Arctic Furs
+ItemDisplay[FILTERLVL<3 qui SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Arctic
+// ------------------------------------------------------------------------------------------------ Arctic Binding
+ItemDisplay[FILTERLVL<3 vbl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Arctic
+// ------------------------------------------------------------------------------------------------ Arctic Mitts
+ItemDisplay[FILTERLVL<3 tgl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Iratha's Cuff or Arctic Mitts
+// ------------------------------------------------------------------------------------------------ Arctic Horn
+ItemDisplay[FILTERLVL<3 swb SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Arctic
+// ------------------------------------------------------------------------------------------------
+//					BERSERKER'ARSENAL
+// ------------------------------------------------------------------------------------------------ Berserker's Headgear
+ItemDisplay[FILTERLVL<3 hlm SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Berserker's
+// ------------------------------------------------------------------------------------------------ Berserker's Hauberk
+ItemDisplay[FILTERLVL<3 spl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Berserker's
+// ------------------------------------------------------------------------------------------------ Berserker's Hatchet
+ItemDisplay[FILTERLVL<3 2ax SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Berserker's
+// ------------------------------------------------------------------------------------------------
+//					CATHAN'S TRAPS
+// ------------------------------------------------------------------------------------------------ Cathan's Visage
+ItemDisplay[FILTERLVL<3 msk SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cathan's
+// ------------------------------------------------------------------------------------------------ Cathan's Mesh
+ItemDisplay[FILTERLVL<3 chn SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cathan's
+// ------------------------------------------------------------------------------------------------ Cathan's Rule
+ItemDisplay[FILTERLVL<3 bst SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cathan's
+// ------------------------------------------------------------------------------------------------
+//					CIVERB'S VESTMENTS
+// ------------------------------------------------------------------------------------------------ Civerb's Cudgel
+ItemDisplay[FILTERLVL<3 gsc SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Civerb's
+// ------------------------------------------------------------------------------------------------ Civerb's Ward
+ItemDisplay[FILTERLVL<3 lrg SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Civerb's
+// ------------------------------------------------------------------------------------------------
+//					CLEGLAW'S BRACE
+// ------------------------------------------------------------------------------------------------ Cleglaw's Tooth
+ItemDisplay[FILTERLVL<3 lsd SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cleglaw's
+// ------------------------------------------------------------------------------------------------ Cleglaw's Pincer's
+ItemDisplay[FILTERLVL<3 mgl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cleglaw's
+// ------------------------------------------------------------------------------------------------ Cleglaw's Claw
+ItemDisplay[FILTERLVL<3 sml SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cleglaw's
+// ------------------------------------------------------------------------------------------------
+//					DEATH'S DISGUISE
+// ------------------------------------------------------------------------------------------------ Death's Touch
+ItemDisplay[FILTERLVL<3 wsd SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Death's
+// ------------------------------------------------------------------------------------------------ Death's Hand
+ItemDisplay[FILTERLVL<3 lgl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Death's
+// ------------------------------------------------------------------------------------------------ Death's Guard
+ItemDisplay[FILTERLVL<3 lbl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Death's
+// ------------------------------------------------------------------------------------------------
+//					HSARUS' DEFENSE
+// ------------------------------------------------------------------------------------------------ Hsarus' Iron Fist
+ItemDisplay[FILTERLVL<3 buc SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Hsarus'
+// ------------------------------------------------------------------------------------------------ Hsarus' Iron Stay
+ItemDisplay[FILTERLVL<3 mbl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Hsarus' or Hwanin's
+// ------------------------------------------------------------------------------------------------ Hsarus' Iron Heel
+ItemDisplay[FILTERLVL<3 mbt SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Hsarus'
+//					INFERNAL TOOLS
+// ------------------------------------------------------------------------------------------------ Infernal Cranium
+ItemDisplay[FILTERLVL<3 cap SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Infernal Cranium or Sander's Paragon
+// ------------------------------------------------------------------------------------------------ Infernal Sign
+ItemDisplay[FILTERLVL<3 tbl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Infernal Sign or Iratha's Cord
+//					Infernal Torch
+ItemDisplay[FILTERLVL<3 gwn SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Infernal
+// ------------------------------------------------------------------------------------------------
+//					IRATHA'S FINERY
+// ------------------------------------------------------------------------------------------------ Iratha's Coil
+ItemDisplay[FILTERLVL<3 crn SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Iratha's Coil or Milabrega's Diadem
+// ------------------------------------------------------------------------------------------------ Iratha's Cord
+ItemDisplay[FILTERLVL<3 tbl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Infernal Sign or Iratha's Cord
+// ------------------------------------------------------------------------------------------------ Iratha's Cuff
+ItemDisplay[FILTERLVL<3 tgl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Iratha's Cuff or Arctic Mitts
+// ------------------------------------------------------------------------------------------------
+//					ISENHART'S ARMORY
+// ------------------------------------------------------------------------------------------------ Isenhart's Lightbrand
+ItemDisplay[FILTERLVL<3 bsd SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Isenhart's
+// ------------------------------------------------------------------------------------------------ Isenhart's Horns
+ItemDisplay[FILTERLVL<3 fhl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Isenhart's
+// ------------------------------------------------------------------------------------------------ Isenhart's Case
+ItemDisplay[FILTERLVL<3 brs SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Isenhart's
+// ------------------------------------------------------------------------------------------------ Isenhart's Parry
+ItemDisplay[FILTERLVL<3 gts SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Isenhart's
+// ------------------------------------------------------------------------------------------------
+//					MILABREGA'S REGALIA
+// ------------------------------------------------------------------------------------------------ Milabrega's Diadem
+ItemDisplay[FILTERLVL<3 crn SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Iratha's Coil or Milabrega's Diadem
+// ------------------------------------------------------------------------------------------------ Milabrega's Robe
+ItemDisplay[FILTERLVL<3 aar SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Milabrega's
+// ------------------------------------------------------------------------------------------------ Milabrega's Orb
+ItemDisplay[FILTERLVL<3 kit SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Milabrega's
+// ------------------------------------------------------------------------------------------------ Milabrega's Rod
+ItemDisplay[FILTERLVL<3 wsp SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Milabrega's
+// ------------------------------------------------------------------------------------------------
+//					SIGON'S COMPLETE STEEL
+// ------------------------------------------------------------------------------------------------ Sigon's Visor
+ItemDisplay[FILTERLVL<3 ghm SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sigon's
+// ------------------------------------------------------------------------------------------------ Sigon's Shelter
+ItemDisplay[FILTERLVL<3 gth SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sigon's
+// ------------------------------------------------------------------------------------------------ Sigon's Sabot
+ItemDisplay[FILTERLVL<3 hbt SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sigon's
+// ------------------------------------------------------------------------------------------------ Sigon's Guard
+ItemDisplay[FILTERLVL<3 tow SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sigon's
+// ------------------------------------------------------------------------------------------------ Sigon's Wrap
+ItemDisplay[FILTERLVL<3 hbl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sigon's
+// ------------------------------------------------------------------------------------------------ Sigon's Gage
+ItemDisplay[FILTERLVL<3 hgl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sigon's
+// ------------------------------------------------------------------------------------------------
+//					TANCRED'S BATTLEGEAR
+// ------------------------------------------------------------------------------------------------ Tancred's Skull
+ItemDisplay[FILTERLVL<3 bhm SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Tancred's
+// ------------------------------------------------------------------------------------------------ Tancred's Spine
+ItemDisplay[FILTERLVL<3 ful SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Tancred's
+// ------------------------------------------------------------------------------------------------ Tancred's Hobnails
+ItemDisplay[FILTERLVL<3 lbt SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Tancred's
+// ------------------------------------------------------------------------------------------------ Tancred's Crowbill
+ItemDisplay[FILTERLVL<3 mpi SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Tancred's
+// ------------------------------------------------------------------------------------------------
+//					VIDALA'S RIG
+// ------------------------------------------------------------------------------------------------ Vidala's Barb
+ItemDisplay[FILTERLVL<3 lbb SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Vidala's
+// ------------------------------------------------------------------------------------------------ Vidala's Ambush
+ItemDisplay[FILTERLVL<3 lea SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Vidala's
+// ------------------------------------------------------------------------------------------------ Vidala's Fetlock
+ItemDisplay[FILTERLVL<3 tbt SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Vidala's
+// ------------------------------------------------------------------------------------------------
+//					ALDUR'S WATCHTOWER
+// ------------------------------------------------------------------------------------------------ Aldur's Stony Gaze
+ItemDisplay[dr8 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Aldur's %RED%*
+// ------------------------------------------------------------------------------------------------ Aldur's Advance
+ItemDisplay[xtb SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Aldur's %RED%*
+// ------------------------------------------------------------------------------------------------ Aldur's Deception
+ItemDisplay[uul SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Aldur's %RED%*
+// ------------------------------------------------------------------------------------------------ Aldur's Rhythm
+ItemDisplay[9mt SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Aldur's
+// ------------------------------------------------------------------------------------------------
+//					BUL-KATHOS' CHILDREN
+// ------------------------------------------------------------------------------------------------ Bul-Kathos' Sacred Charge
+ItemDisplay[7gd SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Bul-Kathos' %RED%*
+// ------------------------------------------------------------------------------------------------ Bul-Kathos' Tribal Guardian
+ItemDisplay[7wd SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Bul-Kathos' %RED%*
+// ------------------------------------------------------------------------------------------------
+//					COW KING'S LEATHERS
+// ------------------------------------------------------------------------------------------------ Cow King's Horns
+ItemDisplay[xap SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cow King's %RED%* 
+// ------------------------------------------------------------------------------------------------ Cow King's Hide
+ItemDisplay[stu SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Cow King's %RED%*
+// ------------------------------------------------------------------------------------------------ Cow King's Hooves
+ItemDisplay[vbt SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sander's or Cow King's
+// ------------------------------------------------------------------------------------------------
+//					THE DISCIPLE
+// ------------------------------------------------------------------------------------------------ Laying of Hands
+ItemDisplay[ulg SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NL%%RED%** %GREEN%%NAME% %DGREEN%The Disciple %RED%**%NL% 
+// ------------------------------------------------------------------------------------------------ Dark Adherent
+ItemDisplay[FILTERLVL<4 uui SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%The Disciple
+// ------------------------------------------------------------------------------------------------ Rite of Passage
+ItemDisplay[FILTERLVL<4 xlb SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%The Disciple
+//Credendum
+ItemDisplay[FILTERLVL<4 umc SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%The Disciple
+// ------------------------------------------------------------------------------------------------
+//					GRISWOLD'S LEGACY
+// ------------------------------------------------------------------------------------------------ Griswold's Heart
+ItemDisplay[FILTERLVL<4 xar SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Griswold's
+// ------------------------------------------------------------------------------------------------ Griswold's Valor
+ItemDisplay[FILTERLVL<4 urn SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Griswold's %RED%*
+// ------------------------------------------------------------------------------------------------ Griswold's Redemption
+ItemDisplay[FILTERLVL<4 7ws SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Griswold's
+// ------------------------------------------------------------------------------------------------ Griswold's Honor
+ItemDisplay[FILTERLVL<4 paf SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Griswold's %RED%*
+// ------------------------------------------------------------------------------------------------
+//					HEAVEN'S BRETHREN
+// ------------------------------------------------------------------------------------------------ Haemosu's Adamant
+ItemDisplay[FILTERLVL<4 xrs SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Heaven's Brethren
+// ------------------------------------------------------------------------------------------------ Dangoon's Teaching
+ItemDisplay[FILTERLVL<4 7ma SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Heaven's Brethren %RED%*
+// ------------------------------------------------------------------------------------------------ Taebaek's Glory
+ItemDisplay[FILTERLVL<4 uts SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Heaven's Brethren
+// ------------------------------------------------------------------------------------------------ Ondal's Almighty
+ItemDisplay[FILTERLVL<4 uhm SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Heaven's Brethren %RED%*
+
+// ------------------------------------------------------------------------------------------------
+//					HWANIN'S MAJESTY
+// ------------------------------------------------------------------------------------------------ Hwanin's Splendor
+ItemDisplay[FILTERLVL<3 xrn SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Hwanin's
+// ------------------------------------------------------------------------------------------------ Hwanin's Justice
+ItemDisplay[FILTERLVL<3 9vo SET !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Hwanin's
+// ------------------------------------------------------------------------------------------------ Hwanin's Justice Eth
+ItemDisplay[FILTERLVL<3 9vo SET !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GRAY%ETH %GREEN%%NAME% %DGREEN%Hwanin's
+// ------------------------------------------------------------------------------------------------ Hwanin's Refuge
+ItemDisplay[FILTERLVL<3 xcl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Hwanin's
+// ------------------------------------------------------------------------------------------------ Hwanin's Blessing
+ItemDisplay[FILTERLVL<3 mbl SET !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Hsarus' or Hwanin's
+// ------------------------------------------------------------------------------------------------
+//					IMMORTAL KING
+// ------------------------------------------------------------------------------------------------ Immortal King's Will
+ItemDisplay[FILTERLVL<4 ba5 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Immortal King
+// ------------------------------------------------------------------------------------------------ Immortal King's Stone Crusher
+ItemDisplay[FILTERLVL<4 7m7 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Immortal King
+// ------------------------------------------------------------------------------------------------ Immortal King's Soul Cage
+ItemDisplay[FILTERLVL<5 uar SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %PURPLE%*** %GREEN%%NAME% %DGREEN%Immortal King %PURPLE%*** 
+// ------------------------------------------------------------------------------------------------ Immortal King's Detail
+ItemDisplay[FILTERLVL<4 zhb SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Immortal King 
+// ------------------------------------------------------------------------------------------------ Immortal King's Forge
+ItemDisplay[FILTERLVL<4 xhg SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Immortal King 
+// ------------------------------------------------------------------------------------------------ Immortal King's Pillar
+ItemDisplay[FILTERLVL<4 xhb SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Immortal King 
+// ------------------------------------------------------------------------------------------------
+//					M'AVINA'S BATTLE HYMN
+// ------------------------------------------------------------------------------------------------ M'avina's True Sight
+ItemDisplay[FILTERLVL<4 ci3 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Mavina's
+// ------------------------------------------------------------------------------------------------ M'avina's Caster
+ItemDisplay[FILTERLVL<4 amc SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Mavina's
+// ------------------------------------------------------------------------------------------------ M'avina's Embrace
+ItemDisplay[FILTERLVL<4 uld SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Mavina's
+// ------------------------------------------------------------------------------------------------ M'avina's Icy Clutch
+ItemDisplay[FILTERLVL<4 xtg SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Mavina's
+// ------------------------------------------------------------------------------------------------ M'avina's Tenet
+ItemDisplay[FILTERLVL<4 zvb SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Mavina's 
+// ------------------------------------------------------------------------------------------------
+//					NATALYA'S ODIUM
+// ------------------------------------------------------------------------------------------------ Natalya's Totem
+ItemDisplay[xh9 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Natalya's 
+// ------------------------------------------------------------------------------------------------ Natalya's Mark
+ItemDisplay[7qr SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %PURPLE%*** %GREEN%%NAME% %DGREEN%Natalya's %PURPLE%***
+// ------------------------------------------------------------------------------------------------ Natalya's Shadow
+ItemDisplay[ucl SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Natalya's %RED%*
+// ------------------------------------------------------------------------------------------------ Natalya's Soul
+ItemDisplay[xmb SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Natalya's %RED%*
+// ------------------------------------------------------------------------------------------------
+//					NAJ'S ANCIENT VESTIGE
+// ------------------------------------------------------------------------------------------------ Naj's Circlet
+ItemDisplay[FILTERLVL<4 ci0 SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Naj's
+// ------------------------------------------------------------------------------------------------ Naj's Light Plate
+ItemDisplay[FILTERLVL<4 ult SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Naj's %RED%*
+// ------------------------------------------------------------------------------------------------ Naj's Puzzler
+ItemDisplay[FILTERLVL<4 6cs SET !ID ]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Naj's %RED%*
+//					ORPHAN'S CALL
+// ------------------------------------------------------------------------------------------------ Guillaume's Face
+ItemDisplay[xhm SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %NL%%RED%** %GREEN%%NAME% %DGREEN%Orphan's (Guillaume's Face) %RED%**%NL%
+// ------------------------------------------------------------------------------------------------ Whitstan's Guard
+ItemDisplay[FILTERLVL<4 xml SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Orphan's
+// ------------------------------------------------------------------------------------------------ Magnus' Skin
+ItemDisplay[FILTERLVL<4 xvg SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Orphan's
+// ------------------------------------------------------------------------------------------------ Wilhelm's Pride
+ItemDisplay[FILTERLVL<4 ztb SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Orphan's
+//
+//					SANDER'S FOLLY
+// ------------------------------------------------------------------------------------------------ Sander's Paragon
+ItemDisplay[FILTERLVL<4 cap SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Infernal Cranium or Sander's Paragon
+// ------------------------------------------------------------------------------------------------ Sander's Superstition
+ItemDisplay[FILTERLVL<4 bwn SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sander's
+// ------------------------------------------------------------------------------------------------ Sander's Taboo
+ItemDisplay[FILTERLVL<4 vgl SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sander's
+// ------------------------------------------------------------------------------------------------ Sander's Riprap
+ItemDisplay[FILTERLVL<4 vbt SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sander's or Cow King's
+//
+//					SAZABI'S GRAND TRIBUTE
+// ------------------------------------------------------------------------------------------------ Sazabi's Mental Sheath
+ItemDisplay[FILTERLVL<3 xhl SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sazabi's
+// ------------------------------------------------------------------------------------------------ Sazabi's Cobalt Redeemer
+ItemDisplay[FILTERLVL<3 7ls SET !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Sazabi's %RED%*
+ItemDisplay[FILTERLVL<3 7ls SET !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %RED%* %GRAY%ETH %GREEN%%NAME% %DGREEN%Sazabi's %RED%*
+// ------------------------------------------------------------------------------------------------ Sazabi's Ghost Liberator
+ItemDisplay[FILTERLVL<3 upl SET !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(15,2)% %GREEN%%NAME% %DGREEN%Sazabi's %RED%*
+//
+//					TAL RASHA'S WRAPPINGS
+// ------------------------------------------------------------------------------------------------ Tal Rasha's Lidless Eye
+ItemDisplay[oba SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NL%%RED%* %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%*%NL% 
+// ------------------------------------------------------------------------------------------------ Tal Rasha's Horadric Crest
+ItemDisplay[xsk SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NL%%RED%* %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%*%NL%
+// ------------------------------------------------------------------------------------------------ Tal Rasha's Guardianship
+ItemDisplay[uth SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %PURPLE%*** %GREEN%%NAME% %DGREEN%Tal Rasha's %PURPLE%***
+// ------------------------------------------------------------------------------------------------ Tal Rasha's Fine-Spun Cloth
+ItemDisplay[zmb SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%*
+//
+//					Trang-Oul's Avatar
+// ------------------------------------------------------------------------------------------------ Trang-Oul's Guise
+ItemDisplay[uh9 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%* 
+// ------------------------------------------------------------------------------------------------ Trang-Oul's Scales
+ItemDisplay[xul SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%*
+// ------------------------------------------------------------------------------------------------ Trang-Oul's Wing
+ItemDisplay[ne9 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%*
+// ------------------------------------------------------------------------------------------------ Trang-Oul's Girth
+ItemDisplay[utc SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%*
+// ------------------------------------------------------------------------------------------------ Trang-Oul's Claws
+ItemDisplay[xmg SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %RED%* %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%*

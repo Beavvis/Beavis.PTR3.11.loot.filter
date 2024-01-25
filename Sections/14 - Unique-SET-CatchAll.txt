@@ -1,0 +1,24 @@
+// -------------------------------------------------------------------------------------------------------------
+//					UNIQUE & SET CATCHALL (ID)		 				|
+// -------------------------------------------------------------------------------------------------------------
+//
+ItemDisplay[UNI ETH SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%%NAME% [%SOCKETS%]
+ItemDisplay[SET ETH SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GRAY%ETH %GREEN%%NAME% [%SOCKETS%]
+ItemDisplay[UNI ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%%NAME%
+ItemDisplay[SET ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GRAY%ETH %GREEN%%NAME%
+ItemDisplay[UNI SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NAME% [%SOCKETS%]
+ItemDisplay[SET SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NAME% [%SOCKETS%]
+ItemDisplay[FILTERLVL<4 UNI]: %NOTIFY(ITEM,HIGH)% %MAPICON(5)% %NAME% [%ILVL%]		// ANY Identified UNIQUE Item 
+ItemDisplay[amu SET]: %NOTIFY(ITEM,HIGH)% %MAPICON(15,2)% %NAME%			// ANY Identified SET Item 
+ItemDisplay[UNI ETH !ID SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%%NAME% [%SOCKETS%]
+ItemDisplay[SET ETH !ID SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GRAY%ETH %GREEN%%NAME% [%SOCKETS%]
+ItemDisplay[UNI ETH !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%%NAME%
+ItemDisplay[SET ETH !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GRAY%ETH %GREEN%%NAME%
+ItemDisplay[UNI !ID SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NAME% [%SOCKETS%]
+ItemDisplay[SET !ID SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NAME% [%SOCKETS%]	
+//ItemDisplay[UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NAME%
+ItemDisplay[FILTERLVL<4 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NAME%
+// -------------------------------------------------------------------------------------------------------------
+//						RUNEWORDS							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[RW]: %NOTIFY(ITEM,HIGH)% %NAME%

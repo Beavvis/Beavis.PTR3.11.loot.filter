@@ -1,0 +1,30 @@
+// -------------------------------------------------------------------------------------------------------------
+//					UNIDENTIFIED MAPS							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[ma1 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% **** %WHITE% %NAME% %WHITE% ****		// Icey Cavern
+ItemDisplay[ma2 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %RED% %NAME% %PURPLE% **** %NL% 	// Forgotten Desert
+ItemDisplay[ma3 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL% 		// Abandoned Precinct [Removed]
+ItemDisplay[ma4 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Desecrated Temple
+ItemDisplay[ma5 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% **** 		// Frigid Highlands
+ItemDisplay[ma6 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %RED% %NAME% %PURPLE% **** %NL% 	// Ruined Citadel
+ItemDisplay[ma7 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL%	 	// Burnt Forest
+ItemDisplay[ma8 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Musty Crypt
+ItemDisplay[ma9 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Dim Cellar
+ItemDisplay[ma10 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% **** %NAME% %WHITE% ****			// Icey Cavern
+ItemDisplay[ma11 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
+ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
+// -------------------------------------------------------------------------------------------------------------
+//					IDENTIFIED MAPS								|
+// -------------------------------------------------------------------------------------------------------------
+//ItemDisplay[]: %NAME% %RED%[Report me %CODE% to Beavis]
+ItemDisplay[ma1]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%   			// Icey Cavern
+ItemDisplay[ma2]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %RED% %NAME% 			// Forgotten Desert
+ItemDisplay[ma3]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME%-ma3 		// Abandoned Precinct [Removed]
+ItemDisplay[ma4]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 			// Desecrated Temple
+ItemDisplay[ma5]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME% 			// Frigid Highlands
+ItemDisplay[ma6]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 			// Ruined Citadel
+ItemDisplay[ma7]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 			// Burnt Forest
+ItemDisplay[ma8]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 			// Musty Crypt
+ItemDisplay[ma9]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %YELLOW% %NAME% 			// Dim Cellar
+ItemDisplay[ma10]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% %NAME%			// Icey Cavern
+ItemDisplay[ma11]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA

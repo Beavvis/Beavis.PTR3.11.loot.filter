@@ -1,0 +1,64 @@
+// -------------------------------------------------------------------------------------------------------------
+//					Gold
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[GOLD>2500]: %NAME%
+ItemDisplay[GOLD<100 CLVL<20]:
+ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
+ItemDisplay[GOLD<2500 CLVL>65]:
+//						HP & MPs
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[FILTERLVL<4 hp5]: %BORDER(10,4)%%GREEN%!%RED%HP
+ItemDisplay[FILTERLVL<4 mp5]: %BORDER(140,4)%%GREEN%!%BLUE%MP
+// --------------------------------------------------------------
+ItemDisplay[hp4 CLVL<70]: %BORDER(10,4)%%GREEN%!%RED%Grt HP
+ItemDisplay[hp4]:
+// --------------------------------------------------------------
+ItemDisplay[mp4 CLVL<70]: %GREEN%!%BLUE%Grt Mana
+ItemDisplay[FILTERLVL<4 mp4]: %GREEN%!%BLUE%Grt Mana
+// --------------------------------------------------------------
+ItemDisplay[hp1 CLVL<15]:%BORDER(10,4)%%GREEN%!%RED%Min HP
+ItemDisplay[hp2 CLVL<18]:%BORDER(10,4)%%GREEN%!%RED%Lite HP
+ItemDisplay[hp3 CLVL<24]:%BORDER(10,4)%%GREEN%!%RED%Reg HP
+// --------------------------------------------------------------
+ItemDisplay[hp1 CLVL>14]:
+ItemDisplay[hp2 CLVL>17]:
+ItemDisplay[hp3 CLVL>24]:
+// --------------------------------------------------------------
+ItemDisplay[mp1 CLVL<15]:%BORDER(140,4)%%GREEN%!%BLUE%Min Mana
+ItemDisplay[mp2 CLVL<20]:%BORDER(140,4)%%GREEN%!%BLUE%Lite Mana
+ItemDisplay[mp3 CLVL<26]:%BORDER(140,4)%%GREEN%!%BLUE%Reg Mana
+// --------------------------------------------------------------
+ItemDisplay[mp1 CLVL>14]:
+ItemDisplay[mp2 CLVL>19]:
+ItemDisplay[mp3 CLVL>25]:
+// --------------------------------------------------------------
+ItemDisplay[FILTERLVL<5 rvl]: %BORDER(155,8)%%BGCOLOR(143)%%NL%%GREEN%!%PURPLE% 70% %GREEN%!
+ItemDisplay[FILTERLVL<4 rvs]: %BORDER(155,8)%%BGCOLOR(143)%%GREEN%!%PURPLE% 30% 
+// -------------------------------------------------------------------------------------------------------------
+//						Scrolls								|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[FILTERLVL<4 tsc]: %GREEN%!%GRAY%TP
+ItemDisplay[FILTERLVL<4 isc]: %GREEN%!%GRAY%ID
+// -------------------------------------------------------------------------------------------------------------
+//						Tomes								|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[tbk]: %WHITE%Tome of Town Portal
+ItemDisplay[ibk]: %WHITE%Tome of Identify
+// -------------------------------------------------------------------------------------------------------------
+//						Utility pots							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[wms CLVL<61]: %GREEN%!%YELLOW%Thaw					// Show Thaw when Character Level under 61
+ItemDisplay[wms CLVL>0]: 							// Hide Thaw when Character Level over 61
+ItemDisplay[yps CLVL<61]: %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Hide Anidote Character Level under 61
+ItemDisplay[FILTERLVL<4 yps]:  %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Show Antidote all levels (Edit Here to hide)
+ItemDisplay[vps CLVL<30]: %GREEN%!%WHITE%Stam
+ItemDisplay[vps CLVL>29]:
+// -------------------------------------------------------------------------------------------------------------
+// Choking(gpm), Exploding(opm), Fulminating(opl), Oil(ops), Rancid(gps), Strangling(gpl), Stamina(vps)		|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[opl CLVL<15]: %NAME%
+ItemDisplay[gpl CLVL<15]: %NAME%
+// -------------------------------------------------------------------------------------------------------------
+//						Chest Keys							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[FILTERLVL<4 key]: %GRAY%Key

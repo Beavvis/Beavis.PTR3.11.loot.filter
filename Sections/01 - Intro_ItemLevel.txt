@@ -1,0 +1,28 @@
+// *******************************************************************************
+//			THIS FILTER WORKS FOR PTR ONLY
+// *******************************************************************************
+// Beavvis filter	Version 3.30
+// Date:		January 2024
+//
+// DISCORD:		Beavis_
+// DII Season:		Cornholio
+// DII PTR:		Beavis
+// Twitch.tv		Beavvis
+//
+// Special thanks to kryszard in which I have made additions and modifications to his filter
+// twitch.tv		kryszard
+// 
+// **********************************************************************************************************************************************
+// - This filter is mainly for END-GAME item alerts, identifying BASE items, and filtering identified charms.
+// - I have added the new Sound-Notification and Map-Icon features for High-Runes, Charms, Exceptional: Unique Amulets, Armors, and weapons.
+// - If someone wants a notification added, feel free to reach out to me in the PoD PTR Discord channel or direct message.
+// - Improvements are on-going, and Sounds, MAPICONs, and COLORs are still being experimented with.
+// **********************************************************************************************************************************************
+//
+// =====================================
+// |NOTE: FilterLevel working - TESTING|
+// =====================================
+FilterLevel[1]: Normal
+FilterLevel[2]: NightMare
+FilterLevel[3]: Hell
+FilterLevel[4]: END-GAME

@@ -1,0 +1,17 @@
+// -------------------------------------------------------------------------------------------------------------
+//			 		Magic/Rare JEWELs							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[MAG !ID jew]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(152,3)%%BGCOLOR(118)% %NL%%GREEN%* JEWEL *%NL% 
+ItemDisplay[RARE !ID jew]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(111,3)%%BGCOLOR(7)% %YELLOW%%NL%*%YELLOW% JEWEL %YELLOW%*%NL%
+// -------------------------------------------------------------------------------------------------------------
+//					Print ID'd JEWELs							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [%ILVL%]
+ItemDisplay[RARE jew]: %YELLOW%%NAME%%WHITE% [%ILVL%]
+// -------------------------------------------------------------------------------------------------------------
+//						RARES								|
+//					   The worthy ones							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[RARE (EQ4 OR EQ5 OR EQ6) !ID]: %BORDER(12,3)%%BGCOLOR(12)%%YELLOW%~       ~%NL%%NAME%%NL%~       ~

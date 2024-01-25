@@ -1,0 +1,56 @@
+// -------------------------------------------------------------------------------------------------------------
+//					Essences (Respec Token)							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[tes]: %NOTIFY(ITEM,HIGH)% %NL%%GOLD%Suffering [Andariel]%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ceh]: %NOTIFY(ITEM,HIGH)% %NL%%GOLD%Hatred [Mephisto]%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[bet]: %NOTIFY(ITEM,HIGH)% %NL%%GOLD%Terror [Diablo]%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[fed]: %NOTIFY(ITEM,HIGH)% %NL%%GOLD%Destruction [Baal]%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[toa]: %NOTIFY(ITEM,HIGH)% %NL%%GOLD%Token of Absolution%NL% %NOTIFYSOUND(2664,HIGH)%
+// -------------------------------------------------------------------------------------------------------------
+//						Quest items							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[bbb]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[ass]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[bkd]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[bks]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[box]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[g34]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[j34]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[mss]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[qbr]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[qey]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[qhr]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[tr1]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[tr2]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[xyz]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+ItemDisplay[ice]: %NOTIFY(ITEM,HIGH)% %TAN%%NAME%
+// -------------------------------------------------------------------------------------------------------------
+// 						Wirt's Leg 							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[leg ILVL>60]: %NOTIFY(ITEM,HIGH)% %ORANGE% %NAME% %WHITE%{%RED%HELL%WHITE%}
+ItemDisplay[leg ILVL<30]: %NOTIFY(ITEM,HIGH)% %ORANGE% %NAME% %WHITE%{%DGREEN%NORM%WHITE%}
+ItemDisplay[leg ILVL<60]: %NOTIFY(ITEM,HIGH)% %ORANGE% %NAME% %WHITE%{%BLUE%NM%WHITE%}
+// -------------------------------------------------------------------------------------------------------------
+//						Misc								|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[ear]: %NOTIFY(ITEM,LOW)% %ORANGE%%NAME%
+// -------------------------------------------------------------------------------------------------------------
+//						PoD Items							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[std]: %NOTIFY(ITEM,HIGH)% %NAME%
+ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[cx6]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
+ItemDisplay[cx7]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** KEY OF CHAOS ****
+// -------------------------------------------------------------------------------------------------------------
+//						Dclone relic?							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[maz]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
+// -------------------------------------------------------------------------------------------------------------
+//						Uber Keys							|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)% %GOLD%Terror %PURPLE%*%GOLD%Countess%PURPLE%*
+ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)% %GOLD%Hate %RED%*%GOLD%Summoner%RED%*
+ItemDisplay[pk3]: %NOTIFY(ITEM,HIGH)% %GOLD%Destruction %GREEN%*%GOLD%Nihlathak%GREEN%*
+ItemDisplay[dhn]: %NOTIFY(ITEM,HIGH)% %GOLD%Diablo's Horn
+ItemDisplay[bey]: %NOTIFY(ITEM,HIGH)% %GOLD%Baal's Eye
+ItemDisplay[mbr]: %NOTIFY(ITEM,HIGH)% %GOLD%Mephisto's Brain

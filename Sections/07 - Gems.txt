@@ -1,0 +1,83 @@
+// -------------------------------------------------------------------------------------------------------------
+//					GEMS									|
+// -------------------------------------------------------------------------------------------------------------
+//
+// ------------------------------
+//		Chipped Gems	|
+// ------------------------------
+//
+ItemDisplay[gcv CLVL<30]:%BGCOLOR(155)%%BORDER(155,2)%%PURPLE%[chip]
+ItemDisplay[gcw CLVL<30]:%BGCOLOR(30)%%BORDER(30,2)%%WHITE%[chip]
+ItemDisplay[gcg CLVL<30]:%BGCOLOR(118)%%BORDER(118,2)%%GREEN%[chip]
+ItemDisplay[gcr CLVL<30]:%BGCOLOR(10)%%BORDER(10,2)%%RED%[chip]
+ItemDisplay[gcb CLVL<30]:%BGCOLOR(140)%%BORDER(140,2)%%BLUE%[chip]
+ItemDisplay[gcy CLVL<30]:%BGCOLOR(12)%%BORDER(12,2)%%YELLOW%[chip]
+ItemDisplay[skc CLVL<30]:%BGCOLOR(28)%%BORDER(28,2)%%GRAY%[chip]
+ItemDisplay[gcv CLVL>29]:
+ItemDisplay[gcw CLVL>29]:
+ItemDisplay[gcg CLVL>29]:
+ItemDisplay[gcr CLVL>29]:
+ItemDisplay[gcb CLVL>29]:
+ItemDisplay[gcy CLVL>29]:
+ItemDisplay[skc CLVL>29]:
+//
+// ------------------------------
+//		Flawed Gems 	|
+// ------------------------------
+//
+ItemDisplay[gfv CLVL<40]:%BGCOLOR(155)%%BORDER(155,2)%%PURPLE%[flawed]
+ItemDisplay[gfw CLVL<40]:%BGCOLOR(30)%%BORDER(30,2)%%WHITE%[flawed]
+ItemDisplay[gfg CLVL<40]:%BGCOLOR(118)%%BORDER(118,2)%%GREEN%[flawed]
+ItemDisplay[gfr CLVL<40]:%BGCOLOR(10)%%BORDER(10,2)%%RED%[flawed]
+ItemDisplay[gfb CLVL<40]:%BGCOLOR(140)%%BORDER(140,2)%%BLUE%[flawed]
+ItemDisplay[gfy CLVL<40]:%BGCOLOR(12)%%BORDER(12,2)%%YELLOW%[flawed]
+ItemDisplay[skf CLVL<40]:%BGCOLOR(28)%%BORDER(28,2)%%GRAY%[flawed]
+ItemDisplay[gfv CLVL>39]:
+ItemDisplay[gfw CLVL>39]:
+ItemDisplay[gfg CLVL>39]:
+ItemDisplay[gfr CLVL>39]:
+ItemDisplay[gfb CLVL>39]:
+ItemDisplay[gfy CLVL>39]:
+ItemDisplay[skf CLVL>39]:
+//
+// ------------------------------
+//		Normal Gems	|
+// ------------------------------
+//
+ItemDisplay[gsv CLVL<50]:%BGCOLOR(155)%%BORDER(155,2)%%PURPLE%[amethyst]
+ItemDisplay[gsw CLVL<50]:%BGCOLOR(30)%%BORDER(30,2)%%WHITE%[diamond]
+ItemDisplay[gsg CLVL<50]:%BGCOLOR(118)%%BORDER(118,2)%%GREEN%[emerald]
+ItemDisplay[gsr CLVL<50]:%BGCOLOR(10)%%BORDER(10,2)%%RED%[ruby]
+ItemDisplay[gsb CLVL<50]:%BGCOLOR(140)%%BORDER(140,2)%%BLUE%[sapphire]
+ItemDisplay[gsy CLVL<50]:%BGCOLOR(12)%%BORDER(12,2)%%YELLOW%[topaz]
+ItemDisplay[sku CLVL<50]:%BGCOLOR(28)%%BORDER(28,2)%%GRAY%[skull]
+ItemDisplay[gsv CLVL>49]:
+ItemDisplay[gsw CLVL>49]:
+ItemDisplay[gsg CLVL>49]:
+ItemDisplay[gsr CLVL>49]:
+ItemDisplay[gsb CLVL>49]:
+ItemDisplay[gsy CLVL>49]:
+ItemDisplay[sku CLVL>49]:
+//
+// ------------------------------
+// 		Flawless Gems	|
+// ------------------------------
+//
+ItemDisplay[gzv]:%MAPICON(67,11)%%BGCOLOR(155)%%PURPLE%\|/%NL%/|\	//Flawless Amethyst
+ItemDisplay[glw]:%MAPICON(67,25)%%BGCOLOR(30)%%WHITE%\|/%NL%/|\		//Flawless Diamond
+ItemDisplay[glg]:%MAPICON(67,2)%%BGCOLOR(118)%%GREEN%\|/%NL%/|\		//Flawless Emerald
+ItemDisplay[glr]:%MAPICON(66,25)%%BGCOLOR(8)%%RED%\|/%NL%/|\		//Flawless Ruby
+ItemDisplay[glb]:%MAPICON(63,3)%%BGCOLOR(140)%%BLUE%\|/%NL%/|\		//Flawless Sapphire
+ItemDisplay[gly]:%MAPICON(68,25)%%BGCOLOR(111)%%YELLOW%\|/%NL%/|\	//Flawless Topaz
+ItemDisplay[skl]:%NOTIFY(ITEM,HIGH)%%MAPICON(75)%%BGCOLOR(222)%%BORDER(220,6)%%WHITE% §kull 	//Flawless Skull 
+//
+// ------------------------------
+// 		Perfect Gems	|
+// ------------------------------
+ItemDisplay[gpv]:%MAPICON(67,11)%%BGCOLOR(155)%%PURPLE%# AMETHYST #
+ItemDisplay[gpw]:%MAPICON(67,25)%%BGCOLOR(30)%%WHITE%# DIAMOND #
+ItemDisplay[gpg]:%MAPICON(67,2)%%BGCOLOR(118)%%GREEN%# EMERALD #
+ItemDisplay[gpr]:%MAPICON(66,25)%%BGCOLOR(8)%%RED%# RUBY #
+ItemDisplay[gpb]:%MAPICON(63,3)%%BGCOLOR(140)%%BLUE%# SAPPHIRE #
+ItemDisplay[gpy]:%MAPICON(68,25)%%BGCOLOR(111)%%YELLOW%# TOPAZ #
+ItemDisplay[skz]:%MAPICON(15)%%NOTIFY(ITEM,HIGH)%%BGCOLOR(222)%%BORDER(220,6)%%WHITE%# SKULL #

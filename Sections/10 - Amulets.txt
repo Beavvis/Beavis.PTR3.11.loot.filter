@@ -1,0 +1,55 @@
+// -------------------------------------------------------------------------------------------------------------
+//						Amulets								|
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[amu MAG ID CLSK0>0]: %ORANGE%+1 Amazon Skills%CONTINUE%
+ItemDisplay[amu MAG ID CLSK1>0]: %ORANGE%+1 Sorceress Skills%CONTINUE%
+ItemDisplay[amu MAG ID CLSK2>0]: %ORANGE%+1 Necromancer Skills%CONTINUE%
+ItemDisplay[amu MAG ID CLSK3>0]: %ORANGE%+1 Paladin Skills%CONTINUE%
+ItemDisplay[amu MAG ID CLSK4>0]: %ORANGE%+1 Barbarian Skills%CONTINUE%
+ItemDisplay[amu MAG ID CLSK5>0]: %ORANGE%+1 Druid Skills%CONTINUE%
+ItemDisplay[amu MAG ID CLSK6>0]: %ORANGE%+1 Assassin Skills%CONTINUE%
+ItemDisplay[amu MAG ID ALLSK>0]: %ORANGE%+1 All Skills%CONTINUE%
+// ------------------- Amazon ---------------------------------------------------------
+ItemDisplay[amu MAG ID TABSK0>2]: %ORANGE%+3 Bow & Crossbow: Amazon%CONTINUE%
+ItemDisplay[amu MAG ID TABSK1>2]: %ORANGE%+3 Passive & Magic: Amazon%CONTINUE%
+ItemDisplay[amu MAG ID TABSK2>2]: %ORANGE%+3 Javelin & Spear: Amazon%CONTINUE%
+// ------------------- Sorceress -----------------------------------------------------
+ItemDisplay[amu MAG ID TABSK8>2]: %ORANGE%+3 Fire: Sorceress%CONTINUE%
+ItemDisplay[amu MAG ID TABSK9>2]: %NAME%%ORANGE%+3 Lightning: Sorceress%CONTINUE%
+ItemDisplay[amu MAG ID TABSK10>2]: %ORANGE%+3 Cold: Sorceress%CONTINUE%
+// ------------------- Necromancer ---------------------------------------------------
+ItemDisplay[amu MAG ID TABSK16>2]: %ORANGE%+3 Curses: Necromancer%CONTINUE%
+ItemDisplay[amu MAG ID TABSK17>2]: %ORANGE%+3 Poison & Bone: Necromancer%CONTINUE%
+ItemDisplay[amu MAG ID TABSK18>2]: %ORANGE%+3 Summon: Necromancer%CONTINUE%
+// ------------------- Paladin -------------------------------------------------------
+ItemDisplay[amu MAG ID TABSK24>2]: %ORANGE%+3 Combat: Paladin%CONTINUE%
+ItemDisplay[amu MAG ID TABSK25>2]: %ORANGE%+3 Offensive Auras: Paladin%CONTINUE%
+ItemDisplay[amu MAG ID TABSK25>2]: %ORANGE%+3 Defensive Auras: Paladin%CONTINUE%
+// ------------------- Barbarian ----------------------------------------------------
+ItemDisplay[amu MAG ID TABSK32>2]: %ORANGE%+3 Combat: Barbarian%CONTINUE%
+ItemDisplay[amu MAG ID TABSK33>2]: %ORANGE%+3 Masteries: Barbarian%CONTINUE%
+ItemDisplay[amu MAG ID TABSK34>2]: %ORANGE%+3 Warcries: Barbarian%CONTINUE%
+// ------------------- DRUID---------------------------------------------------------
+ItemDisplay[amu MAG ID TABSK40>2]: %ORANGE%+3 Summoning: Druid%CONTINUE%
+ItemDisplay[amu MAG ID TABSK41>2]: %ORANGE%+3 Shapeshifting: Druid%CONTINUE%
+ItemDisplay[amu MAG ID TABSK42>2]: %ORANGE%+3 Elemental: Druid%CONTINUE%
+// ------------------- ASSASIN ------------------------------------------------------
+ItemDisplay[amu MAG ID TABSK48>2]: %ORANGE%+3 Traps: Assassin%CONTINUE%
+ItemDisplay[amu MAG ID TABSK49>2]: %ORANGE%+3 Shadow Disciplines: Assassin%CONTINUE%
+ItemDisplay[amu MAG ID TABSK50>2]: %ORANGE%+3 Martial Arts: Assassin%CONTINUE%
+// --------------------Color Amulet according to LEVEL ------------------------------
+ItemDisplay[FILTERLVL<4 amu MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<4 amu MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[amu MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[amu MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+// -------------------------------------------------------------------------------------------------------------
+// 			Here is where I print Amulets I want to keep
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[FILTERLVL<4 amu MAG]: %NAME%{%NL%%GREEN%Craft: %ORANGE%(Caster)  %GOLD%Ral %PURPLE%Amethyst %YELLOW%Jewel  %WHITE%|%TAN% 5-10% Faster Cast Rate                 %NL% %GREEN%Craft: %ORANGE%(HitPwr)  %GOLD%Thul %BLUE%Sapphire %YELLOW%Jewel %WHITE%|%TAN% Hit Causes Monster To Flee 3-11       %NL%%GREEN%Craft: %ORANGE%(Blood)  %GOLD%Amn %RED%Ruby %YELLOW%Jewel        %WHITE%|%TAN%  1-4% Life Stolen Per Hit                %NL%%GREEN%Craft: %ORANGE%(Safety) 	 %GOLD%Thul %GREEN%Emerald %YELLOW%Jewel  %WHITE%|%TAN% 1-10% Increased Chance Of Blocking}
+// -------------------------------------------------------------------------------------------------------------
+//					UNIQUE Amulet or Ring or Jewel(Facet)
+// -------------------------------------------------------------------------------------------------------------
+ItemDisplay[(rin OR amu OR jew) UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BORDER(10,2)%%BGCOLOR(155)%%NL%%RED%******************%PURPLE%[%ILVL%] %NAME% [%ILVL%]%RED%******************%NL% %NOTIFYSOUND(2664,HIGH)%
+
+
+

@@ -1,0 +1,1049 @@
+// -------------------------------------------------------------------------------------------------------------
+//				* * * * UNIQUE ITEMS * * * *							|
+// -------------------------------------------------------------------------------------------------------------
+//		EQ1/EQ7 HELMS+CIRCLETS
+// ------------------------------------------------------------------------------------------------ Biggin's Bonnet
+ItemDisplay[FILTERLVL<3 cap UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Biggin's Bonnet
+ItemDisplay[FILTERLVL<3 cap UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Biggin's Bonnet
+// ------------------------------------------------------------------------------------------------ Tarnhelm
+ItemDisplay[FILTERLVL<3 skp UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Tarnhelm *
+ItemDisplay[FILTERLVL<3 skp UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Tarnhelm
+// ------------------------------------------------------------------------------------------------ Coif of Glory
+ItemDisplay[FILTERLVL<3 hlm UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Coif of Glory
+ItemDisplay[FILTERLVL<3 hlm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Coif of Glory
+// ------------------------------------------------------------------------------------------------ Duskdeep
+ItemDisplay[FILTERLVL<3 fhl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Duskdeep
+ItemDisplay[FILTERLVL<3 fhl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Duskdeep
+// ------------------------------------------------------------------------------------------------ Howltusk
+ItemDisplay[FILTERLVL<3 ghm UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Howltusk
+ItemDisplay[FILTERLVL<3 ghm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Howltusk
+// ------------------------------------------------------------------------------------------------ The Face of Horror
+ItemDisplay[FILTERLVL<3 msk UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Face of Horror
+ItemDisplay[FILTERLVL<3 msk UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Face of Horror
+// ------------------------------------------------------------------------------------------------ Undead Crown
+ItemDisplay[FILTERLVL<3 crn UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Undead Crown
+ItemDisplay[FILTERLVL<3 crn UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Undead Crown
+// ------------------------------------------------------------------------------------------------ Wormskull
+ItemDisplay[FILTERLVL<3 bhm UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Wormskull
+ItemDisplay[FILTERLVL<3 bhm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Wormskull
+// ------------------------------------------------------------------------------------------------ Peasant Crown
+ItemDisplay[FILTERLVL<3 xap UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Peasant Crown *
+ItemDisplay[FILTERLVL<3 xap UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Peasant Crown
+// ------------------------------------------------------------------------------------------------ Rockstopper
+ItemDisplay[FILTERLVL<3 xkp UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Rockstopper *
+ItemDisplay[FILTERLVL<3 xkp UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%* Rockstopper *
+// ------------------------------------------------------------------------------------------------ Stealskull
+ItemDisplay[xlm UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %NL%%TAN%* Stealskull *%NL% 
+ItemDisplay[xlm UNI !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %GRAY%ETH %TAN%Stealskull
+// ------------------------------------------------------------------------------------------------ Darksight Helm
+ItemDisplay[FILTERLVL<3 xhl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)%  %TAN%Darksight Helm
+ItemDisplay[FILTERLVL<3 xhl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Darksight Helm
+// ------------------------------------------------------------------------------------------------ Valkyrie Wing
+ItemDisplay[xhm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%TAN%* Valkyrie Wing *%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Valkyrie Wing
+// ------------------------------------------------------------------------------------------------ Blackhorn's Face
+ItemDisplay[FILTERLVL<4 xsk UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN% Blackhorn's Face
+ItemDisplay[FILTERLVL<4 xsk UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Blackhorn's Face
+// ------------------------------------------------------------------------------------------------ Crown of Thieves
+ItemDisplay[FILTERLVL<4 xrn UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%TAN%* Crown of Thieves *
+ItemDisplay[FILTERLVL<4 xrn UNI !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%GRAY%ETH %RED%Crown of Thieves
+// ------------------------------------------------------------------------------------------------ Vampire Gaze
+ItemDisplay[xh9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Vampire Gaze %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xh9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %GRAY%ETH %PURPLE%Vampire Gaze %RED%*** 
+// ------------------------------------------------------------------------------------------------ Shako
+ItemDisplay[uap UNI !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Shako %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uap UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Shako *
+// ------------------------------------------------------------------------------------------------ Steel Shade
+ItemDisplay[ulm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Steel Shade %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ulm UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Steel Shade *
+// ------------------------------------------------------------------------------------------------ Veil of Steel or Nightwing's Veil
+ItemDisplay[uhm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Veil of Steel or Nightwing's Veil %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uhm UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%* Veil of Steel or %GRAY%ETH %TAN%Nightwing's Veil *
+// ------------------------------------------------------------------------------------------------ Andariel's Visage
+ItemDisplay[usk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Andariel's Visage %RED%***%NL%
+ItemDisplay[usk UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %GRAY%ETH %PURPLE%Andariel's Visage %RED%***
+// ------------------------------------------------------------------------------------------------ Crown of Ages
+ItemDisplay[urn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Crown of Ages **
+ItemDisplay[urn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %PURPLE%Crown of Ages %RED%*
+// ------------------------------------------------------------------------------------------------ Giant Skull
+ItemDisplay[uh9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Giant Skull *
+ItemDisplay[uh9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Giant Skull
+// ------------------------------------------------------------------------------------------------ Griffon's Eye
+ItemDisplay[ci3 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE% Griffon's Eye %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ci3 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%* Griffon's Eye *
+// ------------------------------------------------------------------------------------------------ Kira's Guardian
+ItemDisplay[ci2 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Kira's Guardian **
+ItemDisplay[ci2 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Kira's Guardian
+//
+//		EQ2 ARMOR
+// ------------------------------------------------------------------------------------------------ Greyform
+ItemDisplay[FILTERLVL<3 qui UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Greyform
+ItemDisplay[FILTERLVL<3 qui UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Greyform
+// ------------------------------------------------------------------------------------------------ Blinkbat's Form
+ItemDisplay[FILTERLVL<3 lea UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Blinkbat's Form
+ItemDisplay[FILTERLVL<3 lea UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Blinkbat's Form
+// ------------------------------------------------------------------------------------------------ The Centurion
+ItemDisplay[FILTERLVL<3 hla UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Centurion
+ItemDisplay[FILTERLVL<3 hla UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Centurion
+// ------------------------------------------------------------------------------------------------ Twitchthroe
+ItemDisplay[FILTERLVL<4 stu UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Twitchthroe
+ItemDisplay[FILTERLVL<4 stu UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Twitchthroe
+// ------------------------------------------------------------------------------------------------ Darkglow
+ItemDisplay[FILTERLVL<4 rng UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Darkglow
+ItemDisplay[FILTERLVL<4 rng UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Darkglow
+// ------------------------------------------------------------------------------------------------ Hawkmail
+ItemDisplay[FILTERLVL<3 scl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Hawkmail
+ItemDisplay[FILTERLVL<3 scl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Hawkmail
+// ------------------------------------------------------------------------------------------------ Venom Ward
+ItemDisplay[FILTERLVL<3 brs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Venom Ward
+ItemDisplay[FILTERLVL<3 brs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Venom Ward
+// ------------------------------------------------------------------------------------------------ Sparking Mail
+ItemDisplay[FILTERLVL<3 chn UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Sparking Mail
+ItemDisplay[FILTERLVL<3 chn UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Sparking Mail
+// ------------------------------------------------------------------------------------------------ Iceblink
+ItemDisplay[FILTERLVL<3 spl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Iceblink
+ItemDisplay[FILTERLVL<3 spl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Iceblink
+// ------------------------------------------------------------------------------------------------ Heavenly Garb
+ItemDisplay[FILTERLVL<3 ltp UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Heavenly Garb
+ItemDisplay[FILTERLVL<3 ltp UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Heavenly Garb
+// ------------------------------------------------------------------------------------------------ Rockfleece
+ItemDisplay[FILTERLVL<3 fld UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Rockfleece
+ItemDisplay[FILTERLVL<3 fld UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Rockfleece
+// ------------------------------------------------------------------------------------------------ Boneflesh
+ItemDisplay[FILTERLVL<3 plt UNI !ID !ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %TAN%Boneflesh
+ItemDisplay[FILTERLVL<3 plt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Boneflesh
+// ------------------------------------------------------------------------------------------------ Rattlecage
+ItemDisplay[FILTERLVL<3 gth UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Rattlecage
+ItemDisplay[FILTERLVL<3 gth UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Rattlecage
+// ------------------------------------------------------------------------------------------------ Goldskin
+ItemDisplay[FILTERLVL<3 ful UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Goldskin
+ItemDisplay[FILTERLVL<3 ful UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Goldskin
+// ------------------------------------------------------------------------------------------------ Silks of the Victor
+ItemDisplay[FILTERLVL<3 aar UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Silks of the Victor
+ItemDisplay[FILTERLVL<3 aar UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Silks of the Victor
+// ------------------------------------------------------------------------------------------------ The Spirit Shroud
+ItemDisplay[FILTERLVL<3 xui UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Spirit Shroud
+ItemDisplay[FILTERLVL<3 xui UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Spirit Shroud
+// ------------------------------------------------------------------------------------------------ Skin of the Vipermagi
+ItemDisplay[xea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Skin of the Vipermagi %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xea UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %PURPLE%Skin of the Vipermagi
+// ------------------------------------------------------------------------------------------------ Skin of the Flayed One
+ItemDisplay[FILTERLVL<3 xla UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Skin of the Flayed One
+ItemDisplay[FILTERLVL<3 xla UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Skin of the Flayed One
+// ------------------------------------------------------------------------------------------------ Iron Pelt
+ItemDisplay[FILTERLVL<3 xtu UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Iron Pelt
+ItemDisplay[FILTERLVL<3 xtu UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Iron Pelt
+// ------------------------------------------------------------------------------------------------ Crow Caw
+ItemDisplay[xcl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Crow Caw 
+ItemDisplay[xcl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Crow Caw
+// ------------------------------------------------------------------------------------------------ Spirit Forge
+ItemDisplay[FILTERLVL<3 xng UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Spirit Forge
+ItemDisplay[FILTERLVL<3 xng UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Spirit Forge
+// ------------------------------------------------------------------------------------------------ Duriel's Shell
+ItemDisplay[FILTERLVL<4 xrs UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Duriel's Shell * %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[FILTERLVL<4 xrs UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Duriel's Shell * %NOTIFYSOUND(2664,HIGH)%
+// ------------------------------------------------------------------------------------------------ Shaftstop 
+ItemDisplay[xhn UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Shaftstop %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhn UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %GRAY%ETH %PURPLE%Shaftstop %RED%*** %NOTIFYSOUND(2664,HIGH)%
+// ------------------------------------------------------------------------------------------------ Skullder's Ire
+ItemDisplay[xpl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %PURPLE%Skullder's Ire %RED%*** 
+ItemDisplay[xpl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %GRAY%ETH %PURPLE%Skullder's Ire %RED%***
+// ------------------------------------------------------------------------------------------------ Que-Hegan's Wisdom
+ItemDisplay[xtp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Que-Hegan's Wisdom **
+ItemDisplay[xtp UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Que-Hegan's Wisdom
+// ------------------------------------------------------------------------------------------------ Toothrow
+ItemDisplay[xld UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Toothrow
+ItemDisplay[xld UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Toothrow
+// ------------------------------------------------------------------------------------------------ Guardian Angel
+ItemDisplay[xlt UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %PURPLE%Guardian Angel %RED%*** 
+ItemDisplay[xlt UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Guardian Angel *
+// ------------------------------------------------------------------------------------------------ Atma's Wail
+ItemDisplay[xth UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Atma's Wail
+ItemDisplay[xth UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Atma's Wail
+// ------------------------------------------------------------------------------------------------ Black Hades
+ItemDisplay[xul UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Black Hades
+ItemDisplay[xul UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Black Hades
+// ------------------------------------------------------------------------------------------------ Corpsemourn
+ItemDisplay[xar UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Corpsemourn
+ItemDisplay[xar UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Corpsemourn
+// ------------------------------------------------------------------------------------------------ Ormus' Robes
+ItemDisplay[uui UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Ormus' Robes %RED%***%NL%
+ItemDisplay[uui UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Ormus' Robes
+// ------------------------------------------------------------------------------------------------ The Gladiator's Bane
+ItemDisplay[utu UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%TAN%* The Gladiator's Bane *%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[utu UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%* The Gladiator's Bane * 
+// ------------------------------------------------------------------------------------------------ Arkaine's Valor
+ItemDisplay[upl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %PURPLE%Arkaine's Valor %RED%***
+ItemDisplay[upl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Arkaine's Valor 
+// ------------------------------------------------------------------------------------------------ Leviathan
+ItemDisplay[uld UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Leviathan *
+ItemDisplay[uld UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Leviathan * 
+// ------------------------------------------------------------------------------------------------ Steel Carapace
+ItemDisplay[uul UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uul UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Steel Carapace %NOTIFYSOUND(2664,HIGH)%
+// ------------------------------------------------------------------------------------------------ Tyrael's Might
+ItemDisplay[uar UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Tyrael's Might or Templar's Might %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uar UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GRAY%ETH %PURPLE%Tyrael's Might or Templar's Might %RED%** %NOTIFYSOUND(2664,HIGH)%
+//
+//		EQ3 SHIELDS
+// ------------------------------------------------------------------------------------------------ Pelta Lunata
+ItemDisplay[FILTERLVL<3 buc UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Pelta Lunata
+ItemDisplay[FILTERLVL<3 buc UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Pelta Lunata
+// ------------------------------------------------------------------------------------------------ Umbral Disk
+ItemDisplay[FILTERLVL<3 sml UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Umbral Disk
+ItemDisplay[FILTERLVL<3 sml UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Umbral Disk
+// ------------------------------------------------------------------------------------------------ Stormguild
+ItemDisplay[FILTERLVL<3 lrg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Stormguild
+ItemDisplay[FILTERLVL<3 lrg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Stormguild
+// ------------------------------------------------------------------------------------------------ Steelclash
+ItemDisplay[FILTERLVL<3 kit UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Steelclash
+ItemDisplay[FILTERLVL<3 kit UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Steelclash
+// ------------------------------------------------------------------------------------------------ Swordback Hold
+ItemDisplay[FILTERLVL<3 spk UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Swordback Hold
+ItemDisplay[FILTERLVL<3 spk UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Swordback Hold
+// ------------------------------------------------------------------------------------------------ Bverrit Keep
+ItemDisplay[FILTERLVL<3 tow UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Bverrit Keep
+ItemDisplay[FILTERLVL<3 tow UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bverrit Keep
+// ------------------------------------------------------------------------------------------------ Wall of the Eyeless
+ItemDisplay[FILTERLVL<3 bsh UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Wall of the Eyeless
+ItemDisplay[FILTERLVL<3 bsh UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Wall of the Eyeless
+// ------------------------------------------------------------------------------------------------ The Ward
+ItemDisplay[FILTERLVL<3 gts UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* The Ward *
+ItemDisplay[FILTERLVL<3 gts UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Ward
+// ------------------------------------------------------------------------------------------------ Visceratuant
+ItemDisplay[FILTERLVL<3 xuc UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Visceratuant
+ItemDisplay[FILTERLVL<3 xuc UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Visceratuant
+// ------------------------------------------------------------------------------------------------ Moser's Blessed Circle
+ItemDisplay[FILTERLVL<3 xml UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Moser's Blessed Circle *
+ItemDisplay[FILTERLVL<3 xml UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Moser's Blessed Circle
+// ------------------------------------------------------------------------------------------------ Stormchaser
+ItemDisplay[FILTERLVL<3 xrg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Stormchaser
+ItemDisplay[FILTERLVL<3 xrg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Stormchaser
+// ------------------------------------------------------------------------------------------------ Tiamat's Rebuke
+ItemDisplay[FILTERLVL<3 xit UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Tiamat's Rebuke
+ItemDisplay[FILTERLVL<3 xit UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Tiamat's Rebuke
+// ------------------------------------------------------------------------------------------------ Lance Guard
+ItemDisplay[FILTERLVL<4 xpk UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Lance Guard
+ItemDisplay[FILTERLVL<4 xpk UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Lance Guard
+// ------------------------------------------------------------------------------------------------ Gerke's Sanctuary
+ItemDisplay[FILTERLVL<4 xow UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Gerke's Sanctuary *
+ItemDisplay[FILTERLVL<4 xow UNI !ID ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gerke's Sanctuary
+// ------------------------------------------------------------------------------------------------ Lidless Wall
+ItemDisplay[FILTERLVL<4 xsh UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %RED%* Lidless Wall *
+ItemDisplay[FILTERLVL<4 xsh UNI !ID ETH]: %NOTIFY(ITEM,MEDIAM)%%MAPICON(5)% %GRAY%ETH %TAN%Lidless Wall
+// ------------------------------------------------------------------------------------------------ Radament's Sphere
+ItemDisplay[FILTERLVL<4 xts UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Radament's Sphere *
+ItemDisplay[FILTERLVL<4 xts UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Radament's Sphere
+// ------------------------------------------------------------------------------------------------ Blackoak Shield
+ItemDisplay[FILTERLVL<3 uml UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Blackoak Shield
+ItemDisplay[FILTERLVL<3 uml UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Blackoak Shield
+// ------------------------------------------------------------------------------------------------ Stormshield
+ItemDisplay[uit UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Stormshield %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uit UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GRAY%ETH %PURPLE%Stormshield %RED%**
+// ------------------------------------------------------------------------------------------------ Spike Thorn
+ItemDisplay[FILTERLVL<4 upk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Spike Thorn
+ItemDisplay[FILTERLVL<4 upk UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Spike Thorn
+// ------------------------------------------------------------------------------------------------ Medusa's Gaze
+ItemDisplay[uow UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** Medusa's Gaze %RED%***%NL% 
+ItemDisplay[uow UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Medusa's Gaze *
+// ------------------------------------------------------------------------------------------------ Head Hunter's Glory
+ItemDisplay[FILTERLVL<4 ush UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%TAN%* Head Hunter's Glory *%NL%
+ItemDisplay[FILTERLVL<4 ush UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Head Hunter's Glory
+// ------------------------------------------------------------------------------------------------ Spirit Ward
+ItemDisplay[FILTERLVL<4 uts UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %TAN%Spirit Ward
+ItemDisplay[FILTERLVL<4 uts UNI !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %GRAY%ETH %TAN%Spirit Ward
+//
+//				EQ4 GLOVES
+// ------------------------------------------------------------------------------------------------ The Hand of Broc
+ItemDisplay[FILTERLVL<3 lgl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Hand of Broc
+ItemDisplay[FILTERLVL<3 lgl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Hand of Broc
+// ------------------------------------------------------------------------------------------------ Bloodfist
+ItemDisplay[FILTERLVL<3 vgl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Bloodfist *
+ItemDisplay[FILTERLVL<3 vgl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bloodfist
+// ------------------------------------------------------------------------------------------------ Chance Guards
+ItemDisplay[FILTERLVL<4 mgl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* Chance Guards * 
+ItemDisplay[FILTERLVL<4 mgl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Chance Guards
+// ------------------------------------------------------------------------------------------------ Magefist
+ItemDisplay[tgl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Magefist **
+ItemDisplay[tgl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Magefist
+// ------------------------------------------------------------------------------------------------ Frostburn
+ItemDisplay[FILTERLVL<4 hgl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%** Frostburn **
+ItemDisplay[FILTERLVL<4 hgl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Frostburn
+// ------------------------------------------------------------------------------------------------ Venom Grip
+ItemDisplay[FILTERLVL<4 xlg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Venom Grip
+ItemDisplay[FILTERLVL<4 xlg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Venom Grip
+// ------------------------------------------------------------------------------------------------ Gravepalm
+ItemDisplay[FILTERLVL<4 xvg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Gravepalm
+ItemDisplay[FILTERLVL<4 xvg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gravepalm
+// ------------------------------------------------------------------------------------------------ Ghoulhide
+ItemDisplay[FILTERLVL<4 xmg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Ghoulhide
+ItemDisplay[FILTERLVL<4 xmg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Ghoulhide
+// ------------------------------------------------------------------------------------------------ Lava Gout
+ItemDisplay[FILTERLVL<4 xtg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Lava Gout
+ItemDisplay[FILTERLVL<4 xtg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Lava Gout
+// ------------------------------------------------------------------------------------------------ Hellmouth
+ItemDisplay[FILTERLVL<4 xhg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Hellmouth
+ItemDisplay[FILTERLVL<4 xhg UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Hellmouth
+// ------------------------------------------------------------------------------------------------ Dracul's Grasp
+ItemDisplay[uvg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %PURPLE%Dracul's Grasp %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uvg UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %PURPLE%Dracul's Grasp
+// ------------------------------------------------------------------------------------------------ Soul Drainer
+ItemDisplay[umg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Soul Drainer  %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[umg UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Soul Drainer
+// ------------------------------------------------------------------------------------------------ Steelrend
+ItemDisplay[uhg UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Steelrend * %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uhg UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Steelrend
+//
+//				EQ5 BOOTS
+// ------------------------------------------------------------------------------------------------ Hotspur
+ItemDisplay[FILTERLVL<4 lbt UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Hotspur *
+ItemDisplay[FILTERLVL<4 lbt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Hotspur
+// ------------------------------------------------------------------------------------------------ Gorefoot
+ItemDisplay[FILTERLVL<4 vbt UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Gorefoot
+ItemDisplay[FILTERLVL<4 vbt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gorefoot
+// ------------------------------------------------------------------------------------------------ Treads of Cthon
+ItemDisplay[FILTERLVL<4 mbt UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Treads of Cthon
+ItemDisplay[FILTERLVL<4 mbt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Treads of Cthon
+// ------------------------------------------------------------------------------------------------ Goblin Toe
+ItemDisplay[FILTERLVL<4 tbt UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Goblin Toe
+ItemDisplay[FILTERLVL<4 tbt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Goblin Toe
+// ------------------------------------------------------------------------------------------------ Tearhaunch
+ItemDisplay[FILTERLVL<4 hbt UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Tearhaunch
+ItemDisplay[FILTERLVL<4 hbt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Tearhaunch
+// ------------------------------------------------------------------------------------------------ Infernostride
+ItemDisplay[FILTERLVL<4 xlb UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Infernostride
+ItemDisplay[FILTERLVL<4 xlb UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Infernostride
+// ------------------------------------------------------------------------------------------------ Waterwalk
+ItemDisplay[FILTERLVL<4 xvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Waterwalk **
+ItemDisplay[FILTERLVL<4 xvb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Waterwalk
+// ------------------------------------------------------------------------------------------------ Silkweave
+ItemDisplay[xmb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%** %PURPLE%Silkweave %RED%**%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xmb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Silkweave
+// ------------------------------------------------------------------------------------------------ War Traveler
+ItemDisplay[xtb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%War Traveler %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xtb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %PURPLE%War Traveler 
+// ------------------------------------------------------------------------------------------------ Gore Rider
+ItemDisplay[xhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Gore Rider %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[xhb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Gore Rider
+// ------------------------------------------------------------------------------------------------ Sandstorm Trek
+ItemDisplay[uvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Sandstorm Trek **
+ItemDisplay[uvb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Sandstorm Trek
+// ------------------------------------------------------------------------------------------------ Marrowwalk
+ItemDisplay[umb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Marrowwalk **
+ItemDisplay[umb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Marrowwalk
+// ------------------------------------------------------------------------------------------------ Shadow Dancer
+ItemDisplay[uhb UNI !ID !ETH]:  %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Shadow Dancer ** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uhb UNI !ID ETH]:  %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Shadow Dancer
+//
+//				EQ6 BELTS
+// ------------------------------------------------------------------------------------------------ Lenymo
+ItemDisplay[FILTERLVL<4 lbl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Lenymo %RED%*
+ItemDisplay[FILTERLVL<4 lbl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Lenymo
+// ------------------------------------------------------------------------------------------------ Snakecord
+ItemDisplay[FILTERLVL<4 vbl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Snakecord
+ItemDisplay[FILTERLVL<4 vbl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Snakecord
+// ------------------------------------------------------------------------------------------------ Nightsmoke
+ItemDisplay[FILTERLVL<4 mbl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Nightsmoke
+ItemDisplay[FILTERLVL<4 mbl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Nightsmoke
+// ------------------------------------------------------------------------------------------------ Goldwrap
+ItemDisplay[FILTERLVL<4 tbl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Goldwrap *
+ItemDisplay[FILTERLVL<4 tbl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Goldwrap
+// ------------------------------------------------------------------------------------------------ Bladebuckle
+ItemDisplay[FILTERLVL<4 hbl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Bladebuckle
+ItemDisplay[FILTERLVL<4 hbl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bladebuckle
+// ------------------------------------------------------------------------------------------------ String of Ears
+ItemDisplay[zlb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** String of Ears ** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[zlb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%String of Ears
+// ------------------------------------------------------------------------------------------------ Razortail
+ItemDisplay[zvb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%** Razortail **%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[zvb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Razortail 
+// ------------------------------------------------------------------------------------------------ Gloom's Trap
+ItemDisplay[FILTERLVL<4 zmb UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Gloom's Trap *
+ItemDisplay[FILTERLVL<4 zmb UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gloom's Trap
+// ------------------------------------------------------------------------------------------------ Snowclash
+ItemDisplay[ztb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Snowclash *
+ItemDisplay[ztb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Snowclash
+// ------------------------------------------------------------------------------------------------ Thundergod's Vigor
+ItemDisplay[zhb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Thundergod's Vigor %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[zhb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %PURPLE%Thundergod's Vigor%NL% 
+// ------------------------------------------------------------------------------------------------ Arachnid Mesh
+ItemDisplay[ulc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Arachnid Mesh %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[ulc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %PURPLE%Arachnid Mesh 
+// ------------------------------------------------------------------------------------------------ Nosferatu's Coil
+ItemDisplay[uvc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Nosferatu's Coil
+ItemDisplay[uvc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Nosferatu's Coil
+// ------------------------------------------------------------------------------------------------ Verdungo's Hearty Cord
+ItemDisplay[umc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Verdungo's Hearty Cord %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[umc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %PURPLE%Verdungo's Hearty Cord
+//
+// ------------------------------------------------------------------------------------------------
+////					UNIQUE WEAPONS
+///					WP1 AXES
+// ------------------------------------------------------------------------------------------------ The Gnasher
+ItemDisplay[FILTERLVL<4 hax UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Gnasher
+ItemDisplay[FILTERLVL<4 hax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Gnasher
+// ------------------------------------------------------------------------------------------------ Deathspade
+ItemDisplay[FILTERLVL<4 axe UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Deathspade
+ItemDisplay[FILTERLVL<4 axe UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Deathspade
+// ------------------------------------------------------------------------------------------------ Bladebone
+ItemDisplay[FILTERLVL<4 2ax UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Bladebone
+ItemDisplay[FILTERLVL<4 2ax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bladebone
+// ------------------------------------------------------------------------------------------------ Skull Splitter
+ItemDisplay[FILTERLVL<4 mpi UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Skull Splitter
+ItemDisplay[FILTERLVL<4 mpi UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Skull Splitter
+//Rakescar
+ItemDisplay[FILTERLVL<4 wax UNI !ID !ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %TAN%Rakescar
+ItemDisplay[FILTERLVL<4 wax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Rakescar
+// ------------------------------------------------------------------------------------------------ Axe of Feckmar
+ItemDisplay[FILTERLVL<4 lax UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Axe of Feckmar
+ItemDisplay[FILTERLVL<4 lax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Axe of Feckmar
+// ------------------------------------------------------------------------------------------------ Goreshovel
+ItemDisplay[FILTERLVL<4 bax UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Goreshovel
+ItemDisplay[FILTERLVL<4 bax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Goreshovel
+// ------------------------------------------------------------------------------------------------ The Chieftain
+ItemDisplay[FILTERLVL<4 btx UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Chieftain
+ItemDisplay[FILTERLVL<4 btx UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Chieftain
+// ------------------------------------------------------------------------------------------------ Brainhew
+ItemDisplay[FILTERLVL<4 gax UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Brainhew
+ItemDisplay[FILTERLVL<4 gax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Brainhew
+// ------------------------------------------------------------------------------------------------ Humongous
+ItemDisplay[FILTERLVL<4 gix UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Humongous
+ItemDisplay[FILTERLVL<4 gix UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Humongous
+// ------------------------------------------------------------------------------------------------ Coldkill
+ItemDisplay[FILTERLVL<4 9ha UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Coldkill
+ItemDisplayFILTERLVL<4 [9ha UNI !ID ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %GRAY%ETH %TAN%Coldkill
+// ------------------------------------------------------------------------------------------------ Butcher's Pupil
+ItemDisplay[FILTERLVL<4 9ax UNI !ID !ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %TAN%Butcher's Pupil
+ItemDisplay[FILTERLVL<4 9ax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %RED%Butcher's Pupil
+// ------------------------------------------------------------------------------------------------ Islestrike
+ItemDisplay[FILTERLVL<4 92a UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Islestrike
+ItemDisplay[FILTERLVL<4 92a UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Islestrike
+// ------------------------------------------------------------------------------------------------ Pompeii's Wrath
+ItemDisplay[FILTERLVL<4 9mp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%TAN%** Pompeii's Wrath **%NL%
+ItemDisplay[FILTERLVL<4 9mp UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Pompeii's Wrath
+// ------------------------------------------------------------------------------------------------ Guardian Naga
+ItemDisplay[FILTERLVL<4 9wa UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Guardian Naga
+ItemDisplay[FILTERLVL<4 9wa UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Guardian Naga
+// ------------------------------------------------------------------------------------------------ Warlord's Trust
+ItemDisplay[FILTERLVL<4 9la UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Warlord's Trust
+ItemDisplay[FILTERLVL<4 9la UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Warlord's Trust
+// ------------------------------------------------------------------------------------------------ Spellsteel
+ItemDisplay[FILTERLVL<4 9ba UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%Spellsteel *
+ItemDisplay[FILTERLVL<4 9ba UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Spellsteel
+// ------------------------------------------------------------------------------------------------ Stormrider
+ItemDisplay[FILTERLVL<4 9bt UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Stormrider
+ItemDisplay[FILTERLVL<4 9bt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Stormrider
+// ------------------------------------------------------------------------------------------------ Boneslayer Blade
+ItemDisplay[FILTERLVL<4 9ga UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Boneslayer Blade
+ItemDisplay[FILTERLVL<4 9ga UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Boneslayer Blade
+// ------------------------------------------------------------------------------------------------ The Minotaur
+ItemDisplay[FILTERLVL<4 9gi UNI !ID !ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %TAN%The Minotaur
+ItemDisplay[FILTERLVL<4 9gi UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Minotaur
+// ------------------------------------------------------------------------------------------------ Razor's Edge
+ItemDisplay[FILTERLVL<4 7ha UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Razor's Edge
+ItemDisplay[FILTERLVL<4 7ha UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Razor's Edge
+// ------------------------------------------------------------------------------------------------ Rune Master
+ItemDisplay[FILTERLVL<4 72a UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Rune Master
+ItemDisplay[FILTERLVL<4 72a UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %RED%Rune Master
+// ------------------------------------------------------------------------------------------------ Cranebeak
+ItemDisplay[FILTERLVL<4 7mp UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Cranebeak
+ItemDisplay[FILTERLVL<4 7mp UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Cranebeak
+// ------------------------------------------------------------------------------------------------ Death Cleaver
+ItemDisplay[FILTERLVL<4 7wa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE% Death Cleaver %RED%***%NL%
+ItemDisplay[FILTERLVL<4 7wa UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %PURPLE%Death Cleaver
+//Ethereal Edge (always Eth)
+ItemDisplay[FILTERLVL<4 7ba UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%ETH Ethereal Edge
+// ------------------------------------------------------------------------------------------------ Hellslayer
+ItemDisplay[FILTERLVL<4 7bt UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Hellslayer
+ItemDisplay[FILTERLVL<4 7bt UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Hellslayer
+// ------------------------------------------------------------------------------------------------ Messerschmidt's Reaver
+ItemDisplay[FILTERLVL<4 7ga UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Messerschmidt's Reaver
+ItemDisplay[FILTERLVL<4 7ga UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Messerschmidt's Reaver
+// ------------------------------------------------------------------------------------------------ Executioner's Justice
+ItemDisplay[FILTERLVL<4 7gi UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Executioner's Justice *
+ItemDisplay[FILTERLVL<4 7gi UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Executioner's Justice
+//
+//					WP2 MACES
+// ------------------------------------------------------------------------------------------------ Felloak
+ItemDisplay[FILTERLVL<4 clb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Felloak
+ItemDisplay[FILTERLVL<4 clb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Felloak
+// ------------------------------------------------------------------------------------------------ Stoutnail
+ItemDisplay[FILTERLVL<4 spc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Stoutnail
+ItemDisplay[FILTERLVL<4 spc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Stoutnail
+// ------------------------------------------------------------------------------------------------ Crushflange
+ItemDisplay[FILTERLVL<4 mac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Crushflange
+ItemDisplay[FILTERLVL<4 mac UNI !ID ETH]:%NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Crushflange
+// ------------------------------------------------------------------------------------------------ Bloodrise
+ItemDisplay[FILTERLVL<4 mst UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Bloodrise
+ItemDisplay[FILTERLVL<4 mst UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Bloodrise
+// ------------------------------------------------------------------------------------------------ The General's Tan Do Li Ga
+ItemDisplay[FILTERLVL<4 fla UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%The General's Tan Do Li Ga
+ItemDisplay[FILTERLVL<4 fla UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%The General's Tan Do Li Ga
+// ------------------------------------------------------------------------------------------------ Ironstone
+ItemDisplay[FILTERLVL<4 whm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Ironstone
+ItemDisplay[FILTERLVL<4 whm UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Ironstone
+// ------------------------------------------------------------------------------------------------ Bonesnap
+ItemDisplay[FILTERLVL<4 mau UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Bonesnap *
+ItemDisplay[FILTERLVL<4 mau UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Bonesnap
+// ------------------------------------------------------------------------------------------------ Steeldriver
+ItemDisplay[FILTERLVL<4 gma UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Steeldriver
+ItemDisplay[FILTERLVL<4 gma UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Steeldriver
+// ------------------------------------------------------------------------------------------------ Dark Clan Crusher
+ItemDisplay[FILTERLVL<4 9cl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Dark Clan Crusher
+ItemDisplay[FILTERLVL<4 9cl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Dark Clan Crusher
+// ------------------------------------------------------------------------------------------------ Fleshrender
+ItemDisplay[FILTERLVL<4 9sp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Fleshrender
+ItemDisplay[FILTERLVL<4 9sp UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Fleshrender
+// ------------------------------------------------------------------------------------------------ Sureshrill Frost
+ItemDisplay[FILTERLVL<4 9ma UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Sureshrill Frost
+ItemDisplay[FILTERLVL<4 9ma UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Sureshrill Frost
+// ------------------------------------------------------------------------------------------------ Moonfall
+ItemDisplay[FILTERLVL<4 9mt UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Moonfall
+ItemDisplay[FILTERLVL<4 9mt UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Moonfall
+// ------------------------------------------------------------------------------------------------ Baezil's Vortex
+ItemDisplay[FILTERLVL<4 9fl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Baezil's Vortex
+ItemDisplay[FILTERLVL<4 9fl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Baezil's Vortex
+// ------------------------------------------------------------------------------------------------ Earthshaker
+ItemDisplay[FILTERLVL<4 9wh UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Earthshaker
+ItemDisplay[FILTERLVL<4 9wh UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Earthshaker
+// ------------------------------------------------------------------------------------------------ Bloodtree Stump
+ItemDisplay[FILTERLVL<4 9m9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Bloodtree Stump
+ItemDisplay[FILTERLVL<4 9m9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Bloodtree Stump
+// ------------------------------------------------------------------------------------------------ The Gavel of Pain
+ItemDisplay[FILTERLVL<4 9gm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%The Gavel of Pain
+ItemDisplay[FILTERLVL<4 9gm UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%The Gavel of Pain
+// ------------------------------------------------------------------------------------------------ Nord's Tenderizer
+ItemDisplay[FILTERLVL<4 7cl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Nord's Tenderizer
+ItemDisplay[FILTERLVL<4 7cl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Nord's Tenderizer
+// ------------------------------------------------------------------------------------------------ Demon Limb
+ItemDisplay[FILTERLVL<4 7sp UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%Demon Limb *
+ItemDisplay[FILTERLVL<4 7sp UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Demon Limb
+// ------------------------------------------------------------------------------------------------ Baranar's Star
+ItemDisplay[FILTERLVL<4 7mt UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Baranar's Star
+ItemDisplay[FILTERLVL<4 7mt UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Baranar's Star
+// ------------------------------------------------------------------------------------------------ Horizon's Tornado or Stormlash
+ItemDisplay[7fl UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Horizon's Tornado or Stormlash ** 
+ItemDisplay[7fl UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Horizon's Tornado or %GRAY%ETH %RED%Stormlash
+// ------------------------------------------------------------------------------------------------ Stone Crusher or Schaefer's Hammer
+ItemDisplay[7wh UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Stone Crusher or Schaefer's Hammer **
+ItemDisplay[7wh UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Stone Crusher or %GRAY%ETH %RED%Schaefer's Hammer
+// ------------------------------------------------------------------------------------------------ Windhammer
+ItemDisplay[FILTERLVL<4 7m7 UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %TAN%Windhammer
+ItemDisplay[FILTERLVL<4 7m7 UNI !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %GRAY%ETH %TAN%Windhammer
+// ------------------------------------------------------------------------------------------------ Earth Shifter or The Cranium Basher
+//ItemDisplay[7gm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %PURPLE% Earth Shifter or The Cranium Basher %RED%*** 
+//ItemDisplay[7gm UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GRAY%ETH %PURPLE%Earth Shifter or %GRAY%ETH %PURPLE%The Cranium Basher %RED%**
+ItemDisplay[7gm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %PURPLE% Senpai Needs Cranium Bashers %RED%***
+ItemDisplay[7gm UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GRAY%ETH %PURPLE%Senpai Needs Cranium Bashers %RED%**
+//
+//					WP3 SWORDS
+// ------------------------------------------------------------------------------------------------ Rixot's Keen
+ItemDisplay[FILTERLVL<4 ssd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Rixot's Keen
+ItemDisplay[FILTERLVL<4 ssd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Rixot's Keen
+// ------------------------------------------------------------------------------------------------ Blood Crescent
+ItemDisplay[FILTERLVL<4 scm UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Blood Crescent
+ItemDisplay[FILTERLVL<4 scm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Blood Crescent
+// ------------------------------------------------------------------------------------------------ Skewer of Krintiz
+ItemDisplay[FILTERLVL<4 sbr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)% %MAPICON(5)% %TAN%Skewer of Krintiz
+ItemDisplay[FILTERLVL<4 sbr UNI !ID ETH]: %NOTIFY(ITEM,LOW)% %MAPICON(5)% %GRAY%ETH %TAN%Skewer of Krintiz
+// ------------------------------------------------------------------------------------------------ Gleamscythe
+ItemDisplay[FILTERLVL<4 flc UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Gleamscythe
+ItemDisplay[FILTERLVL<4 flc UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gleamscythe
+// ------------------------------------------------------------------------------------------------ Griswold's Edge
+ItemDisplay[FILTERLVL<4 bsd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Griswold's Edge
+ItemDisplay[FILTERLVL<4 bsd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Griswold's Edge
+// ------------------------------------------------------------------------------------------------ Hellplague
+ItemDisplay[FILTERLVL<4 lsd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Hellplague
+ItemDisplay[FILTERLVL<4 lsd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Hellplague
+// ------------------------------------------------------------------------------------------------ Culwen's Point
+ItemDisplay[FILTERLVL<4 wsd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Culwen's Point
+ItemDisplay[FILTERLVL<4 wsd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Culwen's Point
+// ------------------------------------------------------------------------------------------------ Shadowfang
+ItemDisplay[FILTERLVL<4 2hs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Shadowfang
+ItemDisplay[FILTERLVL<4 2hs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Shadowfang
+// ------------------------------------------------------------------------------------------------ Soulflay
+ItemDisplay[FILTERLVL<4 clm UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Soulflay
+ItemDisplay[FILTERLVL<4 clm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Soulflay
+// ------------------------------------------------------------------------------------------------ Kinemil's Awl
+ItemDisplay[FILTERLVL<4 gis UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Kinemil's Awl
+ItemDisplay[FILTERLVL<4 gis UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Kinemil's Awl
+// ------------------------------------------------------------------------------------------------ Blacktongue
+ItemDisplay[FILTERLVL<4 bsw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Blacktongue
+ItemDisplay[FILTERLVL<4 bsw UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Blacktongue
+// ------------------------------------------------------------------------------------------------ Ripsaw
+ItemDisplay[FILTERLVL<4 flb UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Ripsaw
+ItemDisplay[FILTERLVL<4 flb UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Ripsaw
+// ------------------------------------------------------------------------------------------------ The Patriarch
+ItemDisplay[FILTERLVL<4 gsd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Patriarch
+ItemDisplay[FILTERLVL<4 gsd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Patriarch
+// ------------------------------------------------------------------------------------------------ Bloodletter
+ItemDisplay[FILTERLVL<4 9ss UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Bloodletter 
+ItemDisplay[FILTERLVL<4 9ss UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bloodletter
+// ------------------------------------------------------------------------------------------------ Coldsteel Eye
+ItemDisplay[FILTERLVL<4 9sm UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Coldsteel Eye
+ItemDisplay[FILTERLVL<4 9sm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Coldsteel Eye
+// ------------------------------------------------------------------------------------------------ Hexfire
+ItemDisplay[FILTERLVL<4 9sb UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %TAN%* Hexfire *
+ItemDisplay[FILTERLVL<4 9sb UNI !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %TAN%* %GRAY%ETH %TAN%Hexfire *
+// ------------------------------------------------------------------------------------------------ Blade of Ali Baba
+ItemDisplay[FILTERLVL<4 9fc UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %RED%* Blade of Ali Baba *
+ItemDisplay[FILTERLVL<4 9fc UNI !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %GRAY%ETH %TAN%Blade of Ali Baba
+// ------------------------------------------------------------------------------------------------ Ginther's Rift
+ItemDisplay[FILTERLVL<4 9cr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Ginther's Rift
+ItemDisplay[FILTERLVL<4 9cr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %RED%Ginther's Rift
+// ------------------------------------------------------------------------------------------------ Headstriker
+ItemDisplay[9bs UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%**** Headstriker %RED%****%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[9bs UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Headstriker *
+// ------------------------------------------------------------------------------------------------ Plague Bearer
+ItemDisplay[FILTERLVL<4 9ls UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Plague Bearer *
+ItemDisplay[FILTERLVL<4 9ls UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Plague Bearer
+// ------------------------------------------------------------------------------------------------ The Atlantean
+ItemDisplay[FILTERLVL<4 9wd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Atlantean
+ItemDisplay[FILTERLVL<4 9wd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Atlantean
+// ------------------------------------------------------------------------------------------------ Crainte Vomir
+ItemDisplay[FILTERLVL<4 92h UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Crainte Vomir
+ItemDisplay[FILTERLVL<4 92h UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Crainte Vomir
+// ------------------------------------------------------------------------------------------------ Bing Sz Wang
+ItemDisplay[FILTERLVL<4 9cm UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%Bing Sz Wang
+ItemDisplay[FILTERLVL<4 9cm UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Bing Sz Wang
+// ------------------------------------------------------------------------------------------------ The Vile Husk
+ItemDisplay[FILTERLVL<4 9gs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Vile Husk
+ItemDisplay[FILTERLVL<4 9gs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Vile Husk
+// ------------------------------------------------------------------------------------------------ Cloudcrack
+ItemDisplay[FILTERLVL<4 9b9 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Cloudcrack
+ItemDisplay[FILTERLVL<4 9b9 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Cloudcrack
+// ------------------------------------------------------------------------------------------------ Todesfaelle Flamme
+ItemDisplay[FILTERLVL<4 9fb UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Todesfaelle Flamme
+ItemDisplay[FILTERLVL<4 9fb UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Todesfaelle Flamme
+// ------------------------------------------------------------------------------------------------ Swordguard
+ItemDisplay[FILTERLVL<4 9gd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Swordguard
+ItemDisplay[FILTERLVL<4 9gd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Swordguard
+// ------------------------------------------------------------------------------------------------ Djinn Slayer
+ItemDisplay[FILTERLVL<4 7sm UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Djinn Slayer
+ItemDisplay[FILTERLVL<4 7sm UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Djinn Slayer
+// ------------------------------------------------------------------------------------------------ Bloodmoon
+ItemDisplay[FILTERLVL<4 7sb UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Bloodmoon
+ItemDisplay[FILTERLVL<4 7sb UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bloodmoon
+// ------------------------------------------------------------------------------------------------ Lightsabre or Azurewrath
+ItemDisplay[7cr UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Lightsabre or Azurewrath %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+// ------------------------------------------------------------------------------------------------ Frostwind
+ItemDisplay[7ls UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Frostwind
+ItemDisplay[7ls UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Frostwind
+// ------------------------------------------------------------------------------------------------ Flamebellow
+ItemDisplay[FILTERLVL<4 7gs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Flamebellow
+ItemDisplay[FILTERLVL<4 7gs UNI !ID ETH]: %GRAY%ETH %TAN%Flamebellow
+// ------------------------------------------------------------------------------------------------ Doombringer
+ItemDisplay[7b7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Doombringer
+ItemDisplay[7b7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Doombringer
+// ------------------------------------------------------------------------------------------------ The Grandfather
+ItemDisplay[7gd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%** The Grandfather **%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7gd UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%The Grandfather * v
+//
+////					WP4 DAGGERS
+// ------------------------------------------------------------------------------------------------ Gull
+ItemDisplay[FILTERLVL<4 dgr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* Gull * 
+ItemDisplay[FILTERLVL<4 dgr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gull
+// ------------------------------------------------------------------------------------------------ The Diggler
+ItemDisplay[FILTERLVL<4 dir UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Diggler
+ItemDisplay[FILTERLVL<4 dir UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Diggler
+// ------------------------------------------------------------------------------------------------ The Jade Tan Do
+ItemDisplay[FILTERLVL<4 kri UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Jade Tan Do
+ItemDisplay[FILTERLVL<4 kri UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Jade Tan Do
+// ------------------------------------------------------------------------------------------------ Spectral Shard
+ItemDisplay[FILTERLVL<4 bld UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Spectral Shard
+ItemDisplay[FILTERLVL<4 bld UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Spectral Shard
+// ------------------------------------------------------------------------------------------------ Spineripper
+ItemDisplay[FILTERLVL<4 9dg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Spineripper
+ItemDisplay[FILTERLVL<4 9dg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Spineripper
+// ------------------------------------------------------------------------------------------------ Heart Carver
+ItemDisplay[FILTERLVL<4 9di UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Heart Carver
+ItemDisplay[FILTERLVL<4 9di UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Heart Carver
+// ------------------------------------------------------------------------------------------------ Blackbog's Sharp
+ItemDisplay[FILTERLVL<4 9kr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Blackbog's Sharp
+ItemDisplay[FILTERLVL<4 9kr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Blackbog's Sharp
+// ------------------------------------------------------------------------------------------------ Stormspike
+ItemDisplay[FILTERLVL<4 9bl UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Stormspike
+ItemDisplay[FILTERLVL<4 9bl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Stormspike
+// ------------------------------------------------------------------------------------------------ Wizardspike
+ItemDisplay[FILTERLVL<4 7dg UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Wizardspike * 
+ItemDisplay[FILTERLVL<4 7dg UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* %GRAY%ETH %TAN%Wizardspike *
+// ------------------------------------------------------------------------------------------------ Fleshripper
+ItemDisplay[FILTERLVL<4 7kr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %NL%%RED%** Fleshripper **%NL%
+ItemDisplay[FILTERLVL<4 7kr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %RED%Fleshripper
+// ------------------------------------------------------------------------------------------------ ETH Ghostflame (always eth)
+ItemDisplay[FILTERLVL<4 7bl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Ghostflame
+//
+//					WP5 THROWING WEAPONS
+// ------------------------------------------------------------------------------------------------ Deathbit
+ItemDisplay[FILTERLVL<4 9tk UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Deathbit
+ItemDisplay[FILTERLVL<4 9tk UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH Deathbit %RED%*
+// ------------------------------------------------------------------------------------------------ The Scalper
+ItemDisplay[FILTERLVL<4 9ta UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Scalper
+ItemDisplay[FILTERLVL<4 9ta UNI !ID ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %RED%* %GRAY%ETH The Scalper %RED%*
+// ------------------------------------------------------------------------------------------------ Warshrike
+ItemDisplay[7bk UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%*** %PURPLE%Warshrike %RED%*** %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7bk UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %PURPLE%Warshrike %RED%*
+// ------------------------------------------------------------------------------------------------ Gimmershred
+ItemDisplay[FILTERLVL<4 7ta UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Gimmershred
+ItemDisplay[FILTERLVL<4 7ta UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gimmershred
+// ------------------------------------------------------------------------------------------------ Lacerator
+ItemDisplay[FILTERLVL<4 7b8 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* Lacerator *
+ItemDisplay[FILTERLVL<4 7b8 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %PURPLE%Lacerator %RED%*
+//
+//
+//					WP6 JAVELINS
+// ------------------------------------------------------------------------------------------------ Demon's Arch
+ItemDisplay[FILTERLVL<4 7s7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Demon's Arch
+ItemDisplay[FILTERLVL<4 7s7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN% Demon's Arch
+// ------------------------------------------------------------------------------------------------ Wraith Flight (always ETH)
+ItemDisplay[FILTERLVL<4 7gl UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Wraith Flight
+// ------------------------------------------------------------------------------------------------ Gargoyle's Bite
+ItemDisplay[FILTERLVL<4 7ts UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Gargoyle's Bite
+ItemDisplay[FILTERLVL<4 7ts UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gargoyle's Bite
+//
+//					WP7 SPEARS
+// ------------------------------------------------------------------------------------------------ The Dragon Chang
+ItemDisplay[FILTERLVL<4 spr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Dragon Chang
+ItemDisplay[FILTERLVL<4 spr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Dragon Chang
+// ------------------------------------------------------------------------------------------------ Razortine
+ItemDisplay[FILTERLVL<4 tri UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Razortine
+ItemDisplay[FILTERLVL<4 tri UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Razortine
+// ------------------------------------------------------------------------------------------------ Bloodthief
+ItemDisplay[FILTERLVL<4 brn UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Bloodthief
+ItemDisplay[FILTERLVL<4 brn UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bloodthief
+// ------------------------------------------------------------------------------------------------ Lance of Yaggai
+ItemDisplay[FILTERLVL<4 spt UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Lance of Yaggai
+ItemDisplay[FILTERLVL<4 spt UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Lance of Yaggai
+// ------------------------------------------------------------------------------------------------ The Tannr Gorerod
+ItemDisplay[FILTERLVL<4 pik UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Tannr Gorerod
+ItemDisplay[FILTERLVL<4 pik UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Tannr Gorerod
+// ------------------------------------------------------------------------------------------------ The Impaler
+ItemDisplay[FILTERLVL<4 9sr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Impaler
+ItemDisplay[FILTERLVL<4 9sr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Impaler
+// ------------------------------------------------------------------------------------------------ Kelpie Snare
+ItemDisplay[FILTERLVL<4 9tr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Kelpie Snare
+ItemDisplay[FILTERLVL<4 9tr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Kelpie Snare 
+// ------------------------------------------------------------------------------------------------ Soulfeast Time
+ItemDisplay[FILTERLVL<4 9br UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Soulfeast Time
+ItemDisplay[FILTERLVL<4 9br UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Soulfeast Time
+// ------------------------------------------------------------------------------------------------ Hone Sundan
+ItemDisplay[FILTERLVL<4 9st UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Hone Sundan
+ItemDisplay[FILTERLVL<4 9st UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Hone Sundan
+// ------------------------------------------------------------------------------------------------ Spire of Honor
+ItemDisplay[FILTERLVL<4 9p9 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Spire of Honor
+ItemDisplay[FILTERLVL<4 9p9 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Spire of Honor
+// ------------------------------------------------------------------------------------------------ Arioc's Needle
+ItemDisplay[FILTERLVL<4 7sr UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Arioc's Needle
+ItemDisplay[FILTERLVL<4 7sr UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Arioc's Needle
+// ------------------------------------------------------------------------------------------------ Viperfork
+ItemDisplay[FILTERLVL<4 7br UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Viperfork 
+ItemDisplay[FILTERLVL<4 7br UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Viperfork 
+// ------------------------------------------------------------------------------------------------ Steel Pillar
+ItemDisplay[FILTERLVL<4 7p7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Steel Pillar
+ItemDisplay[FILTERLVL<4 7p7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Steel Pillar
+//
+//					WP8 POLEARMS
+// ------------------------------------------------------------------------------------------------ Dimoak's Hew
+ItemDisplay[FILTERLVL<4 bar UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Dimoak's Hew
+ItemDisplay[FILTERLVL<4 bar UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Dimoak's Hew
+// ------------------------------------------------------------------------------------------------ Steelgoad
+ItemDisplay[FILTERLVL<4 vou UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Steelgoad
+ItemDisplay[FILTERLVL<4 vou UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Steelgoad
+// ------------------------------------------------------------------------------------------------ Soul Harvest
+ItemDisplay[FILTERLVL<4 scy UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Soul Harvest
+ItemDisplay[FILTERLVL<4 scy UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Soul Harvest
+// ------------------------------------------------------------------------------------------------ The Battlebranch
+ItemDisplay[FILTERLVL<4 pax UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Battlebranch
+ItemDisplay[FILTERLVL<4 pax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Battlebranch
+// ------------------------------------------------------------------------------------------------ Woestave
+ItemDisplay[FILTERLVL<4 hal UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Woestave
+ItemDisplay[FILTERLVL<4 hal UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Woestave
+// ------------------------------------------------------------------------------------------------ The Grim Reaper
+ItemDisplay[FILTERLVL<4 wsc UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Grim Reaper
+ItemDisplay[FILTERLVL<4 wsc UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Grim Reaper
+// ------------------------------------------------------------------------------------------------ The Meat Scraper
+ItemDisplay[FILTERLVL<4 9b7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Meat Scraper
+ItemDisplay[FILTERLVL<4 9b7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Meat Scraper
+// ------------------------------------------------------------------------------------------------ Blackleach Blade
+ItemDisplay[FILTERLVL<4 9vo UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Blackleach Blade
+ItemDisplay[FILTERLVL<4 9vo UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Blackleach Blade
+// ------------------------------------------------------------------------------------------------ Athena's Wrath
+ItemDisplay[FILTERLVL<4 9s8 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Athena's Wrath
+ItemDisplay[FILTERLVL<4 9s8 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Athena's Wrath
+// ------------------------------------------------------------------------------------------------ Pierre Tombale Couant
+ItemDisplay[FILTERLVL<4 9pa UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Pierre Tombale Couant
+ItemDisplay[FILTERLVL<4 9pa UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Pierre Tombale Couant
+// ------------------------------------------------------------------------------------------------ Husoldal Evo
+ItemDisplay[FILTERLVL<4 9h9 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Husoldal Evo
+ItemDisplay[FILTERLVL<4 9h9 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Husoldal Evo
+// ------------------------------------------------------------------------------------------------ Grim's Burning Dead
+ItemDisplay[FILTERLVL<4 9wc UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Grim's Burning Dead
+ItemDisplay[FILTERLVL<4 9wc UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Grim's Burning Dead
+// ------------------------------------------------------------------------------------------------ Bonehew
+ItemDisplay[FILTERLVL<4 7o7 UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* Bonehew *
+ItemDisplay[FILTERLVL<4 7o7 UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Bonehew *
+// ------------------------------------------------------------------------------------------------ Reaper's Toll
+ItemDisplay[7s8 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** Reaper's Toll ***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7s8 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %PURPLE%Reaper's Toll %RED%*
+// ------------------------------------------------------------------------------------------------ Tomb Reaver
+ItemDisplay[FILTERLVL<4 7pa UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%*** Tomb Reaver ***
+ItemDisplay[FILTERLVL<4 7pa UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %RED%Tomb Reaver *
+// ------------------------------------------------------------------------------------------------ Stormspire
+ItemDisplay[7wc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Stormspire %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7wc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Stormspire 
+//
+//					WP9 BOWS
+// ------------------------------------------------------------------------------------------------ Pluckeye
+ItemDisplay[FILTERLVL<4 sbw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Pluckeye
+// ------------------------------------------------------------------------------------------------ Witherstring
+ItemDisplay[FILTERLVL<4 hbw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Witherstring
+// ------------------------------------------------------------------------------------------------ Raven Claw
+ItemDisplay[FILTERLVL<4 lbw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Raven Claw
+// ------------------------------------------------------------------------------------------------ Rogue's Bow
+ItemDisplay[FILTERLVL<4 cbw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Rogue's Bow
+// ------------------------------------------------------------------------------------------------ Stormstrike
+ItemDisplay[FILTERLVL<4 sbb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Stormstrike
+// ------------------------------------------------------------------------------------------------ Wizendraw
+ItemDisplay[FILTERLVL<4 lbb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Wizendraw
+// ------------------------------------------------------------------------------------------------ Hellclap
+ItemDisplay[FILTERLVL<4 swb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Hellclap
+// ------------------------------------------------------------------------------------------------ Blastbark
+ItemDisplay[FILTERLVL<4 lwb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Blastbark
+// ------------------------------------------------------------------------------------------------ Skystrike
+ItemDisplay[FILTERLVL<4 8sb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Skystrike
+// ------------------------------------------------------------------------------------------------ Riphook
+ItemDisplay[FILTERLVL<4 8hb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Riphook
+// ------------------------------------------------------------------------------------------------ Kuko Shakaku
+ItemDisplay[FILTERLVL<4 8lb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Kuko Shakaku *
+// ------------------------------------------------------------------------------------------------ Endlesshail
+ItemDisplay[FILTERLVL<4 8cb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Endlesshail
+// ------------------------------------------------------------------------------------------------ Witchwild String
+ItemDisplay[FILTERLVL<4 8s8 UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Witchwild String
+// ------------------------------------------------------------------------------------------------ Cliffkiller
+ItemDisplay[FILTERLVL<4 8l8 UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Cliffkiller
+// ------------------------------------------------------------------------------------------------ Magewrath
+ItemDisplay[FILTERLVL<4 8sw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Magewrath
+// ------------------------------------------------------------------------------------------------ Goldstrike Arch
+ItemDisplay[FILTERLVL<4 8lw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%*** Goldstrike Arch ***
+// ------------------------------------------------------------------------------------------------ Eaglehorn
+ItemDisplay[FILTERLVL<4 6l7 UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%*** Eaglehorn *** 
+// ------------------------------------------------------------------------------------------------ Widowmaker
+ItemDisplay[FILTERLVL<4 6sw UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Widowmaker *
+// ------------------------------------------------------------------------------------------------ Windforce
+ItemDisplay[6lw UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%***** %PURPLE%Windforce %RED%*****%NL% %NOTIFYSOUND(2664,HIGH)%
+//
+//					WP10 CROSSBOWS
+// ------------------------------------------------------------------------------------------------ Leadcrow
+ItemDisplay[FILTERLVL<4 lxb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Leadcrow
+// ------------------------------------------------------------------------------------------------ Ichorsting
+ItemDisplay[FILTERLVL<4 mxb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Ichorsting
+// ------------------------------------------------------------------------------------------------ Hellcast
+ItemDisplay[FILTERLVL<4 hxb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Hellcast
+// ------------------------------------------------------------------------------------------------ Doomslinger
+ItemDisplay[FILTERLVL<4 rxb UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%** Doomslinger **
+// ------------------------------------------------------------------------------------------------ Langer Briser
+ItemDisplay[FILTERLVL<4 8lx UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Langer Briser
+// ------------------------------------------------------------------------------------------------ Pus Spitter
+ItemDisplay[FILTERLVL<4 8mx UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Pus Spitter
+// ------------------------------------------------------------------------------------------------ Buriza-Do Kyanon
+ItemDisplay[FILTERLVL<4 8hx UNI !ID]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %NL%%TAN%Buriza-Do Kyanon%NL%
+// ------------------------------------------------------------------------------------------------ Demon Machine
+ItemDisplay[FILTERLVL<4 8rx UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Demon Machine
+// ------------------------------------------------------------------------------------------------ Hellrack
+ItemDisplay[FILTERLVL<4 6hx UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Hellrack
+// ------------------------------------------------------------------------------------------------ Gut Siphon
+ItemDisplay[FILTERLVL<4 6rx UNI !ID]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Gut Siphon
+//
+//					WP11 STAVES
+// ------------------------------------------------------------------------------------------------ Bane Ash
+ItemDisplay[FILTERLVL<4 sst UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Bane Ash
+ItemDisplay[FILTERLVL<4 sst UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Bane Ash
+// ------------------------------------------------------------------------------------------------ Serpent Lord
+ItemDisplay[FILTERLVL<4 lst UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Serpent Lord
+ItemDisplay[FILTERLVL<4 lst UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Serpent Lord
+// ------------------------------------------------------------------------------------------------ Spire of Lazarus
+ItemDisplay[FILTERLVL<4 cst UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Spire of Lazarus
+ItemDisplay[FILTERLVL<4 cst UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Spire of Lazarus
+// ------------------------------------------------------------------------------------------------ The Salamander
+ItemDisplay[FILTERLVL<4 bst UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Salamander
+ItemDisplay[FILTERLVL<4 bst UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Salamander
+// ------------------------------------------------------------------------------------------------ The Iron Jang Bong
+ItemDisplay[FILTERLVL<4 wst UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Iron Jang Bong
+ItemDisplay[FILTERLVL<4 wst UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Iron Jang Bong
+// ------------------------------------------------------------------------------------------------ Razorswitch
+ItemDisplay[FILTERLVL<4 8ss UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Razorswitch
+ItemDisplay[FILTERLVL<4 8ss UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Razorswitch
+// ------------------------------------------------------------------------------------------------ Ribcracker
+ItemDisplay[FILTERLVL<4 8ls UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Ribcracker
+ItemDisplay[FILTERLVL<4 8ls UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Ribcracker
+// ------------------------------------------------------------------------------------------------ Chromatic Ire
+ItemDisplay[FILTERLVL<3 8cs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Chromatic Ire
+ItemDisplay[FILTERLVL<3 8cs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Chromatic Ire
+// ------------------------------------------------------------------------------------------------ Warpspear
+ItemDisplay[FILTERLVL<4 8bs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Warpspear
+ItemDisplay[FILTERLVL<4 8bs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Warpspear
+// ------------------------------------------------------------------------------------------------ Skull Collector
+ItemDisplay[FILTERLVL<4 8ws UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Skull Collector
+ItemDisplay[FILTERLVL<4 8ws UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Skull Collector
+// ------------------------------------------------------------------------------------------------ Ondal's Wisdom
+ItemDisplay[6cs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%******** %PURPLE%Ondal's Wisdom %RED%******** 
+ItemDisplay[6cs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%* %GRAY%ETH %PURPLE%Ondal's Wisdom %RED%*
+// ------------------------------------------------------------------------------------------------ Mang Song's Lesson
+ItemDisplay[FILTERLVL<4 6ws UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %NL%%RED%Mang Song's Lesson *%NL%
+ItemDisplay[FILTERLVL<4 6ws UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Mang Song's Lesson
+//
+//					WP12 WANDS
+// ------------------------------------------------------------------------------------------------ Torch of Iro
+ItemDisplay[FILTERLVL<4 wnd UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Torch of Iro
+ItemDisplay[FILTERLVL<4 wnd UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Torch of Iro
+// ------------------------------------------------------------------------------------------------ Maelstrom
+ItemDisplay[FILTERLVL<4 ywn UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Maelstrom
+ItemDisplay[FILTERLVL<4 ywn UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Maelstrom
+// ------------------------------------------------------------------------------------------------ Gravenspine
+ItemDisplay[FILTERLVL<4 bwn UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Gravenspine
+ItemDisplay[FILTERLVL<4 bwn UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gravenspine
+// ------------------------------------------------------------------------------------------------ Ume's Lament
+ItemDisplay[FILTERLVL<4 gwn UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Ume's Lament
+ItemDisplay[FILTERLVL<4 gwn UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Ume's Lament
+// ------------------------------------------------------------------------------------------------ Suicide Branch
+ItemDisplay[FILTERLVL<4 9wn UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Suicide Branch *
+ItemDisplay[FILTERLVL<4 9wn UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Suicide Branch
+// ------------------------------------------------------------------------------------------------ Carin Shard
+ItemDisplay[FILTERLVL<4 9yw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Carin Shard
+ItemDisplay[FILTERLVL<4 9yw UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Carin Shard
+// ------------------------------------------------------------------------------------------------ Arm of King Leoric
+ItemDisplay[9bw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Arm of King Leoric
+ItemDisplay[9bw UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Arm of King Leoric
+// ------------------------------------------------------------------------------------------------ Blackhand Key
+ItemDisplay[9gw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%* Blackhand Key *
+ItemDisplay[9gw UNI !ID ETH]: %GRAY%ETH %TAN%Blackhand Key
+// ------------------------------------------------------------------------------------------------ Boneshade
+ItemDisplay[7bw UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Boneshade *
+ItemDisplay[7bw UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* %GRAY%ETH %TAN%Boneshade *
+// ------------------------------------------------------------------------------------------------ Death's Web
+ItemDisplay[7gw UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Death's Web %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[7gw UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %RED%** %GRAY%ETH %PURPLE%Death's Web %RED%**  
+//
+//					WP13 SCEPTERS
+// ------------------------------------------------------------------------------------------------ Knell Striker
+ItemDisplay[FILTERLVL<4 scp UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Knell Striker
+ItemDisplay[FILTERLVL<4 scp UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Knell Striker
+// ------------------------------------------------------------------------------------------------ Rusthandle
+ItemDisplay[FILTERLVL<4 gsc UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Rusthandle
+ItemDisplay[FILTERLVL<4 gsc UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Rusthandle
+// ------------------------------------------------------------------------------------------------ Stormeye
+ItemDisplay[FILTERLVL<4 wsp UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Stormeye
+ItemDisplay[FILTERLVL<4 wsp UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Stormeye
+// ------------------------------------------------------------------------------------------------ Zakarum's Hand
+ItemDisplay[FILTERLVL<4 9sc UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Zakarum's Hand
+ItemDisplay[FILTERLVL<4 9sc UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Zakarum's Hand
+// ------------------------------------------------------------------------------------------------ The Fetid Sprinkler
+ItemDisplay[FILTERLVL<4 9qs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%The Fetid Sprinkler
+ItemDisplay[FILTERLVL<4 9qs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%The Fetid Sprinkler
+// ------------------------------------------------------------------------------------------------ Hand of Blessed Light
+ItemDisplay[9ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Hand of Blessed Light **
+ItemDisplay[9ws UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Hand of Blessed Light
+// ------------------------------------------------------------------------------------------------ Heaven's Light or The Redeemer
+ItemDisplay[7sc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Heaven's Light or The Redeemer **
+ItemDisplay[7sc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Heaven's Light or %GRAY%ETH %RED%The Redeemer
+// ------------------------------------------------------------------------------------------------ Astreon's Iron Ward
+ItemDisplay[7ws UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Astreon's Iron Ward *
+ItemDisplay[7ws UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Astreon's Iron Ward
+//
+//					QUIVERS
+// ------------------------------------------------------------------------------------------------ Arrows and Bolts
+ItemDisplay[aq2 UNI !ID]: %TAN%%NAME%
+ItemDisplay[cq2 UNI !ID]: %TAN%%NAME%
+//
+//					CL1 DRUID ITEMS
+// ------------------------------------------------------------------------------------------------ Jalal's Mane
+ItemDisplay[dra UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Jalal's Mane %RED%***%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[dra UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Jalal's Mane
+// ------------------------------------------------------------------------------------------------ Cerebus' Bite
+ItemDisplay[drb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Cerebus' Bite
+ItemDisplay[drb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Cerebus' Bite
+// ------------------------------------------------------------------------------------------------ Ravenlore
+ItemDisplay[dre UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Ravenlore **
+ItemDisplay[dre UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Ravenlore
+// ------------------------------------------------------------------------------------------------ Spirit Keeper
+ItemDisplay[drd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Spirit Keeper ** 
+ItemDisplay[drd UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Spirit Keeper
+//
+//					CL2 BARBARIAN ITEMS
+// ------------------------------------------------------------------------------------------------ Arreat's Face
+ItemDisplay[baa UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE%Arreat's Face %RED%***%NL%  %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[baa UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Arreat's Face
+// ------------------------------------------------------------------------------------------------ Wolfhowl
+ItemDisplay[bac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%** Wolfhowl **%NL%  %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[bac UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Wolfhowl
+// ------------------------------------------------------------------------------------------------ Demonhorn's Edge
+ItemDisplay[bad UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Demonhorn's Edge 
+ItemDisplay[bad UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Demonhorn's Edge
+// ------------------------------------------------------------------------------------------------ Halaberd's Reign
+ItemDisplay[bae UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Halaberd's Reign * 
+ItemDisplay[bae UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Halaberd's Reign
+//
+//					CL3 PALADIN ITEMS
+// ------------------------------------------------------------------------------------------------ Alma Negra
+ItemDisplay[pac UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Alma Negra **
+ItemDisplay[pac UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Alma Negra
+// ------------------------------------------------------------------------------------------------ Herald of Zakarum
+ItemDisplay[pa9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %PURPLE%Herald of Zakarum %RED%**  %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[pa9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Herald of Zakarum 
+// ------------------------------------------------------------------------------------------------ Dragonscale
+ItemDisplay[pae UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Dragonscale
+ItemDisplay[pae UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Dragonscale
+//
+//					CL4 NECROMANCER ITEMS
+// ------------------------------------------------------------------------------------------------ Homunculus
+ItemDisplay[nea UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%** %PURPLE%Homunculus %RED%**%NL% %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[nea UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Homunculus
+// ------------------------------------------------------------------------------------------------ Darkforce Spawn
+ItemDisplay[nef UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Darkforce Spawn *  %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[nef UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Darkforce Spawn
+// ------------------------------------------------------------------------------------------------ Boneflame
+ItemDisplay[nee UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Boneflame *  %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[nee UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Boneflame
+//
+//					CL5 ASSASSIN ITEMS
+// ------------------------------------------------------------------------------------------------ Shadow Killer (always ETH)
+ItemDisplay[7cs UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* ETH Shadow Killer *
+// ------------------------------------------------------------------------------------------------ Bartuc's Cut-Throat
+ItemDisplay[9tw UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Bartuc's Cut-Throat %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[9tw UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Bartuc's Cut-Throat 
+// ------------------------------------------------------------------------------------------------ Jade Talon
+ItemDisplay[7wb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Jade Talon
+ItemDisplay[7wb UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Jade Talon
+// ------------------------------------------------------------------------------------------------ Firelizard's Talons
+ItemDisplay[7lw UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* Firelizard's Talons *
+ItemDisplay[7lw UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Firelizard's Talons
+// ------------------------------------------------------------------------------------------------
+//					CL6 SORCERER ITEMS
+// ------------------------------------------------------------------------------------------------ The Oculus
+ItemDisplay[oba UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** The Oculus **  %NOTIFYSOUND(2664,HIGH)% %
+ItemDisplay[oba UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%The Oculus
+// ------------------------------------------------------------------------------------------------ Eschuta's Temper
+ItemDisplay[obc UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%RED%*** %PURPLE% Eschuta's Temper %RED%***%NL%  %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[obc UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Eschuta's Temper
+// ------------------------------------------------------------------------------------------------ Death's Fathom
+ItemDisplay[obf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NL%%PURPLE%*** Death's Fathom ***%NL%  %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[obf UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* %GRAY%ETH %PURPLE%Death's Fathom %RED%* 
+// ------------------------------------------------------------------------------------------------
+//					CL7 AMAZON ITEMS
+// ------------------------------------------------------------------------------------------------ Stoneraven
+ItemDisplay[FILTERLVL<4 amd UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Stoneraven
+ItemDisplay[FILTERLVL<4 amd UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Stoneraven
+// ------------------------------------------------------------------------------------------------ Lycander's Flank
+ItemDisplay[FILTERLVL<4 am9 UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)% %MAPICON(5)% %TAN%Lycander's Flank
+ItemDisplay[FILTERLVL<4 am9 UNI !ID ETH]: %NOTIFY(ITEM,HIGH)% %MAPICON(5)% %GRAY%ETH %TAN%Lycander's Flank
+// ------------------------------------------------------------------------------------------------ Lycander's Aim
+ItemDisplay[FILTERLVL<4 am7 UNI !ID]: %NOTIFY(ITEM,HIGH)% %MAPICON(5)% %TAN%* Lycander's Aim * 
+// ------------------------------------------------------------------------------------------------ Titan's Revenge
+ItemDisplay[ama UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** Titan's Revenge **   %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[ama UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%** %GRAY%ETH %RED%Titan's Revenge **  %NOTIFYSOUND(2664,HIGH)% 
+// ------------------------------------------------------------------------------------------------ Thunderstroke
+ItemDisplay[FILTERLVL<4 amf UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Thunderstroke *  %NOTIFYSOUND(2664,HIGH)% 
+ItemDisplay[FILTERLVL<4 amf UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Thunderstroke  
+// ------------------------------------------------------------------------------------------------ Blood Raven's Charge
+ItemDisplay[FILTERLVL<4 amb UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Blood Raven's Charge
+// 
