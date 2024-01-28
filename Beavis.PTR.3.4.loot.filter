@@ -1899,7 +1899,7 @@ ItemDisplay[SET ETH !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %GRAY%ETH %GREEN%%N
 ItemDisplay[UNI !ID SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NAME% [%SOCKETS%]
 ItemDisplay[SET !ID SOCK>0]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NAME% [%SOCKETS%]	
 ItemDisplay[UNI ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %NAME%
-ItemDisplay[FILTERLVL<4 SET !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %NAME%
+ItemDisplay[FILTERLVL<4 SET ID]: %MAPICON(15,2)% %NAME%
 // -------------------------------------------------------------------------------------------------------------
 //						RUNEWORDS							|
 // -------------------------------------------------------------------------------------------------------------
