@@ -35,7 +35,7 @@ ItemDisplay[FILTERLVL<3 EQ4 TABSK0>2]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Bow
 ItemDisplay[FILTERLVL<3 SK44>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Frost Nova %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK47>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Fire Ball %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal Warriors %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[SK477>2]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage Wand %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[SK477>1]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +2 Hemmorrhage %NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
@@ -1928,7 +1928,7 @@ ItemDisplay[utp NMAG !ETH !SOCK=1 ED=13]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DG
 // -------------------------------------------------------------------------------------------------------------
 //					Archon Plate 30%from highest
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[utp NMAG ETH !SOCK>2 DEF>620]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
+ItemDisplay[utp NMAG ETH SOCK>2 DEF>620]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
 ItemDisplay[utp NMAG !ETH SOCK=0 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[0]{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
 ItemDisplay[utp NMAG !ETH SOCK>2 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
 //
@@ -2009,10 +2009,10 @@ ItemDisplay[(CL1 OR CL2 OR CL4 OR CL5 OR CL6 OR CL7) RARE ETH !ID]: %GRAY%ETH %Y
 // -------------------------------------------------------------------------------------------------------------
 //					Wands,Gloves,Boots,Belts
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[FILTERLVL<4 (WP12 OR EQ4 OR EQ5 OR EQ6) RARE !ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[FILTERLVL<4 (WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
 //Helms
-ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
+ItemDisplay[FILTERLVL<4 (uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL<86]: %YELLOW%%NAME%
 // ItemDisplay[(uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) RARE !ETH !ID CLVL>85]:
 // -------------------------------------------------------------------------------------------------------------
 //						Axes								|
