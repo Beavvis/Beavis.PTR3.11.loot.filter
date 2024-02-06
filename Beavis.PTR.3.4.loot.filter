@@ -35,7 +35,7 @@ ItemDisplay[FILTERLVL<3 EQ4 TABSK0>2]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Bow
 ItemDisplay[FILTERLVL<3 SK44>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Frost Nova %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK47>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Fire Ball %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal Warriors %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[SK477>1]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +2 Hemmorrhage %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ ItemDisplay[mbr]: %NOTIFY(ITEM,HIGH)% %GOLD%Mephisto's Brain
 ItemDisplay[ma1 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% **** %WHITE% %NAME% %WHITE% ****		// Icey Cavern
 ItemDisplay[ma2 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %RED% %NAME% %PURPLE% **** %NL% 	// Forgotten Desert
 ItemDisplay[ma3 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL% 		// Abandoned Precinct [Removed]
-ItemDisplay[ma4 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Desecrated Temple
+ItemDisplay[ma4 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% Desecrated Temple %PURPLE% **** 		// Desecrated Temple
 ItemDisplay[ma5 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% **** 		// Frigid Highlands
 ItemDisplay[ma6 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %RED% %NAME% %PURPLE% **** %NL% 	// Ruined Citadel
 ItemDisplay[ma7 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL%	 	// Burnt Forest
@@ -177,7 +177,7 @@ ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% 
 //ItemDisplay[]: %NAME% %RED%[Report me %CODE% to Beavis]
 ItemDisplay[ma1]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%   			// Icey Cavern
 ItemDisplay[ma2]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %RED% %NAME% 			// Forgotten Desert
-ItemDisplay[ma3]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME%-ma3 		// Abandoned Precinct [Removed]
+ItemDisplay[ma3]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 		// Abandoned Precinct [Removed]
 ItemDisplay[ma4]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 			// Desecrated Temple
 ItemDisplay[ma5]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME% 			// Frigid Highlands
 ItemDisplay[ma6]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 			// Ruined Citadel
@@ -237,9 +237,9 @@ ItemDisplay[RARE jew]: %YELLOW%%NAME%%WHITE% [%ILVL%]
 //						RARES								|
 //					   The worthy ones							|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[(WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
-ItemDisplay[RARE (EQ4 OR EQ5 OR EQ6) !ID]: %BORDER(12,3)%%BGCOLOR(12)%%YELLOW%~       ~%NL%%NAME%%NL%~       ~
+ItemDisplay[FILTERLVL<4 (7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[FILTERLVL<4 (WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[FILTERLVL<4 RARE (EQ4 OR EQ5 OR EQ6) !ID]: %BORDER(12,3)%%BGCOLOR(12)%%YELLOW%~       ~%NL%%NAME%%NL%~       ~
 // -------------------------------------------------------------------------------------------------------------
 //					GEMS									|
 // -------------------------------------------------------------------------------------------------------------
@@ -509,7 +509,7 @@ ItemDisplay[amu MAG ID TABSK50>2]: %ORANGE%+3 Martial Arts: Assassin%CONTINUE%
 // --------------------Color Amulet according to LEVEL ------------------------------
 ItemDisplay[FILTERLVL<4 amu MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[FILTERLVL<4 amu MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[amu MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[amu MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[amu MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Amulets I want to keep
@@ -524,7 +524,7 @@ ItemDisplay[(rin OR amu OR jew) UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BOR
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 rin MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[FILTERLVL<3 rin MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[rin MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[rin MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[rin MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Rings I want to keep
@@ -2681,7 +2681,7 @@ ItemDisplay[CL5 ELT NMAG !ETH !7xf !7cs !7wb !SOCK=1 !SOCK=2 (SK274>0 AND SK258>
 ItemDisplay[CL5 ELT NMAG !ETH !7xf !7cs !7wb !SOCK=1 !SOCK=2 (SK274>0 AND SK267>0)]: %NAME%%ORANGE%+BoI&Fade Combo%GOLD%[%SOCKETS%]
 ItemDisplay[CL5 ELT NMAG !ETH !7xf !7cs !7wb !SOCK=1 !SOCK=2 (SK274>0 AND SK275>0)]: %NAME%%ORANGE%+BoI&DF Combo%GOLD%[%SOCKETS%]
 ItemDisplay[CL5 ELT NMAG !ETH !7xf !7cs !7wb !SOCK=1 !SOCK=2 ED>0 ED<15 SK274>0]: %NAME%%RED% +ED %BLUE%BoI ELT Claw %RED%[%SOCKETS%]
-ItemDisplay[CL5 ELT NMAG !ETH !7xf !7cs !7wb !SOCK=1 !SOCK=2 SK274>0]: %NAME% %BLUE%+BoI ELT Claw %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<4 CL5 ELT NMAG !ETH !7xf !7cs !7wb !SOCK=1 !SOCK=2 SK274>0]: %NAME% %BLUE%+BoI ELT Claw %YELLOW%[%SOCKETS%]
 ItemDisplay[CL5 ELT NMAG !ETH !7xf !7cs !7wb !SOCK=1 !SOCK=2 ED=15]: %NAME% %BLUE%+15ED ELT Claw %PURPLE%[%SOCKETS%]
 ItemDisplay[(7ar OR 7qr) NMAG ELT ETH !SOCK=1 !SOCK=2 ED=15]: ETH %NAME%%BLUE% +15ED Blade Assa Claw%PURPLE%[%SOCKETS%]
 ItemDisplay[(7ar OR 7qr) NMAG ELT ETH !SOCK=1 !SOCK=2 ED>0 ED<15]: ETH %NAME%%BLUE% +ED Blade Assa Claw%RED%[%SOCKETS%]
