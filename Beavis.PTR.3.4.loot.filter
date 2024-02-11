@@ -1956,8 +1956,8 @@ ItemDisplay[7wa ETH NMAG SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base:
 ItemDisplay[7wa ETH NMAG]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %NAME% %RED%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG ED=15 !SOCK=1]: %NOTIFY(ITEM,HIGH)% %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG ED>0 ED<15 !SOCK=1]: %NOTIFY(ITEM,HIGH)% %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
-ItemDisplay[7wa !ETH NMAG SOCK=0]: %NOTIFY(ITEM,HIGH)% %DGREEN%%NAME% %ORANGE%[0]
-ItemDisplay[7wa !ETH NMAG (SOCK=0 OR SOCK=5 OR SOCK=6)]: %NOTIFY(ITEM,HIGH)% %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[7wa !ETH NMAG SOCK=0]: %DGREEN%%NAME% %ORANGE%[0]
+ItemDisplay[7wa !ETH NMAG (SOCK=5 OR SOCK=6)]: %NAME% %WHITE%[%SOCKETS%]
 //
 // -------------------------------------------------------------------------------------------------------------
 //						Thunder Maul
