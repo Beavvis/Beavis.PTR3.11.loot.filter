@@ -190,39 +190,11 @@ ItemDisplay[ma11]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA
 // -------------------------------------------------------------------------------------------------------------
 //					* * * *	RUNES * * * *		Other Sound: %NOTIFYSOUND(2664,HIGH)%	|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[r01]: %NOTIFY(ITEM,LOW)% %TAN%EL [1]
-ItemDisplay[r02]: %NOTIFY(ITEM,LOW)% %TAN%ELD [2]
-ItemDisplay[r03]: %NOTIFY(ITEM,LOW)% %TAN%TIR [3]
-ItemDisplay[r04]: %NOTIFY(ITEM,LOW)% %TAN%NEF [4]
-ItemDisplay[r05]: %NOTIFY(ITEM,LOW)% %TAN%ETH [5]
-ItemDisplay[r06]: %NOTIFY(ITEM,LOW)% %TAN%ITH [6]
-ItemDisplay[r07]: %NOTIFY(ITEM,LOW)% %TAN%TAL [7]
-ItemDisplay[r08]: %NOTIFY(ITEM,LOW)% %ORANGE%RAL [8]
-ItemDisplay[r09]: %NOTIFY(ITEM,LOW)% %TAN%ORT [9]
-ItemDisplay[r10]: %NOTIFY(ITEM,LOW)% %BORDER(11,2)% %TAN%THUL [10] %BGCOLOR(225)% %MAPICON(30,33)%
-ItemDisplay[r11]: %NOTIFY(ITEM,LOW)% %TAN%AMN [11] %BORDER(11,2)% %BGCOLOR(225)% %MAPICON(30,33)%
-ItemDisplay[r12]: %NOTIFY(ITEM,LOW)% %ORANGE%SOL [12]%BORDER(11,2)% %BGCOLOR(225)% %MAPICON(30,32)%
-ItemDisplay[r13]: %NOTIFY(ITEM,LOW)% %TAN%SHAEL [13] %BORDER(11,2)% %BGCOLOR(225)% %MAPICON(30,33)%
-ItemDisplay[r14]: %NOTIFY(ITEM,LOW)% %TAN%DOL [14] %BORDER(11,2)% %BGCOLOR(225)% %MAPICON(30,22)%
-ItemDisplay[r15]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(92,25)%%BORDER(11,2)%%ORANGE%[15] ****** HEL ****** [15]%NL% 
-ItemDisplay[r16]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(92,25)%%BORDER(11,2)%%PURPLE%[16] ******* IO ******* [16]%NL% 
-ItemDisplay[r17]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(92,25)%%BORDER(11,2)%%PURPLE%[17] ******** LUM ******** [17]%NL% 
-ItemDisplay[r18]: %NOTIFY(ITEM,HIGH)%%MAPICON(92,25)%%BORDER(11,2)%%NL%%PURPLE%[18] ********* KO ********* [18]%NL% 
-ItemDisplay[r19]: %NOTIFY(ITEM,HIGH)%%MAPICON(92,25)%%BORDER(11,2)%%NL%%PURPLE%[15] ********** FAL ********** [19]%NL% 
-ItemDisplay[r20]: %NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%BORDER(11,2)%%NL%%PURPLE%******** %GREEN%LEM %PURPLE%********%NL%[20]
-ItemDisplay[r21]: %NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%BORDER(11,2)%%NL%%PURPLE%******** %GREEN%PUL %PURPLE%********%NL%[21] 
-ItemDisplay[r22]: %NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%BORDER(11,2)%%NL%%PURPLE%******** %GREEN%UM %PURPLE%********%NL%[22] %NOTIFYSOUND(31,MEDIUM)%
-ItemDisplay[r23]: %NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%BORDER(11,2)%%NL%%PURPLE%******** %GREEN%MAL %PURPLE%********%NL%[23] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r24]: %NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%BORDER(11,2)%%NL%%PURPLE%******** %GREEN%IST %PURPLE%********%NL%[24] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r25]: %NOTIFY(ITEM,HIGH)%%MAPICON(93,25)%%BORDER(11,2)%%NL%%PURPLE%*********** %GREEN%GUL %PURPLE%***********%NL%[25] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r26]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%VEX %PURPLE%******%GREEN%*****%PURPLE%******%NL%[26] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r27]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%OHM %PURPLE%******%GREEN%*****%PURPLE%******%NL%[27] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r28]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%LO %PURPLE%******%GREEN%*****%PURPLE%******%NL%[28] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r29]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%SUR %PURPLE%******%GREEN%*****%PURPLE%******%NL%[29] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r30]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%BER %PURPLE%******%GREEN%*****%PURPLE%******%NL%[30] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r31]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%JAH %PURPLE%******%GREEN%*****%PURPLE%******%NL%[31] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r32]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%CHAM %PURPLE%******%GREEN%*****%PURPLE%******%NL%[32] %NOTIFYSOUND(418,HIGH)%
-ItemDisplay[r33]: %NOTIFY(ITEM,HIGH)%%MAPICON(96,1)%%BORDER(8,3)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%ZOD %PURPLE%******%GREEN%*****%PURPLE%******%NL%[33] %NOTIFYSOUND(418,HIGH)%
+ItemDisplay[FILTERLVL<5 RUNE RUNETIER<10]: %NOTIFY(ITEM,LOW)%%MAPICON(27,3)% %BGCOLOR(140)%%BORDER(10,3)% %TAN%%RUNENAME% [%RUNETIER%]
+ItemDisplay[RUNE (RUNETIER>9 AND RUNETIER<15)]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(30,9)% %BGCOLOR(111)% %BORDER(10,3)% %TAN%%RUNENAME% [%RUNETIER%]
+ItemDisplay[RUNE (RUNETIER>14 AND RUNETIER<20)]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(29,9)% %BGCOLOR(96)% %BORDER(10,3)% %TAN%%RUNENAME% [%RUNETIER%]
+ItemDisplay[RUNE (RUNETIER>19 AND RUNETIER<25)]: %NOTIFY(ITEM,HIGH)%%MAPICON(31,1)%%NOTIFYSOUND(2664,HIGH)% %BORDER(11,2)%%BGCOLOR(118)%%NL% %PURPLE%***********%GREEN% %NAME% %PURPLE%*********** %NL%[%RUNETIER%]
+ItemDisplay[RUNE RUNETIER>24]: %NOTIFY(ITEM,HIGH)%%MAPICON(30,2)%%NOTIFYSOUND(418,HIGH)% %BORDER(8,109)%%BGCOLOR(225)%%NL%%PURPLE%******%GREEN%*****%PURPLE%****** %GREEN%%RUNENAME%%PURPLE% ******%GREEN%*****%PURPLE%******%NL%[%RUNETIER%]
 // -------------------------------------------------------------------------------------------------------------
 //			 		Magic/Rare JEWELs							|
 // -------------------------------------------------------------------------------------------------------------
@@ -2114,10 +2086,10 @@ ItemDisplay[FILTERLVL<4 (msk OR xsk) NMAG SOCK=3 !ETH]: %NAME% [%SOCKETS%]
 //						EQ2 BODY ARMORS
 //						92+ base hide
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[EQ2 CLVL>91 ELT NMAG ETH SOCK>2]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%DGREEN%[%SOCKETS%]
-ItemDisplay[EQ2 CLVL>91 ELT NMAG ETH SOCK=0 ED>9]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% 10+ED%DGREEN%[%SOCKETS%]
-ItemDisplay[EQ2 CLVL>91 ELT NMAG !ETH SOCK>2 (uui OR uea OR ula OR utu OR urs OR utp) DEF>495]: %DGREEN%%NAME% %ORANGE%[%DEF%]%DGREEN%[%SOCKETS%]%MAPICON(14,5)%
-ItemDisplay[EQ2 CLVL>91 ELT NMAG !ETH SOCK=0 ED>9 (uui OR uea OR ula OR utu OR urs OR utp)]: %DGREEN%%NAME% [%DEF%]%BLUE% 10+ED%DGREEN%[%SOCKETS%]
+ItemDisplay[EQ2 ELT NMAG ETH SOCK>2]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%DGREEN%[%SOCKETS%]MAPICON(14,5)%
+ItemDisplay[EQ2 ELT NMAG ETH SOCK=0 ED>9]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% 10+ED%DGREEN%[%SOCKETS%]MAPICON(14,5)%
+ItemDisplay[EQ2 ELT NMAG !ETH SOCK>2 (uui OR uea OR ula OR utu OR urs OR utp) DEF>495]: %DGREEN%%NAME% %ORANGE%[%DEF%]%DGREEN%[%SOCKETS%]%MAPICON(14,5)%
+ItemDisplay[EQ2 ELT NMAG !ETH SOCK=0 ED>9 (uui OR uea OR ula OR utu OR urs OR utp)]: %DGREEN%%NAME% [%DEF%]%BLUE% 10+ED%DGREEN%[%SOCKETS%]MAPICON(14,5)%
 ItemDisplay[EQ2 CLVL>91 NMAG]:
 // -------------------------------------------------------------------------------------------------------------
 //						All elite (!Shadow/Sacred/Hellforged)
@@ -2131,8 +2103,8 @@ ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT NMAG !ETH !SOCK=1]: %NAME% [%DEF%] 
 // -------------------------------------------------------------------------------------------------------------
 //				Dusk Shroud/Great Hauberk/Archon Plate/Sacred Armor
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[(utp OR uui OR urs) NMAG ETH !SOCK=1 ED=14]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% +14ED%PURPLE%[%SOCKETS%]
-ItemDisplay[(utp OR uui OR urs) NMAG !ETH !SOCK=1 ED=14]: %DGREEN%%NAME% [%DEF%]%BLUE% +14ED%PURPLE%[%SOCKETS%]
+ItemDisplay[(utp OR uui OR urs) NMAG ETH !SOCK=1 ED=14]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% +14ED%PURPLE%[%SOCKETS%]MAPICON(14,5)%
+ItemDisplay[(utp OR uui OR urs) NMAG !ETH !SOCK=1 ED=14]: %DGREEN%%NAME% [%DEF%]%BLUE% +14ED%PURPLE%[%SOCKETS%]MAPICON(14,5)%
 
 // -------------------------------------------------------------------------------------------------------------
 //				HIGH DEF ARMORS (MAX 5% FROM HIGHEST NON ED DEF)
