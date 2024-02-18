@@ -2695,14 +2695,14 @@ ItemDisplay[CL6 SK47=2 ILVL<67]: %GRAY%%NAME% %ORANGE%+2 Fire Ball%WHITE%[%SOCKE
 // -------------------------------------------------------------------------------------------------------------
 //					CL7 AMAZON BOWS
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[(amb OR amc) NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+15ED +3Bow%PURPLE%[%SOCKETS%]
-ItemDisplay[(amb OR amc) NMAG ED=14 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+14ED +3Bow%PURPLE%[%SOCKETS%]
-ItemDisplay[(amb OR amc) NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+ED +3Bow%RED%[%SOCKETS%]
-ItemDisplay[(am1 OR amb OR am6) NMAG TABSK0>2 SOCK=3 CLVL>84]: %DGREEN%%NAME% %ORANGE%Melody Base Ele Bowzon %BLUE%+3Bow%WHITE%[%SOCKETS%]
-ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=4]: %DGREEN%%NAME% %BLUE%+3Bow%YELLOW%[%SOCKETS%]
-ItemDisplay[am6 NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+15ED +3Bow%RED%[%SOCKETS%]
-ItemDisplay[am6 NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+ED +3Bow%RED%[%SOCKETS%]
-ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=0]: %DGREEN%%NAME% %BLUE%+3Bow%WHITE%[%SOCKETS%]
+ItemDisplay[(amb OR amc) NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+15ED +3Bow%PURPLE%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
+ItemDisplay[(amb OR amc) NMAG ED=14 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+14ED +3Bow%PURPLE%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
+ItemDisplay[(amb OR amc) NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+ED +3Bow%RED%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
+ItemDisplay[(am1 OR amb OR am6) NMAG TABSK0>2 SOCK=3 CLVL>84]: %DGREEN%%NAME% %ORANGE%Melody Base Ele Bowzon %BLUE%+3Bow%WHITE%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
+ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=4]: %DGREEN%%NAME% %BLUE%+3Bow%YELLOW%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
+ItemDisplay[am6 NMAG ED=15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+15ED +3Bow%RED%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
+ItemDisplay[am6 NMAG ED>0 ED<15 TABSK0>2 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %BLUE%+ED +3Bow%RED%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
+ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=0]: %DGREEN%%NAME% %BLUE%+3Bow%WHITE%[%SOCKETS%]%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)%
 // -------------------------------------------------------------------------------------------------------------
 //					AMAZON JAVELINS
 // -------------------------------------------------------------------------------------------------------------
