@@ -734,7 +734,7 @@ ItemDisplay[FILTERLVL<4 xow UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%*
 ItemDisplay[FILTERLVL<4 xow UNI !ID ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Gerke's Sanctuary
 // ------------------------------------------------------------------------------------------------ Lidless Wall
 ItemDisplay[FILTERLVL<4 xsh UNI !ID !ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %RED%* Lidless Wall *
-ItemDisplay[FILTERLVL<4 xsh UNI !ID ETH]: %NOTIFY(ITEM,MEDIAM)%%MAPICON(5)% %GRAY%ETH %TAN%Lidless Wall
+ItemDisplay[FILTERLVL<4 xsh UNI !ID ETH]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(5)% %GRAY%ETH %TAN%Lidless Wall
 // ------------------------------------------------------------------------------------------------ Radament's Sphere
 ItemDisplay[FILTERLVL<4 xts UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%* Radament's Sphere *
 ItemDisplay[FILTERLVL<4 xts UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Radament's Sphere
