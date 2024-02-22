@@ -52,7 +52,7 @@ ItemDisplay[hp4 CLVL<70]: %BORDER(10,4)%%GREEN%!%RED%Grt HP
 ItemDisplay[hp4]:
 // --------------------------------------------------------------
 ItemDisplay[mp4 CLVL<70]: %GREEN%!%BLUE%Grt Mana
-ItemDisplay[FILTERLVL<4 mp4]: %GREEN%!%BLUE%Grt Mana
+ItemDisplay[FILTERLVL<3 mp4]: %GREEN%!%BLUE%Grt Mana
 // --------------------------------------------------------------
 ItemDisplay[hp1 CLVL<15]:%BORDER(10,4)%%GREEN%!%RED%Min HP
 ItemDisplay[hp2 CLVL<18]:%BORDER(10,4)%%GREEN%!%RED%Lite HP
@@ -86,7 +86,7 @@ ItemDisplay[ibk]: %WHITE%Tome of Identify
 //						Utility pots							|
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[wms CLVL<61]: %GREEN%!%YELLOW%Thaw					// Show Thaw when Character Level under 61
-ItemDisplay[wms CLVL>0]: 							// Hide Thaw when Character Level over 61
+ItemDisplay[wms CLVL>0]: 							                  // Hide Thaw when Character Level over 61
 ItemDisplay[yps CLVL<61]: %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Hide Anidote Character Level under 61
 ItemDisplay[FILTERLVL<4 yps]:  %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Show Antidote all levels (Edit Here to hide)
 ItemDisplay[vps CLVL<30]: %GREEN%!%WHITE%Stam
@@ -277,7 +277,7 @@ ItemDisplay[sku CLVL>49]:
 // 		Flawless Gems	|
 //	-------------------------
 //
-ItemDisplay[FILTERLVL<4 gzv]:%MAPICON(67,11)%%BGCOLOR(155)%%PURPLE%\|/%NL%/|\	//Flawless Amethyst
+ItemDisplay[FILTERLVL<5 gzv]:%MAPICON(67,11)%%BGCOLOR(155)%%PURPLE%\|/%NL%/|\	//Flawless Amethyst
 ItemDisplay[FILTERLVL<4 glw]:%MAPICON(67,25)%%BGCOLOR(30)%%WHITE%\|/%NL%/|\	//Flawless Diamond
 ItemDisplay[FILTERLVL<4 glg]:%MAPICON(67,2)%%BGCOLOR(118)%%GREEN%\|/%NL%/|\	//Flawless Emerald
 ItemDisplay[FILTERLVL<4 glr]:%MAPICON(66,25)%%BGCOLOR(8)%%RED%\|/%NL%/|\	//Flawless Ruby
