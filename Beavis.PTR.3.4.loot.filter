@@ -1915,7 +1915,8 @@ ItemDisplay[uit NMAG !ETH ED>0 ED<15 (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MA
 ItemDisplay[uit NMAG !ETH SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: %DGREEN%%NAME% [%DEF%] %YELLOW%[%SOCKETS%]{%YELLOW%Spirit: %ORANGE%Tal-Thul-Ort-Amn%NL%%YELLOW%Phoenix: %ORANGE%Vex-Vex-Lo-Jah}
 ItemDisplay[uit NMAG !ETH SOCK=0 (STAT91>1 OR DEF>149)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% [%DEF%] %WHITE%[%SOCKETS%]
 ItemDisplay[uit NMAG ETH (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %WHITE%%NAME% [%DEF%] %YELLOW%[%SOCKETS%]
-ItemDisplay[uit NMAG !ETH SOCK=0 STAT91>2]:%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% MYNEWITEM - REQUIREMENTS 
+ItemDisplay[uit NMAG !ETH SOCK=0 STAT91>2]:%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% -REQUIREMENTS
+ItemDisplay[uit NMAG !ETH SOCK=0]:%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% [%DEF%]
 // -------------------------------------------------------------------------------------------------------------
 //						Berserker Axe
 // -------------------------------------------------------------------------------------------------------------
