@@ -171,6 +171,8 @@ ItemDisplay[ma9 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %PURPLE% **** %YELLOW% %N
 ItemDisplay[ma10 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% **** %NAME% %WHITE% ****			// Icey Cavern
 ItemDisplay[ma11 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
 ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
+ItemDisplay[MAP]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
+ItemDisplay[(ma1 OR ma3 OR maz)]: %NAME%
 // -------------------------------------------------------------------------------------------------------------
 //					IDENTIFIED MAPS								|
 // -------------------------------------------------------------------------------------------------------------
