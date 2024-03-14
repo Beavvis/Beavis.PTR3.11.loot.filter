@@ -35,7 +35,8 @@ ItemDisplay[FILTERLVL<3 EQ4 TABSK0>2]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Bow
 ItemDisplay[FILTERLVL<3 SK44>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Frost Nova %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK47>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Fire Ball %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal Warriors %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[SK277>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Blade Shield %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
