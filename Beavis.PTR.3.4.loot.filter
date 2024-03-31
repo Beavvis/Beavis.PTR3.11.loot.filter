@@ -917,8 +917,8 @@ ItemDisplay[FILTERLVL<4 gax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%E
 ItemDisplay[FILTERLVL<4 gix UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Humongous
 ItemDisplay[FILTERLVL<4 gix UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Humongous
 // ------------------------------------------------------------------------------------------------ Coldkill
-ItemDisplay[FILTERLVL<4 9ha UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Coldkill
-ItemDisplayFILTERLVL<4 [9ha UNI !ID ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %GRAY%ETH %TAN%Coldkill
+ItemDisplay[FILTERLVL<4 [9ha UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Coldkill
+ItemDisplay[FILTERLVL<4 [9ha UNI !ID ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %GRAY%ETH %TAN%Coldkill
 // ------------------------------------------------------------------------------------------------ Butcher's Pupil
 ItemDisplay[FILTERLVL<4 9ax UNI !ID !ETH]:%NOTIFY(ITEM,LOW)%%MAPICON(5)%  %TAN%Butcher's Pupil
 ItemDisplay[FILTERLVL<4 9ax UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %RED%Butcher's Pupil
