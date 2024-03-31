@@ -1894,6 +1894,8 @@ ItemDisplay[UNI jew STAT49>1]: %GREEN% % % % % % % %RED% FIRE-FACET  %GREEN% % %
 ItemDisplay[UNI jew STAT55>1]: %GREEN% % % % % % % %BLUE% COLD-FACET %GREEN% % % % % % % %
 ItemDisplay[UNI jew STAT51>1]: %GREEN% % % % % % % %YELLOW% LIGHT-FACET %GREEN% % % % % % % %
 ItemDisplay[UNI jew STAT58>1]: %GREEN% % % % % % % %PURPLE% POISON-FACET %GREEN% % % % % % % %
+ItemDisplay[UNI jew STAT53>1]: %GREEN% % % % % % % %GREEN% MAGIC-FACET %GREEN% % % % % % % %
+ItemDisplay[UNI jew STAT399>1]: %GREEN% % % % % % % %WHITE% PHYSICAL-FACET %GREEN% % % % % % % %
 ItemDisplay[UNI !ID cm3]:  %NL%          %%RED% %%% %GOLD%%NAME% %RED% %%%%         %NL%
 // -------------------------------------------------------------------------------------------------------------
 //						Archon Plate
