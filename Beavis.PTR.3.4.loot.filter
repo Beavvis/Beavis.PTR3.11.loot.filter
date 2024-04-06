@@ -362,7 +362,7 @@ ItemDisplay[cm3 MAG !ID ILVL>77]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3
 ItemDisplay[cm3 MAG !ID ILVL<78]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3)% %BGCOLOR(140)% %BLUE%* %NAME% %WHITE%[%ILVL%]%BLUE% *   
 //
 ItemDisplay[cm3 MAG CLVL<30]: %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
-ItemDisplay[cm3 MAG CLVL>85]: %GREEN% %NAME% %ORANGE%[%ILVL%]			// Hide Low Grand Charms
+ItemDisplay[FILTERLVL<3 cm3 MAG CLVL>85]: %GREEN% %NAME% %ORANGE%[%ILVL%]			// Hide Low Grand Charms
 // -------------------------------------------------------------------------------------------------------------
 //	Small Charms			PHASE-1 Look for Main Values						|
 // -------------------------------------------------------------------------------------------------------------
@@ -437,7 +437,7 @@ ItemDisplay[MAG cm1 ID CLVL<50]: %NAME%									// Show everything Character lev
 // -------------------------------------------------------------------------------------------------------------
 //
 ItemDisplay[MAG cm1 !ID ILVL>47]: %NOTIFY(ITEM,HIGH)%%MAPICON(55,25)% %BORDER(118,140)% %BGCOLOR(145)%%NL%%GREEN%*** %NAME% %ORANGE%[%ILVL%]%GREEN% ***%NL% 
-ItemDisplay[MAG cm1 ILVL<48]: %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
+ItemDisplay[FILTERLVL<3 MAG cm1 ILVL<48]: %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
 //
 ItemDisplay[cm1 MAG !ID ILVL>89]: %NOTIFY(ITEM,HIGH)%%MAPICON(2)% %BLUE%* %NAME% %ORANGE%[%ILVL%]%BLUE% *
 ItemDisplay[cm1 MAG !ID ILVL<90 ILVL>47]: %NOTIFY(ITEM,HIGH)% %MAPICON(2)% %BLUE%* %NAME% %WHITE%[%ILVL%]%BLUE% *
