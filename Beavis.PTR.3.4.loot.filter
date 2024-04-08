@@ -410,13 +410,13 @@ ItemDisplay[cm1 ID STAT45>8]: %GREEN% + %STAT(45,0)% PoisonRes %CONTINUE%		// +P
 // -------------------------------------------------------------------------------------------------------------
 //	Small Charms		Low-Value Utility 						|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[cm1 ID STAT0>0]: %NAME%%WHITE% +%STAT(0,0)% Str %CONTINUE%		// Strength
-ItemDisplay[cm1 ID STAT1>0]: %NAME% +%STAT(1,0)% Energy %CONTINUE%			// Energy
-ItemDisplay[cm1 ID STAT2>0]: %NAME%%WHITE% +%STAT(2,0)% Dex %CONTINUE%		// Dexterity
-ItemDisplay[cm1 ID STAT79>0]: %NAME%%GOLD% +%STAT(79,0)% GoldFind %CONTINUE%	// Gold Find
-ItemDisplay[cm1 ID STAT80>9]: %NAME%%GOLD% +%STAT(80,0)% MagicFind %CONTINUE%	// Magic Find
-ItemDisplay[cm1 ID STAT96=3]: %NAME%%ORANGE% +3-Run/Walk %CONTINUE%			// +3 Run/Walk
-ItemDisplay[cm1 ID STAT99=5]: %NAME%%ORANGE% 5%HitRec %CONTINUE%			// 5% Hit Recovery
+ItemDisplay[FILTERLVL<3 cm1 ID STAT0>0]: %NAME%%WHITE% +%STAT(0,0)% Str %CONTINUE%		// Strength
+ItemDisplay[FILTERLVL<3 cm1 ID STAT1>0]: %NAME% +%STAT(1,0)% Energy %CONTINUE%			// Energy
+ItemDisplay[FILTERLVL<3 cm1 ID STAT2>0]: %NAME%%WHITE% +%STAT(2,0)% Dex %CONTINUE%		// Dexterity
+ItemDisplay[FILTERLVL<3 cm1 ID STAT79>0]: %NAME%%GOLD% +%STAT(79,0)% GoldFind %CONTINUE%	// Gold Find
+ItemDisplay[FILTERLVL<3 cm1 ID STAT80>9]: %NAME%%GOLD% +%STAT(80,0)% MagicFind %CONTINUE%	// Magic Find
+ItemDisplay[FILTERLVL<3 cm1 ID STAT96=3]: %NAME%%ORANGE% +3-Run/Walk %CONTINUE%			// +3 Run/Walk
+ItemDisplay[FILTERLVL<3 cm1 ID STAT99=5]: %NAME%%ORANGE% 5%HitRec %CONTINUE%			// 5% Hit Recovery
 // -------------------------------------------------------------------------------------------------------------
 //		##################################################################################
 //		Small Charms: Show on ground Filters - Here is where I print Charms I want to keep
