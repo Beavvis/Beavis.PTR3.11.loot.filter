@@ -2,7 +2,7 @@
 //			THIS FILTER WORKS FOR PTR ONLY
 // *******************************************************************************
 // Beavvis filter	Version 3.40
-// Date:		January 2024
+// Date:		April 2024
 //
 // DISCORD:		Beavis_
 // DII Season:		Cornholio
@@ -37,6 +37,7 @@ ItemDisplay[FILTERLVL<3 SK47>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Fire Ball 
 ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal Warriors %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[SK277>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Blade Shield %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[TABSK34>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Warcries %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
