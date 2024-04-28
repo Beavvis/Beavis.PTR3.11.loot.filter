@@ -38,6 +38,8 @@ ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal W
 ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[SK277>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Blade Shield %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[TABSK34>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Warcries %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uit !ETH NMAG DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)%%PURPLE% %NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[CL3 !ETH NMAG DEF>190]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL% %NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
@@ -152,12 +154,12 @@ ItemDisplay[maz]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 // -------------------------------------------------------------------------------------------------------------
 //						Uber Keys							|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)% %GOLD%Terror %PURPLE%*%GOLD%Countess%PURPLE%*
-ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)% %GOLD%Hate %RED%*%GOLD%Summoner%RED%*
-ItemDisplay[pk3]: %NOTIFY(ITEM,HIGH)% %GOLD%Destruction %GREEN%*%GOLD%Nihlathak%GREEN%*
-ItemDisplay[dhn]: %NOTIFY(ITEM,HIGH)% %GOLD%Diablo's Horn
-ItemDisplay[bey]: %NOTIFY(ITEM,HIGH)% %GOLD%Baal's Eye
-ItemDisplay[mbr]: %NOTIFY(ITEM,HIGH)% %GOLD%Mephisto's Brain
+ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %NL%%SPACE%%GOLD%Terror %PURPLE%*%GOLD%Countess%PURPLE%*%NL%%SPACE%
+ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %NL%%SPACE%%GOLD%Hate %RED%*%GOLD%Summoner%RED%*%NL%%SPACE%
+ItemDisplay[pk3]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Destruction %GREEN%*%GOLD%Nihlathak%GREEN%*%NL%%SPACE%
+ItemDisplay[dhn]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Diablo's Horn%NL%%SPACE%
+ItemDisplay[bey]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Baal's Eye%NL%%SPACE%
+ItemDisplay[mbr]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Mephisto's Brain%NL%%SPACE%
 // -------------------------------------------------------------------------------------------------------------
 //					UNIDENTIFIED MAPS							|
 // -------------------------------------------------------------------------------------------------------------
@@ -1919,10 +1921,10 @@ ItemDisplay[uit NMAG !ETH ED=15 SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRA
 ItemDisplay[uit NMAG !ETH ED=15 SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +15ED %PURPLE%[%SOCKETS%]
 ItemDisplay[uit NMAG !ETH ED>0 ED<15 (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +ED %RED%[%SOCKETS%]
 ItemDisplay[uit NMAG !ETH SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: %DGREEN%%NAME% [%DEF%] %YELLOW%[%SOCKETS%]{%YELLOW%Spirit: %ORANGE%Tal-Thul-Ort-Amn%NL%%YELLOW%Phoenix: %ORANGE%Vex-Vex-Lo-Jah}
-ItemDisplay[uit NMAG !ETH SOCK=0 (STAT91>1 OR DEF>149)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% [%DEF%] %WHITE%[%SOCKETS%]
-ItemDisplay[uit NMAG ETH (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %WHITE%%NAME% [%DEF%] %YELLOW%[%SOCKETS%]
-ItemDisplay[uit NMAG !ETH SOCK=0 STAT91>2]:%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% -REQUIREMENTS
-ItemDisplay[uit NMAG !ETH SOCK=0]:%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% [%DEF%]
+ItemDisplay[uit NMAG !ETH SOCK=0 (STAT91<5 OR DEF>149)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% [%DEF%] %WHITE%[%SOCKETS%]
+ItemDisplay[uit NMAG ETH (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %WHITE%%NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
+ItemDisplay[uit NMAG !ETH SOCK>2 STAT91<5]: %NOTIFY(ITEM,HIGH)% %MAPICON(14,5)% %BLUE%Requirements -% %NL% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<4 uit NMAG !ETH !SUP SOCK=0]:%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
 // -------------------------------------------------------------------------------------------------------------
 //						Berserker Axe
 // -------------------------------------------------------------------------------------------------------------
