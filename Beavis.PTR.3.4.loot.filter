@@ -38,8 +38,8 @@ ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal W
 ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[SK277>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Blade Shield %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[TABSK34>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Warcries %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[uit !ETH NMAG DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)%%PURPLE% %NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[CL3 !ETH NMAG DEF>190]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[uit !ETH NMAG DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)%%PURPLE% %NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]%NL%%SPACE%
+ItemDisplay[CL3 !ETH NMAG DEF>190]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
