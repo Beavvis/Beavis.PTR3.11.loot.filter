@@ -2,7 +2,7 @@
 //			THIS FILTER WORKS FOR PTR ONLY
 // *******************************************************************************
 // Beavvis filter	Version 3.40
-// Date:		April 2024
+// Date:		May 2024
 //
 // DISCORD:		Beavis_
 // DII Season:		Cornholio
@@ -29,7 +29,6 @@ FilterLevel[4]: END-GAME
 // -------------------------------------------------------------------------------------------------------------
 //			Here is where I am searching for new items requested
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<3 7fb NMAG ETH]: %NOTIFY(ITEM,HIGH)% %GRAY%ETH %DGREEN%%NAME%%BLUE%%PURPLE%[%SOCKETS%]
 ItemDisplay[FILTERLVL<3 EQ4 TABSK2>2]: %NOTIFY(ITEM,HIGH)% %NAME%%PURPLE% +3 Javelin & Spear %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 EQ4 TABSK0>2]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Bow $kill$ %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK44>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Frost Nova %NOTIFYSOUND(2664,HIGH)%
@@ -38,8 +37,7 @@ ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal W
 ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[SK277>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Blade Shield %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[TABSK34>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Warcries %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[uit !ETH NMAG DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)%%PURPLE% %NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]%NL%%SPACE%
-ItemDisplay[CL3 !ETH NMAG DEF>190]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%
+ItemDisplay[CL3 !ETH NMAG RES>20 DEF>190]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
@@ -1919,12 +1917,16 @@ ItemDisplay[utp NMAG !ETH SOCK>2 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %D
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[uit NMAG !ETH ED=15 SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: %DGREEN%%NAME% [%DEF%]%BLUE% +15ED %PURPLE%[0]{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
 ItemDisplay[uit NMAG !ETH ED=15 SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +15ED %PURPLE%[%SOCKETS%]
-ItemDisplay[uit NMAG !ETH ED>0 ED<15 (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +ED %RED%[%SOCKETS%]
 ItemDisplay[uit NMAG !ETH SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: %DGREEN%%NAME% [%DEF%] %YELLOW%[%SOCKETS%]{%YELLOW%Spirit: %ORANGE%Tal-Thul-Ort-Amn%NL%%YELLOW%Phoenix: %ORANGE%Vex-Vex-Lo-Jah}
-ItemDisplay[uit NMAG !ETH SOCK=0 (STAT91<5 OR DEF>149)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% [%DEF%] %WHITE%[%SOCKETS%]
-ItemDisplay[uit NMAG ETH (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %WHITE%%NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
-ItemDisplay[uit NMAG !ETH SOCK>2 STAT91<5]: %NOTIFY(ITEM,HIGH)% %MAPICON(14,5)% %BLUE%Requirements -% %NL% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
+//
+ItemDisplay[uit NMAG !ETH DEF>160]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %GRAY%Base: %PURPLE%%NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]%NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+ItemDisplay[uit NMAG !ETH DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %GRAY%Base: %GREEN%%NAME% %DGREEN%[%DEF%] %WHITE%[%SOCKETS%]%NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+//
+ItemDisplay[uit NMAG !ETH (ED>0 AND ED<15) (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +ED %RED%[%SOCKETS%]
+ItemDisplay[FILTERLVL<4 uit NMAG ETH (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %WHITE%%NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<4 uit NMAG !ETH SOCK>2 STAT91<5]: %NOTIFY(ITEM,HIGH)% %MAPICON(14,5)% %BLUE%Requirements -% %NL% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
 ItemDisplay[FILTERLVL<4 uit NMAG !ETH !SUP SOCK=0]:%NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<4 uit NMAG !ETH SOCK=0]:%NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
 // -------------------------------------------------------------------------------------------------------------
 //						Berserker Axe
 // -------------------------------------------------------------------------------------------------------------
@@ -1938,8 +1940,8 @@ ItemDisplay[7wa ETH NMAG SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base:
 ItemDisplay[7wa ETH NMAG SOCK=5]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %NAME% %RED%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG ED=15 !SOCK=1]: %NOTIFY(ITEM,HIGH)% %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG ED>0 ED<15 !SOCK=1]: %NOTIFY(ITEM,HIGH)% %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
-ItemDisplay[7wa !ETH NMAG SOCK=0]: %DGREEN%%NAME% %ORANGE%[0]
-ItemDisplay[7wa !ETH NMAG (SOCK=5 OR SOCK=6)]: %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 7wa !ETH NMAG SOCK=0]: %DGREEN%%NAME% %ORANGE%[0]
+ItemDisplay[FILTERLVL<4 7wa !ETH NMAG (SOCK=5 OR SOCK=6)]: %NAME% %WHITE%[%SOCKETS%]
 //
 // -------------------------------------------------------------------------------------------------------------
 //						Thunder Maul
@@ -2306,11 +2308,13 @@ ItemDisplay[7fb NMAG ETH !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME% %WHITE%[%SOC
 // -------------------------------------------------------------------------------------------------------------
 //					Colossus Blade
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[7gd NMAG !ETH ED=15 SOCK>1]: %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
-ItemDisplay[7gd NMAG !ETH ED>0 ED<15 SOCK>2]: %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
+ItemDisplay[7gd NMAG ETH SOCK=6]: %GRAY%BASE: ETH %DGREEN%%NAME% %WHITE%[%SOCKETS%]{%GREEN%Breath of the Dying: %YELLOW%Vex Hel El Eld Zod Eth}
 ItemDisplay[7gd NMAG ETH ED=15 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7gd NMAG ETH ED>0 ED<15 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
 ItemDisplay[7gd NMAG ETH !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[7gd NMAG !ETH ED=15 SOCK>1]: %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
+ItemDisplay[7gd NMAG !ETH ED>0 ED<15 SOCK>2]: %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
+
 // -------------------------------------------------------------------------------------------------------------
 //			WP4 DAGGERS
 //			WP5 THROWING
