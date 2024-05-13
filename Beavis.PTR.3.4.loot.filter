@@ -175,8 +175,8 @@ ItemDisplay[ma9 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %PURPLE% **** %YELLOW% %N
 ItemDisplay[ma10 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% **** %NAME% %WHITE% ****			// Icey Cavern
 ItemDisplay[ma11 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
 ItemDisplay[ma12 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% **** %RED% %NAME% %RED% ****			// Baleful Alcazar
-ItemDisplay[ma13 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %RED% **** %YELLOW% %NAME% %RED% ****			// Decomposing Settlement
-ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// CATCH-ALL-NEW-MAPs
+ItemDisplay[ma13 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %RED% **** %YELLOW% %NAME% %RED% ****			// Decomposing Settlement
+ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// CATCH-ALL-NEW-MAPs
 // -------------------------------------------------------------------------------------------------------------
 //					IDENTIFIED MAPS								|
 // -------------------------------------------------------------------------------------------------------------
@@ -312,7 +312,7 @@ ItemDisplay[cm1 UNI !ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Annihilus %PUR
 ItemDisplay[cm1 UNI ID]: %NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Annihilus %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%%MAPICON(96,1)%
 ItemDisplay[cm2 UNI !ID]:%NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Hellfire Torch %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%%MAPICON(96,1)%
 ItemDisplay[cm2 UNI ID]:%NOTIFY(ITEM,HIGH)% %PURPLE%***** %GOLD%Hellfire Torch %PURPLE%***** %NOTIFYSOUND(2664,HIGH)%%MAPICON(96,1)%
-ItemDisplay[cm3 UNI !ID]: %NOTIFY(ITEM,HIGH)%%BGCOLOR(118)%%MAPICON(58,9)% %PURPLE%*** %GOLD%Gheed's Fortune %PURPLE%***%NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[cm3 UNI !ID]: %NOTIFY(ITEM,HIGH)%%BGCOLOR(118)%%MAPICON(58,9)% %SPACE%%NL% %PURPLE%*** %GOLD%Gheed's Fortune %PURPLE%***%NL%%SPACE% %NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 //					Identified Grand SKILLERS							|
 // -------------------------------------------------------------------------------------------------------------
