@@ -37,7 +37,6 @@ ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal W
 ItemDisplay[SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[SK277>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Blade Shield %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[TABSK34>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Warcries %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[CL3 !ETH NMAG RES>20 DEF>190]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
@@ -161,6 +160,9 @@ ItemDisplay[mbr]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%G
 // -------------------------------------------------------------------------------------------------------------
 //					UNIDENTIFIED MAPS							|
 // -------------------------------------------------------------------------------------------------------------
+// ItemDisplay[(ma1 OR ma3 OR maz)]: %NAME%
+// ItemDisplay[]: %NAME% %RED%[Report me %CODE% to Beavis]
+//
 ItemDisplay[ma1 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% **** %WHITE% %NAME% %WHITE% ****		// Icey Cavern
 ItemDisplay[ma2 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %NL% %PURPLE% **** %RED% %NAME% %PURPLE% **** %NL% 	// Forgotten Desert
 ItemDisplay[ma3 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %NL% %PURPLE% **** %NAME% %PURPLE% **** %NL% 		// Abandoned Precinct [Removed]
@@ -172,25 +174,29 @@ ItemDisplay[ma8 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %YELLOW% 
 ItemDisplay[ma9 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %PURPLE% **** %YELLOW% %NAME% %PURPLE% **** 		// Dim Cellar
 ItemDisplay[ma10 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% **** %NAME% %WHITE% ****			// Icey Cavern
 ItemDisplay[ma11 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
-ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
-ItemDisplay[MAP]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Pleasant Pasture
-ItemDisplay[(ma1 OR ma3 OR maz)]: %NAME%
+ItemDisplay[ma12 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% **** %RED% %NAME% %RED% ****			// Baleful Alcazar
+ItemDisplay[ma13 !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %RED% **** %YELLOW% %NAME% %RED% ****			// Decomposing Settlement
+ItemDisplay[MAP !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// CATCH-ALL-NEW-MAPs
 // -------------------------------------------------------------------------------------------------------------
 //					IDENTIFIED MAPS								|
 // -------------------------------------------------------------------------------------------------------------
-//ItemDisplay[]: %NAME% %RED%[Report me %CODE% to Beavis]
-ItemDisplay[ma1]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%   			// Icey Cavern
-ItemDisplay[ma2]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %RED% %NAME% 			// Forgotten Desert
+ItemDisplay[ma1]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%   		// Icey Cavern
+ItemDisplay[ma2]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %RED% %NAME% 		// Forgotten Desert
 ItemDisplay[ma3]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 		// Abandoned Precinct [Removed]
-ItemDisplay[ma4]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 			// Desecrated Temple
-ItemDisplay[ma5]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME% 			// Frigid Highlands
-ItemDisplay[ma6]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 			// Ruined Citadel
-ItemDisplay[ma7]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 			// Burnt Forest
-ItemDisplay[ma8]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 			// Musty Crypt
-ItemDisplay[ma9]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %YELLOW% %NAME% 			// Dim Cellar
-ItemDisplay[ma10]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% %NAME%			// Icey Cavern
-ItemDisplay[ma11]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  			// TBA
-
+ItemDisplay[ma4]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 		// Desecrated Temple
+ItemDisplay[ma5]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME% 		// Frigid Highlands
+ItemDisplay[ma6]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 		// Ruined Citadel
+ItemDisplay[ma7]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME% 		// Burnt Forest
+ItemDisplay[ma8]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME% 		// Musty Crypt
+ItemDisplay[ma9]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %YELLOW% %NAME% 		// Dim Cellar
+ItemDisplay[ma10]: %NOTIFY(ITEM,HIGH)%%MAPICON(39)% %WHITE% %NAME%		// Icey Cavern
+ItemDisplay[ma11]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %WHITE% %NAME%  		// TBA
+ItemDisplay[ma12]: %NOTIFY(ITEM,HIGH)%%MAPICON(40,1)% %PURPLE% %NAME%		// Baleful Alcazar
+ItemDisplay[ma13]: %NOTIFY(ITEM,HIGH)%%MAPICON(20,9)% %YELLOW% %NAME%		// Decomposing Settlement
+// ----------------------
+// CATCH ALL MAPS HERE	|
+//-----------------------
+ItemDisplay[MAP]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE% %NAME% %PURPLE% ****  		// Unknown/New
 // -------------------------------------------------------------------------------------------------------------
 //					* * * *	RUNES * * * *		Other Sound: %NOTIFYSOUND(2664,HIGH)%	|
 // -------------------------------------------------------------------------------------------------------------
@@ -2160,11 +2166,11 @@ ItemDisplay[ltp NMAG ETH !SOCK=1 CLVL<71]: %GRAY%ETH %NAME% [%DEF%] %WHITE%[%SOC
 // -------------------------------------------------------------------------------------------------------------
 //					Troll Nest
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[ush NMAG ETH ED=15 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
-ItemDisplay[ush NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
-ItemDisplay[ush NMAG ETH !SOCK=1]: %NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[ush NMAG !ETH ED=15 !SOCK=1]: %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 ush NMAG !ETH ED>0 ED<15 !SOCK=1]: %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
+ItemDisplay[ush NMAG ETH ED=15 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% %BLUE%[%DEF%] %DGREEN%+%EDEFENSE%Ed %WHITE%[%SOCKETS%]
+ItemDisplay[ush NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% %BLUE%[%DEF%] %DGREEN%+%EDEFENSE%Ed %WHITE%[%SOCKETS%]
+ItemDisplay[ush NMAG ETH !SOCK=1]: %NAME% %BLUE%[%DEF%] %DGREEN%+%EDEFENSE%Ed %WHITE%[%SOCKETS%]
+ItemDisplay[ush NMAG !ETH ED=15 !SOCK=1]: %DGREEN%%NAME% %BLUE%[%DEF%] %DGREEN%+%EDEFENSE%Ed %WHITE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<4 ush NMAG !ETH ED>0 ED<15 !SOCK=1]: %GREEN%%NAME% %BLUE%[%DEF%] %DGREEN%+%EDEFENSE%Ed %WHITE%[%SOCKETS%]
 ItemDisplay[FILTERLVL<4 ush NMAG !ETH !SOCK=1]: %NAME% %WHITE%[%SOCKETS%]
 // -------------------------------------------------------------------------------------------------------------
 //					Hyperion
@@ -2357,15 +2363,15 @@ ItemDisplay[FILTERLVL<4 WP8 NORM !bar !ETH NMAG SOCK=4]: %GRAY%%NAME% %WHITE%[%S
 // -------------------------------------------------------------------------------------------------------------
 //			WP9 BOWS(NON AMA)
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<4 WP9 !CL7 ELT NMAG ED=15 SOCK>3]: %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 WP9 !CL7 ELT NMAG ED>0 ED<15 SOCK>3]: %NAME%%BLUE% +ED %YELLOW%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 WP9 !CL7 !6sb ELT NMAG ED=15 SOCK=0]: %DGREEN%%NAME%%BLUE% +15ED %RED%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 WP9 !CL7 !6sb ELT NMAG ED>0 ED<15 SOCK=0]: %NAME%%BLUE% +ED %YELLOW%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 WP9 !CL7 ELT NMAG SOCK>3]: %GRAY%%NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 WP9 !CL7 ELT NMAG ED=15 (SOCK=2 OR SOCK=3)]: %DGREEN%%NAME%%BLUE% +15ED %WHITE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 WP9 NORM NMAG SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 WP9 (8sb OR 8hb OR 8lb) NMAG SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 hbw NMAG SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 !CL7 ELT NMAG ED=15 SOCK>3]: %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 !CL7 ELT NMAG ED>0 ED<15 SOCK>3]: %NAME%%BLUE% +ED %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 !CL7 !6sb ELT NMAG ED=15 SOCK=0]: %DGREEN%%NAME%%BLUE% +15ED %RED%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 !CL7 !6sb ELT NMAG ED>0 ED<15 SOCK=0]: %NAME%%BLUE% +ED %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 !CL7 ELT NMAG SOCK>3]: %GRAY%%NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 !CL7 ELT NMAG ED=15 (SOCK=2 OR SOCK=3)]: %DGREEN%%NAME%%BLUE% +15ED %WHITE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 NORM NMAG SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 WP9 (8sb OR 8hb OR 8lb) NMAG SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[FILTERLVL<3 hbw NMAG SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
 //ItemDisplay[WP9 !CL7 NMAG ILVL>55]:						// Disabled
 // -------------------------------------------------------------------------------------------------------------
 //			WP10 CROSSBOWS
@@ -2554,12 +2560,25 @@ ItemDisplay[CL2 NMAG !ETH SK149>2]: %DGREEN%%NAME% %ORANGE%+3 Battle Orders%YELL
 // -------------------------------------------------------------------------------------------------------------
 //				CL3 PALADIN SHIELDS
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[CL3 NMAG !ETH RES=45 !SOCK=1]: %DGREEN%%NAME%%BLUE% 45+ %PURPLE%[%SOCKETS%]
-ItemDisplay[CL3 NMAG !ETH RES>39 RES<45 !SOCK=1]: %DGREEN%%NAME%%BLUE% 40-44+ %RED%[%SOCKETS%]
-ItemDisplay[CL3 NMAG !ETH RES>34 RES<40 !SOCK=1]: %DGREEN%%NAME%%BLUE% 35-39+ %YELLOW%[%SOCKETS%]
-ItemDisplay[CL3 NMAG !ETH RES=45 SOCK=0]: %DGREEN%%NAME%%BLUE% 45+ %PURPLE%[%SOCKETS%]
-ItemDisplay[CL3 NMAG ELT ETH RES=45 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% 45+ %PURPLE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 CL3 NMAG ELT ETH RES>39 RES<45 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% 40-44+ %RED%[%SOCKETS%]
+ItemDisplay[CL3 !ETH NMAG RES>20 DEF>190]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL%%GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+//
+ItemDisplay[FILTERLVL<3 CL3 NMAG !ETH RES=45 !SOCK=1]: %DGREEN%%NAME%%ORANGE% +45%ORANGE%AR %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 CL3 NMAG !ETH RES=45 DEF>150 !SOCK=1]: %DGREEN%%NAME%%ORANGE% +45%ORANGE%AR %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+//
+ItemDisplay[FILTERLVL<3 CL3 NMAG !ETH RES>39 RES<45 !SOCK=1]: %DGREEN%%NAME%%BLUE% +%RES%%ORANGE%AR %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 CL3 NMAG !ETH RES>39 RES<45 DEF>150 !SOCK=1]: %DGREEN%%NAME%%BLUE% +%RES%%ORANGE%AR %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+//
+ItemDisplay[FILTERLVL<3 CL3 NMAG !ETH RES>34 RES<40 !SOCK=1]: %DGREEN%%NAME%%BLUE% +%RES%%ORANGE% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 CL3 NMAG !ETH RES>34 RES<40 DEF>150 !SOCK=1]: %DGREEN%%NAME%%BLUE% +%RES%%ORANGE% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+//
+ItemDisplay[FILTERLVL<3 CL3 NMAG !ETH RES=45 SOCK=0]: %DGREEN%%NAME%%ORANGE% +45%ORANGE% %WHITE%%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 CL3 NMAG !ETH RES=45 DEF>150 SOCK=0]: %DGREEN%%NAME%%ORANGE% +45%ORANGE% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+//
+ItemDisplay[FILTERLVL<3 CL3 NMAG ELT ETH RES=45 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%ORANGE% +45%ORANGE% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 CL3 NMAG ELT ETH RES=45 DEF>150 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%ORANGE% +45%ORANGE% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+
+ItemDisplay[FILTERLVL<3 CL3 NMAG ELT ETH RES>39 RES<45 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +%RES%%ORANGE% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 CL3 NMAG ELT ETH RES>39 RES<45 DEF>150 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +%RES%%ORANGE% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
 // -------------------------------------------------------------------------------------------------------------
 //				AR shields
 // -------------------------------------------------------------------------------------------------------------
