@@ -1915,18 +1915,21 @@ ItemDisplay[utp NMAG !ETH SOCK>2 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %D
 //						EQ3 SHIELDS
 //						Monarch
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[uit NMAG !ETH ED=15 SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: %DGREEN%%NAME% [%DEF%]%BLUE% +15ED %PURPLE%[0]{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
-ItemDisplay[uit NMAG !ETH ED=15 SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +15ED %PURPLE%[%SOCKETS%]
-ItemDisplay[uit NMAG !ETH SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: %DGREEN%%NAME% [%DEF%] %YELLOW%[%SOCKETS%]{%YELLOW%Spirit: %ORANGE%Tal-Thul-Ort-Amn%NL%%YELLOW%Phoenix: %ORANGE%Vex-Vex-Lo-Jah}
+ItemDisplay[uit NMAG !ETH ED=15 SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %SPACE%%NL% %DGREEN%+15 Enhanced Defense: %ORANGE%PERFECT !!!%SPACE%%NL% %GRAY%Base: %PURPLE%%NAME% %ORANGE%[4]%GREEN%[%DEF%] %NL%%SPACE%
+ItemDisplay[uit NMAG !ETH ED=15 SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %SPACE%%NL% %DGREEN%+15 Enhanced Defense: %ORANGE%PERFECT !!!%SPACE%%NL% %GRAY%Base: %PURPLE%%NAME% %WHITE%[0]%GREEN%[%DEF%] %NL%%SPACE% {%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+ItemDisplay[uit NMAG !ETH SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %SPACE%%NL% %GRAY%Base: %DGREEN%%NAME% [%DEF%] %YELLOW%[%SOCKETS%]%NL%%SPACE%{%YELLOW%Spirit: %ORANGE%Tal-Thul-Ort-Amn%NL%%YELLOW%Phoenix: %ORANGE%Vex-Vex-Lo-Jah}
 //
-ItemDisplay[uit NMAG !ETH DEF>160]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %GRAY%Base: %PURPLE%%NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]%NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
-ItemDisplay[uit NMAG !ETH DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %GRAY%Base: %GREEN%%NAME% %DGREEN%[%DEF%] %WHITE%[%SOCKETS%]%NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+ItemDisplay[uit NMAG !ETH DEF>160]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %DGREEN% +%EDEFENSE% Enhanced Defense %NL% %GRAY%Base: %ORANGE%%NAME% %WHITE%[%SOCKETS%]%GREEN%[%DEF%] %NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+ItemDisplay[uit NMAG !ETH DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %DGREEN% +%EDEFENSE% Enhanced Defense %NL% %GRAY%Base: %GREEN%%NAME% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%] %NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+//
+ItemDisplay[uit NMAG !ETH DEF>160]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %GRAY%Base: %PURPLE%%NAME% %WHITE%[%SOCKETS%]%GREEN%[%DEF%] %NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+ItemDisplay[uit NMAG !ETH DEF>149]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL% %GRAY%Base: %GREEN%%NAME% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%] %NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
 //
 ItemDisplay[uit NMAG !ETH (ED>0 AND ED<15) (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +ED %RED%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 uit NMAG ETH (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %WHITE%%NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 uit NMAG !ETH SOCK>2 STAT91<5]: %NOTIFY(ITEM,HIGH)% %MAPICON(14,5)% %BLUE%Requirements -% %NL% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 uit NMAG !ETH !SUP SOCK=0]:%NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 uit NMAG !ETH SOCK=0]:%NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<4 uit NMAG ETH (SOCK=0 OR SOCK=4)]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %GRAY%ETH %WHITE%%NAME% %WHITE%[%SOCKETS%] %DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 uit NMAG !ETH SOCK>2]: %NOTIFY(ITEM,MEDIUM)% %MAPICON(14,5)% %NAME% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 uit NMAG !ETH !SUP SOCK=0]:%NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
+ItemDisplay[FILTERLVL<4 uit NMAG !ETH SOCK=0]:%NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
 // -------------------------------------------------------------------------------------------------------------
 //						Berserker Axe
 // -------------------------------------------------------------------------------------------------------------
