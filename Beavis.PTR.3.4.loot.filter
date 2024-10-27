@@ -2563,6 +2563,7 @@ ItemDisplay[CL2 NMAG !ETH SK149>2]: %DGREEN%%NAME% %ORANGE%+3 Battle Orders%YELL
 // -------------------------------------------------------------------------------------------------------------
 //				CL3 PALADIN SHIELDS
 // -------------------------------------------------------------------------------------------------------------
+ItemDisplay[CL3 !ETH NMAG DEF>150 STAT17>50]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL%%GREEN%[%DEF% Defence] %RED%[%STAT(17)% Enhanced Damage]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%
 ItemDisplay[CL3 !ETH NMAG RES>35 DEF>190 SOCK=4]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL%%GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%
 ItemDisplay[CL3 !ETH NMAG RES>35 DEF>190 SOCK=0]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %SPACE%%NL%%GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] %NL%%SPACE%{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
 //
