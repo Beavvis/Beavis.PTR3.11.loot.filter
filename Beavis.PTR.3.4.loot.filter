@@ -1998,7 +1998,7 @@ ItemDisplay[FILTERLVL<7 7p7 NMAG (SOCK=0 OR SOCK=4)]: %NAME% [%SOCKETS%]
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<7 7wc NMAG ETH SOCK>2]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[FILTERLVL<7 7wc NMAG !ETH (SOCK=0 OR SOCK>2)]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7s8 NMAG ETH SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[0]{%GRAY%Socket: %ORANGE%RalL-Amn-%PURPLE%Amethyst}
+ItemDisplay[7s8 !SUP NMAG ETH SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[0]{%GRAY%Socket: %ORANGE%Ral-Amn-%PURPLE%Amethyst}
 ItemDisplay[7s8 NMAG ETH SOCK=3]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]{%YELLOW%Plague: %ORANGE%Cham-Fal-Um}
 ItemDisplay[7s8 NMAG ETH SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]{%YELLOW%Pride: %ORANGE%Cham-Sur-Io-Lo%NL%%YELLOW%Insight: %ORANGE%Ral-Tir-Tal-Sol %NL%%YELLOW%Infinity: %ORANGE%Ber-Mal-Ber-Ist}
 ItemDisplay[7s8 NMAG ETH SOCK=5]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]{%YELLOW%DOOM: %ORANGE%Hel-Ohm-Um-Lo-Cham}
