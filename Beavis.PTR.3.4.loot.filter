@@ -503,14 +503,14 @@ ItemDisplay[amu MAG ID TABSK48>2]: %ORANGE%+3 Traps: Assassin%CONTINUE%
 ItemDisplay[amu MAG ID TABSK49>2]: %ORANGE%+3 Shadow Disciplines: Assassin%CONTINUE%
 ItemDisplay[amu MAG ID TABSK50>2]: %ORANGE%+3 Martial Arts: Assassin%CONTINUE%
 // --------------------Color Amulet according to LEVEL ------------------------------
-ItemDisplay[FILTERLVL<4 amu MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[FILTERLVL<4 amu MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[FILTERLVL<4 amu MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[FILTERLVL<4 amu MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 amu MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 amu MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 amu MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 amu MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Amulets I want to keep
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<4 amu MAG]: %NAME%{%NL%%GREEN%Craft: %ORANGE%(Caster)  %GOLD%Ral %PURPLE%Amethyst %YELLOW%Jewel  %WHITE%|%TAN% 5-10% Faster Cast Rate                 %NL% %GREEN%Craft: %ORANGE%(HitPwr)  %GOLD%Thul %BLUE%Sapphire %YELLOW%Jewel %WHITE%|%TAN% Hit Causes Monster To Flee 3-11       %NL%%GREEN%Craft: %ORANGE%(Blood)  %GOLD%Amn %RED%Ruby %YELLOW%Jewel        %WHITE%|%TAN%  1-4% Life Stolen Per Hit                %NL%%GREEN%Craft: %ORANGE%(Safety) 	 %GOLD%Thul %GREEN%Emerald %YELLOW%Jewel  %WHITE%|%TAN% 1-10% Increased Chance Of Blocking}
+ItemDisplay[FILTERLVL<6 amu MAG]: %NAME%{%NL%%GREEN%Craft: %ORANGE%(Caster)  %GOLD%Ral %PURPLE%Amethyst %YELLOW%Jewel  %WHITE%|%TAN% 5-10% Faster Cast Rate                 %NL% %GREEN%Craft: %ORANGE%(HitPwr)  %GOLD%Thul %BLUE%Sapphire %YELLOW%Jewel %WHITE%|%TAN% Hit Causes Monster To Flee 3-11       %NL%%GREEN%Craft: %ORANGE%(Blood)  %GOLD%Amn %RED%Ruby %YELLOW%Jewel        %WHITE%|%TAN%  1-4% Life Stolen Per Hit                %NL%%GREEN%Craft: %ORANGE%(Safety) 	 %GOLD%Thul %GREEN%Emerald %YELLOW%Jewel  %WHITE%|%TAN% 1-10% Increased Chance Of Blocking}
 // -------------------------------------------------------------------------------------------------------------
 //					UNIQUE Amulet or Ring
 // -------------------------------------------------------------------------------------------------------------
@@ -518,14 +518,14 @@ ItemDisplay[(rin OR amu OR jew) UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BOR
 // -------------------------------------------------------------------------------------------------------------
 //						Rings								|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<5 rin MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[FILTERLVL<5 rin MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[FILTERLVL<5 rin MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[FILTERLVL<5 rin MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 rin MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 rin MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 rin MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[FILTERLVL<6 rin MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Rings I want to keep
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<4 rin MAG]: %NAME%{%NL%%GREEN%Craft: %ORANGE%(Caster) %GOLD%Amn %PURPLE%Amethyst %YELLOW%Jewel%WHITE% * %TAN% 1-5 Energy | Regen Mana 4-10% | 10-20 Mana%NL%  %GREEN%Craft: %ORANGE%(Hitpwr) %GOLD%AMN %BLUE%Sapphire %YELLOW%Jewel%WHITE% * %TAN%1-5 Dexterity | 3-5 Dmg to Attacker | 5% Frost Nova%NL% %GREEN%Craft: %ORANGE%(Blood) %GOLD%Sol %RED%Ruby %YELLOW%Jewel%WHITE% * %TAN%1-5 Strength | 1-3% Life Per-Hit | 10-20 Life               %NL%%GREEN%Craft: %ORANGE%(Safety) %TAN%Amn %GREEN%Emerald %YELLOW%Jewel%WHITE% * %TAN%1-5 Vitality | MagDmg-Red 1-2 | Dmg-Red 1-4}
+ItemDisplay[FILTERLVL<6 rin MAG]: %NAME%{%NL%%GREEN%Craft: %ORANGE%(Caster) %GOLD%Amn %PURPLE%Amethyst %YELLOW%Jewel%WHITE% * %TAN% 1-5 Energy | Regen Mana 4-10% | 10-20 Mana%NL%  %GREEN%Craft: %ORANGE%(Hitpwr) %GOLD%AMN %BLUE%Sapphire %YELLOW%Jewel%WHITE% * %TAN%1-5 Dexterity | 3-5 Dmg to Attacker | 5% Frost Nova%NL% %GREEN%Craft: %ORANGE%(Blood) %GOLD%Sol %RED%Ruby %YELLOW%Jewel%WHITE% * %TAN%1-5 Strength | 1-3% Life Per-Hit | 10-20 Life               %NL%%GREEN%Craft: %ORANGE%(Safety) %TAN%Amn %GREEN%Emerald %YELLOW%Jewel%WHITE% * %TAN%1-5 Vitality | MagDmg-Red 1-2 | Dmg-Red 1-4}
 // -------------------------------------------------------------------------------------------------------------
 //				* * * * UNIQUE ITEMS * * * *							|
 // -------------------------------------------------------------------------------------------------------------
