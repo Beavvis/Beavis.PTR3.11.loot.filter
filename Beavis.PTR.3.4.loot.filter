@@ -209,7 +209,7 @@ ItemDisplay[MAP]: %NOTIFY(ITEM,HIGH)%%MAPICON(19,25)% %PURPLE% **** %WHITE%? ? ?
 // -------------------------------------------------------------------------------------------------------------
 //					* * * *	RUNES * * * *		Other Sound: %NOTIFYSOUND(2664,HIGH)%	|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<5 RUNE RUNETIER<10]: %NOTIFY(ITEM,LOW)%%MAPICON(27,3)% %BGCOLOR(140)%%BORDER(10,3)% %TAN%%RUNENAME% [%RUNETIER%]
+ItemDisplay[FILTERLVL<6 RUNE RUNETIER<10]: %NOTIFY(ITEM,LOW)%%MAPICON(27,3)% %BGCOLOR(140)%%BORDER(10,3)% %TAN%%RUNENAME% [%RUNETIER%]
 ItemDisplay[RUNE (RUNETIER>9 AND RUNETIER<15)]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(30,9)% %BGCOLOR(111)% %BORDER(10,3)% %TAN%%RUNENAME% [%RUNETIER%]
 ItemDisplay[RUNE (RUNETIER>14 AND RUNETIER<20)]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(29,9)% %BGCOLOR(96)% %BORDER(10,3)% %TAN%%RUNENAME% [%RUNETIER%]
 ItemDisplay[RUNE (RUNETIER>19 AND RUNETIER<25)]: %NOTIFY(ITEM,HIGH)%%MAPICON(31,1)%%NOTIFYSOUND(2664,HIGH)% %BORDER(11,2)%%BGCOLOR(118)%%NL% %PURPLE%***********%GREEN% %NAME% %PURPLE%*********** %NL%[%RUNETIER%]
@@ -228,9 +228,9 @@ ItemDisplay[RARE jew]: %YELLOW%%NAME%%WHITE% [%ILVL%]
 //						RARES								|
 //					   The worthy ones							|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<4 (7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[FILTERLVL<4 (WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
-ItemDisplay[FILTERLVL<4 RARE (EQ4 OR EQ5 OR EQ6) !ID]: %BORDER(12,3)%%BGCOLOR(12)%%YELLOW%~       ~%NL%%NAME%%NL%~       ~
+ItemDisplay[FILTERLVL<6 (7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[FILTERLVL<6 (WP12 OR EQ4 OR EQ5 OR EQ6) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME%
+ItemDisplay[FILTERLVL<6 RARE (EQ4 OR EQ5 OR EQ6) !ID]: %BORDER(12,3)%%BGCOLOR(12)%%YELLOW%~       ~%NL%%NAME%%NL%~       ~
 // -------------------------------------------------------------------------------------------------------------
 //					GEMS									|
 // -------------------------------------------------------------------------------------------------------------
