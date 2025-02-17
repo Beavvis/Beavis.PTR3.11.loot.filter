@@ -41,8 +41,8 @@ ItemDisplay[FILTERLVL<4 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal W
 ItemDisplay[FILTERLVL<4 SK477>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Hemmorrhage %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<5 SK277>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Blade Shield %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<4 TABSK34>2]:%MAPICON(86,30)% %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Warcries %WHITE%[%SOCKETS%]%NOTIFYSOUND(2664,HIGH)%
-
-ItemDisplay[r02]:%MAPICON(29,9)% %NOTIFY(ITEM,HIGH)% %ORANGE%%NAME%{%GREEN%Craft +2 Ice-Arrow: %BLUE%MAG-Arrow%WHITE% + %TAN%Eld%WHITE% + %PURPLE%Amethest%WHITE% + %TEAL%GEM}%NOTIFYSOUND(2664,HIGH)%     // Alert for ELD Rune (Craft Arrows with _2 Cold Arrow)
+//
+ItemDisplay[r02]:%MAPICON(29,9)% %NOTIFY(ITEM,HIGH)% %BGCOLOR(96)%%BORDER(8,109)% %SPACE% %NL% %ORANGE%%NAME% %NL% %SPACE% {%GREEN%Craft +2 Ice-Arrow: %BLUE%MAG-Arrow%WHITE% + %TAN%Eld%WHITE% + %PURPLE%Amethest%WHITE% + %TEAL%GEM}%NOTIFYSOUND(2664,HIGH)%    // Alert for ELD Rune (Craft Arrows with _2 Cold Arrow)
 // -------------------------------------------------------------------------------------------------------------
 //					Gold
 // -------------------------------------------------------------------------------------------------------------
