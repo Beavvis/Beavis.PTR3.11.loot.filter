@@ -1409,9 +1409,9 @@ ItemDisplay[FILTERLVL<5 8ls UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%E
 // ------------------------------------------------------------------------------------------------ Chromatic Ire
 ItemDisplay[FILTERLVL<4 8cs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Chromatic Ire
 ItemDisplay[FILTERLVL<4 8cs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Chromatic Ire
-// ------------------------------------------------------------------------------------------------ Warpspear
-ItemDisplay[FILTERLVL<5 8bs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Warpspear
-ItemDisplay[FILTERLVL<5 8bs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Warpspear
+// ------------------------------------------------------------------------------------------------ Warspear
+ItemDisplay[8bs UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)%%SPACE% %NL% %TEAL% * * * %PURPLE%%Warspear %TEAL% * * *%NL% %SPACE% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[8bs UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Warspear
 // ------------------------------------------------------------------------------------------------ Skull Collector
 ItemDisplay[FILTERLVL<5 8ws UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Skull Collector
 ItemDisplay[FILTERLVL<5 8ws UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Skull Collector
