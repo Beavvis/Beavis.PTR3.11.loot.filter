@@ -1540,7 +1540,7 @@ ItemDisplay[nee UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Bon
 // ------------------------------------------------------------------------------------------------ Shadow Killer (always ETH)
 ItemDisplay[7cs UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%* ETH Shadow Killer *
 // ------------------------------------------------------------------------------------------------ Bartuc's Cut-Throat
-ItemDisplay[9tw UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Bartuc's Cut-Throat %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[9tw UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Bartuc's Cut-Throat
 ItemDisplay[9tw UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %TAN%Bartuc's Cut-Throat 
 // ------------------------------------------------------------------------------------------------ Jade Talon
 ItemDisplay[7wb UNI !ID !ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %TAN%Jade Talon
@@ -2576,9 +2576,10 @@ ItemDisplay[CL2 NMAG !ETH SK149>2]: %DGREEN%%NAME% %ORANGE%+3 Battle Orders%YELL
 // -------------------------------------------------------------------------------------------------------------
 //				CL3 PALADIN SHIELDS
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[CL3 !ETH NMAG DEF>150 STAT17>50 (SOCK=0 OR SOCK>2)]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%STAT(17)% Enhanced Damage]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[CL3 !ETH NMAG RES>35 DEF>150 SOCK=4]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] 
-ItemDisplay[CL3 !ETH NMAG RES>35 DEF>150 SOCK=0]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GREEN%[%DEF% Defence] %RED%[%RES% All Resist]%NL% %PURPLE% %NAME% %WHITE%[%SOCKETS%] {%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
+ItemDisplay[CL3 !ETH NMAG DEF>150 STAT17>50 SOCK=0]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GRAY% %NAME% %DGREEN%[%DEF%]%RED%[%STAT(17)%]
+ItemDisplay[CL3 !ETH NMAG DEF>150 STAT17>50 SOCK>2]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)%%WHITE%[%SOCKETS%]%PURPLE% %NAME% %DGREEN%[%DEF%]%RED%[%STAT(17)%]
+ItemDisplay[CL3 !ETH NMAG RES>39 DEF>150 SOCK=4]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %WHITE%[%SOCKETS%]%PURPLE% %NAME% %DGREEN%[%DEF%]%GREEN%[%RES%]  
+ItemDisplay[CL3 !ETH NMAG RES>39 DEF>150 SOCK=0]:%MAPICON(14,5)% %NOTIFY(ITEM,HIGH)% %GRAY% %NAME% %DGREEN%[%DEF%]%GREEN%[%RES%]{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
 //
 ItemDisplay[FILTERLVL<6 CL3 NMAG !ETH RES=45 !SOCK=1]: %DGREEN%%NAME%%ORANGE% +45%ORANGE%AR %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
 ItemDisplay[FILTERLVL<6 CL3 NMAG !ETH RES=45 DEF>150 !SOCK=1]: %DGREEN%%NAME%%ORANGE% +45%ORANGE%AR %WHITE%[%SOCKETS%]%DGREEN%[%DEF%]
