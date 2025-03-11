@@ -422,75 +422,129 @@ ItemDisplay[FILTERLVL<3 cm3 MAG ID CLVL>85]: %GREEN% %NAME% %ORANGE%[%ILVL%]			/
 //
 ItemDisplay[FILTERLVL<4 MAG cm2 ILVL<80 ]: %GREEN% %NAME% %ORANGE%[%ILVL%]%GREEN% %NAME%
 ItemDisplay[FILTERLVL<4 MAG cm2 ILVL>79]: %GRAY% %NAME% %ORANGE%[%ILVL%]
-//
-// -------------------------------------------------------------------------------------------------------------
-//	Small Charms			PHASE-1 Look for Main Values						|
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[cm1 ID RES>1]: %GREEN%%RES% All Resist %CONTINUE%									// +All Resist
-ItemDisplay[cm1 ID DEF>19]: %GREEN% %DEF% Defence %CONTINUE%									// +19 Defence
-ItemDisplay[cm1 ID LIFE>17]: %GREEN% +%STAT(7,0)% Life %CONTINUE%								// +18 Life
-ItemDisplay[cm1 ID STAT22=3]: %PURPLE%+3 Dmg %CONTINUE%									// +3 Damage
-ItemDisplay[cm1 ID STAT22=2]: %ORANGE%+2 Dmg %CONTINUE%									// +2 Damage
-ItemDisplay[cm1 ID STAT22=1]: %WHITE%+1 Dmg %CONTINUE%									// +1 damage
-ItemDisplay[cm1 ID (STAT57>0 AND STAT58<210) STAT58>150]: %GREEN% %STAT(58,0)% PoisonDmg %CONTINUE%	// +100 Poison
-ItemDisplay[cm1 ID (STAT57>0 AND STAT58>220)]: %GREEN% %STAT(58,0)% PoisonDmg %CONTINUE%			// +200 Poison
-ItemDisplay[cm1 ID (STAT48>0 AND STAT49>9)]: %RED%  %STAT(48,0)%-%STAT(49,0)% FireDmg %CONTINUE%			// +10 Fire Damage
-ItemDisplay[cm1 ID (STAT54>0 AND STAT55>9)]: %BLUE%  %STAT(54,0)%-%STAT(55,0)% ColdDmg %CONTINUE% 			// +10 Cold Damage
-ItemDisplay[cm1 ID (STAT50>0 AND STAT51>29)]: %YELLOW%  %STAT(51,0)% LightDmg %CONTINUE%				// +30 Lightning Damage
-// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//	Small Charms		Elemental Resistances (39,41,43,45)																				|
-// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//				Life		Attack		Damage		PoisonDmg	FireDmg		ColdDmg		LightDmg	
-ItemDisplay[cm1 ID ((DEF>0 OR LIFE>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0) AND STAT39>0)]: %NAME%%RED% +%STAT(39,0)% FireRes %CONTINUE%		// Fire Resist
-ItemDisplay[cm1 ID ((DEF>0 OR LIFE>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0) AND STAT41>0)]: %NAME%%YELLOW% +%STAT(41,0)% LightRes %CONTINUE%	// Light Resist
-ItemDisplay[cm1 ID ((DEF>0 OR LIFE>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0) AND STAT43>0)]: %NAME%%BLUE% +%STAT(43,0)% ColdRes %CONTINUE%		// Cold Resist 
-ItemDisplay[cm1 ID ((DEF>0 OR LIFE>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0) AND STAT45>0)]: %NAME%%GREEN% +%STAT(45,0)% PoisonRes %CONTINUE%	// Poison Resist
-//
-ItemDisplay[cm1 ID RES>1]: %GREEN%%RES% All Resist %CONTINUE%						// +All Resist
-// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//	Small Charms		Utility (Life / Magic Find / Attack Rating)	(7,80,19)																	|
-// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//					Life		Attack		Damage		PoisonDmg	FireDmg		ColdDmg		LightDmg
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR STAT3>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0) AND LIFE>0)]: %NAME%%BLUE% +%STAT(7,0)% Life %CONTINUE%				// +Life
-ItemDisplay[cm1 ID (!(DEF>0 OR RES>0 OR STAT3>0 OR STAT22>0 OR STAT22>0 OR STAT57>120 OR STAT48>9 OR STAT54>9 OR STAT51>29) AND STAT79>4)]: +%STAT(79,0)% GoldFind %CONTINUE%				// Magic Find 											// +Magic Find
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR STAT3>0 OR STAT22>0 OR STAT57>120 OR STAT48>9 OR STAT54>9 OR STAT51>29) AND STAT80>0)]: %NAME%%GOLD% +%STAT(80,0)% MagicFind %CONTINUE%				// +Magic Find
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR STAT3>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0 OR STAT80>0) AND STAT19>0)]: %NAME%%GREEN% +%STAT(19,0)% Attack %CONTINUE%	// +Attack Rating
-// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//	Small Charms		Low Elemental Damage (49, 55, 51, 58)																				|
-// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR STAT3>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT19>0 OR STAT80>0) AND (STAT48>0 AND STAT49<10))]: %NAME%%RED% %STAT(49,0)% FireDmg %CONTINUE%				// Fire Damage
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR STAT3>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT50>0 OR STAT80>0) AND (STAT54>0 AND STAT55<10))]: %NAME%%BLUE% %STAT(54,0)% ColdDmg %CONTINUE%	// Cold Damage
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR STAT3>0 OR STAT19>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT80>0) AND (STAT50>0 AND STAT51<30))]: %NAME%%YELLOW% %STAT(50,0)% LightDmg %CONTINUE%	// Lightning Damage
-ItemDisplay[cm1 ID ((DEF>0 OR RES>0 OR STAT3>0 OR STAT19>0 OR STAT22>0 OR STAT48 OR STAT54>0 OR STAT50>0 OR STAT80>0) AND (STAT57>0 AND STAT58<80))]: %NAME%%GREEN% %STAT(58,0)% PoisonDmg %CONTINUE% 	// -80 Poison Damage
-//					HIGH-ELEMENTAL-RESIST (39,41,43,45)
-ItemDisplay[cm1 ID STAT39>8]: %RED% +%STAT(39,0)% FireRes %CONTINUE%		// +Fire Resist
-ItemDisplay[cm1 ID STAT41>8]: %YELLOW% +%STAT(41,0)% LightRes %CONTINUE%		// +Light Resist
-ItemDisplay[cm1 ID STAT43>8]: %BLUE% + %STAT(43,0)% ColdRes %CONTINUE%		// +Cold Resist
-ItemDisplay[cm1 ID STAT45>8]: %GREEN% + %STAT(45,0)% PoisonRes %CONTINUE%		// +Poison Resist
-// -------------------------------------------------------------------------------------------------------------
-//	Small Charms		Low-Value Utility 						|
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<3 cm1 ID STAT0>0]: %NAME%%WHITE% +%STAT(0,0)% Str %CONTINUE%		// Strength
-ItemDisplay[FILTERLVL<3 cm1 ID STAT1>0]: %NAME% +%STAT(1,0)% Energy %CONTINUE%			// Energy
-ItemDisplay[FILTERLVL<3 cm1 ID STAT2>0]: %NAME%%WHITE% +%STAT(2,0)% Dex %CONTINUE%		// Dexterity
-ItemDisplay[FILTERLVL<3 cm1 ID STAT79>0]: %NAME%%GOLD% +%STAT(79,0)% GoldFind %CONTINUE%	// Gold Find
-ItemDisplay[FILTERLVL<3 cm1 ID STAT80>9]: %NAME%%GOLD% +%STAT(80,0)% MagicFind %CONTINUE%	// Magic Find
-ItemDisplay[FILTERLVL<3 cm1 ID STAT96=3]: %NAME%%ORANGE% +3-Run/Walk %CONTINUE%			// +3 Run/Walk
-ItemDisplay[FILTERLVL<3 cm1 ID STAT99=5]: %NAME%%ORANGE% 5%HitRec %CONTINUE%			// 5% Hit Recovery
-// -------------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//				IDENTIFIED SMALL CHARMS
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EnableIf[cm1 MAG ID]
+
+	ItemDisplay[STAT22=3]: %PURPLE% +3 Dmg %CONTINUE%		// +3 Damage
+	ItemDisplay[STAT22=2]: %ORANGE% +2 Dmg %CONTINUE%		// +2 Damage
+	ItemDisplay[STAT22=1]: %WHITE% +1 Dmg %CONTINUE%		// +1 damage
+
+	ItemDisplay[DEF>0]: %GREEN% %DEF% Defense %CONTINUE%		// +Defense
+
+	ItemDisplay[!RES>0 STAT39>0]: %RED% +%STAT(39,0)% FireRes %CONTINUE%		// +Fire Resist
+	ItemDisplay[!RES>0 STAT41>0]: %YELLOW% +%STAT(41,0)% LightRes %CONTINUE%	// +Light Resist
+	ItemDisplay[!RES>0 STAT43>0]: %BLUE% +%STAT(43,0)% ColdRes %CONTINUE%		// +Cold Resist
+	ItemDisplay[!RES>0 STAT45>0]: %GREEN% +%STAT(45,0)% PoisonRes %CONTINUE%	// +Poison Resist
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//				HIGH ELEMENTAL-DAMAGE Fire(48), Light(51), Cold(55), Poison(58)
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	ItemDisplay[(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0)) AND (STAT48>0 AND STAT49>1)]: %NAME%%RED% %STAT(48,0)%-%STAT(49,0)% FireDmg %CONTINUE%			// +Fire Damage
+	ItemDisplay[!(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0)) AND (STAT48>0 AND STAT49>1)]: %RED% %STAT(48,0)%-%STAT(49,0)% FireDmg %CONTINUE%				// +Fire Damage
+
+	ItemDisplay[(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0)) AND (STAT50>0 AND STAT51>1)]: %NAME%%YELLOW% %STAT(50,0)%-%STAT(51,0)% LightDmg %CONTINUE%	// +Lightning Damage
+	ItemDisplay[!(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0)) AND (STAT50>0 AND STAT51>1)]: %YELLOW% %STAT(50,0)%-%STAT(51,0)% LightDmg %CONTINUE%		// +Lightning Damage
+
+	ItemDisplay[(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0)) AND (STAT54>0 AND STAT55>1)]: %NAME%%BLUE% %STAT(54,0)%-%STAT(55,0)% ColdDmg %CONTINUE% 	// +Cold Damage
+	ItemDisplay[!(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0)) AND (STAT54>0 AND STAT55>1)]: %BLUE% %STAT(54,0)%-%STAT(55,0)% ColdDmg %CONTINUE% 		// +Cold Damage
+
+	ItemDisplay[(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)) AND (STAT58>1 AND STAT58<200)]: %NAME%%GREEN% -Poison %CONTINUE%	// -80 Poison Damage
+	ItemDisplay[(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)) AND (STAT58=205)]: %NAME%%GREEN% 100 Poison %CONTINUE%			// -80 Poison Damage
+	ItemDisplay[(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)) AND (STAT58=291)]: %NAME%%GREEN% 100 Poison %CONTINUE%			// -80 Poison Damage
+
+	ItemDisplay[!(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)) AND (STAT58>1 AND STAT58<200)]: %GREEN% -Poison %CONTINUE%		// -80 Poison Damage
+	ItemDisplay[!(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)) AND (STAT58=205)]: %GREEN% 100 Poison %CONTINUE%			// -80 Poison Damage
+	ItemDisplay[!(!RES>0 AND (STAT22>0 OR STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)) AND (STAT58=291)]: %GREEN% 313 Poison %CONTINUE%			// -80 Poison Damage
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//	
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	ItemDisplay[(STAT49>0 OR STAT51>0 OR STAT55>0 OR STAT58>0) AND RES>0]: %NAME%%PURPLE% +%RES% AllResist %CONTINUE%	// +All Resist
+	ItemDisplay[!(STAT49>0 OR STAT51>0 OR STAT55>0 OR STAT58>0) AND RES>0]: %PURPLE% +%RES% AllResist %CONTINUE%		// +All Resist
+
+
+// --------------------------------------------------------------------------------------
+//	Small Charms		Utility (Life / Magic Find / Attack Rating)		|
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	EnableIf[(DEF>0 OR RES>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0 OR STAT39>0 OR STAT41 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)]
+
+		ItemDisplay[LIFE>0]: %NAME%%GREEN% +%STAT(7,0)% Life %CONTINUE%			// +Life
+		ItemDisplay[STAT79>4]: %NAME%%TAN% +%STAT(79,0)% GoldFind %CONTINUE%		// +Gold Find 		
+		ItemDisplay[STAT80>0]: %NAME%%GOLD% +%STAT(80,0)% MagicFind %CONTINUE%		// +Magic Find
+		ItemDisplay[STAT0>0]: %NAME%%CORAL% +%STAT(0,0)% Str %CONTINUE%			// Strength
+		ItemDisplay[STAT1>0]: %NAME%%BLUE% +%STAT(1,0)% Energy %CONTINUE%		// Energy
+		ItemDisplay[STAT2>0]: %NAME%%SAGE% +%STAT(2,0)% Dex %CONTINUE%			// Dexterity
+		ItemDisplay[STAT96=3]: %NAME%%ORANGE% +3 Run/Walk %CONTINUE%			// +3 Run/Walk
+		ItemDisplay[STAT99=5]: %NAME%%TEAL% 5% HitRec %CONTINUE%			// 5% Hit Recovery
+
+	EndIf[]
+
+// --------------------------------------------------------------------------------------
+//			Single STAT charms						|
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	EnableIf[!(DEF>0 OR RES>0 OR STAT22>0 OR STAT57>0 OR STAT48>0 OR STAT54>0 OR STAT50>0 OR STAT39>0 OR STAT41 OR STAT43>0 OR STAT45>0 OR STAT49>0 OR STAT51>0 OR STAT55>0)]
+
+		ItemDisplay[LIFE>0]: %GREEN% +%STAT(7,0)% Life %CONTINUE%			// +Life
+		ItemDisplay[STAT79>4]: %TAN% +%STAT(79,0)% GoldFind %CONTINUE%			// +Gold Find 		
+		ItemDisplay[STAT80>0]: %GOLD% +%STAT(80,0)% MagicFind %CONTINUE%		// +Magic Find
+		ItemDisplay[STAT0>0]: %CORAL% +%STAT(0,0)% Str %CONTINUE%			// Strength
+		ItemDisplay[STAT1>0]: %BLUE% +%STAT(1,0)% Energy %CONTINUE%			// Energy
+		ItemDisplay[STAT2>0]: %SAGE% +%STAT(2,0)% Dex %CONTINUE%			// Dexterity
+		ItemDisplay[STAT96=3]: %ORANGE% +3 Run/Walk %CONTINUE%				// +3 Run/Walk
+		ItemDisplay[STAT99=5]: %TEAL% 5% HitRec %CONTINUE%				// 5% Hit Recovery
+
+	EndIf[]
+
+
+	ItemDisplay[(LIFE>0 OR STAT0>0 OR STAT1>0 OR STAT2>0 OR STAT22>0 OR STAT79>0 OR STAT80>0 OR STAT96=3 OR STAT99=5) AND STAT19>0]: %NAME%%DGREEN% +%STAT(19,0)% Attack %CONTINUE%		// +Attack Rating
+	ItemDisplay[!(LIFE>0 OR STAT0>0 OR STAT1>0 OR STAT2>0 OR STAT22>0 OR STAT79>0 OR STAT80>0 OR STAT96=3 OR STAT99=5) AND STAT19>0]: %DGREEN% +%STAT(19,0)% Attack %CONTINUE%		// +Attack Rating
+
+// -----------------------------------------------------------------------------------------------------------------------------------------
 //		##################################################################################
 //		Small Charms: Show on ground Filters - Here is where I print Charms I want to keep
 //		##################################################################################
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[MAG cm1 ID (STAT80>5)]: %NAME%								// Magic Find Charms
-ItemDisplay[MAG cm1 ID DEF>19]: %NAME%									// Defence Charms
-ItemDisplay[MAG cm1 ID RES>2]: %NAME%									// All Resist Charms
-ItemDisplay[MAG cm1 ID LIFE>17]: %NAME%									// LIFE Charms
-ItemDisplay[MAG cm1 ID (STAT22>0)]: %NAME%								// Damage Charms
-ItemDisplay[MAG cm1 ID (STAT57>100 OR STAT49>9 OR STAT55>9 OR STAT51>29)]: %NAME%	// PoisonDmg - FireDmg - ColdDmg - LightDmg
-ItemDisplay[MAG cm1 ID (STAT45>8 OR STAT39>8 OR STAT43>8 OR STAT41>8)]: %NAME%		// PoisonRes - FireRes - ColdREs - LightRes
-ItemDisplay[FILTERLVL<3 MAG cm1 ID]: %NAME%									// Show everything Character level below 50
-//ItemDisplay[MAG cm1]:											// Hide everything else not a MAIN STAT
+// -----------------------------------------------------------------------------------------------------------------------------------------
+
+ItemStyle[id_charm_high]: MapIcon = 56, BorderColor = 155, BorderSize = 4, BackgroundColor = 132, NotificationColor = ITEM, NotificationPriority = HIGH		// <<id_sm_charm>>
+ItemStyle[id_charm_gold]: MapIcon = 56, BorderColor = 4, BorderSize = 4, BackgroundColor = 12, NotificationColor = ITEM, NotificationPriority = MEDIUM		// <<id_charm_gold>>
+ItemStyle[id_charm_red]: MapIcon = 56, BorderColor = 8, BorderSize = 4, BackgroundColor = 8, NotificationColor = ITEM, NotificationPriority = MEDIUM		// <<id_charm_red>>
+ItemStyle[id_charm_blue]: MapIcon = 56, BorderColor = 140, BorderSize = 4, BackgroundColor = 140, NotificationColor = ITEM, NotificationPriority = MEDIUM	// <<id_charm_blue>>
+ItemStyle[id_charm_green]: MapIcon = 56, BorderColor = 118, BorderSize = 4, BackgroundColor = 118, NotificationColor = ITEM, NotificationPriority = MEDIUM	// <<id_charm_green>>
+ItemStyle[id_charm_yellow]: MapIcon = 56, BorderColor = 12, BorderSize = 4, BackgroundColor = 12, NotificationColor = ITEM, NotificationPriority = MEDIUM	// <<id_charm_yellow>>
+ItemStyle[id_charm_purple]: MapIcon = 56, BorderColor = 143, BorderSize = 4, BackgroundColor = 143, NotificationColor = ITEM, NotificationPriority = MEDIUM	// <<id_charm_purple>>
+
+
+	ItemDisplay[RES>2]: <<id_charm_high>>%SPACE%%NL% %NAME% %NL%%SPACE%	// All Resist Charms
+	ItemDisplay[FILTERLVL<4 STAT80>1]: %NAME%				// Magic Find Charms
+	ItemDisplay[FILTERLVL<4 DEF>19]: <<id_charm_green>>%NAME%		// Defense Charms
+	ItemDisplay[FILTERLVL<5 LIFE>18]: <<id_charm_green>>%NAME%		// LIFE Charms
+	ItemDisplay[FILTERLVL<5 STAT22=1]: <<id_charm_green>>%NAME%		// Damage Charms
+	ItemDisplay[FILTERLVL<5 STAT22=3]: %SPACE%%NL% %NAME% %NL%%SPACE%	// Damage Charms
+// -----------------------------------------------------------------------------------------------------------------------------------------
+	ItemDisplay[FILTERLVL<5 STAT49>15]: <<id_charm_red>>%NAME%		// Fire Damage
+	ItemDisplay[FILTERLVL<5 STAT51>12]: <<id_charm_blue>>%NAME%		// Cold Damage
+	ItemDisplay[FILTERLVL<5 STAT55>22]: <<id_charm_yellow>>%NAME%		// Light Damage
+	ItemDisplay[FILTERLVL<5 STAT57>200]: <<id_charm_purple>>%NAME%		// PoisonDmg
+// -----------------------------------------------------------------------------------------------------------------------------------------
+	ItemDisplay[FILTERLVL<5 STAT39>9]: <<id_charm_red>>%NAME%		// Fire Resist
+	ItemDisplay[FILTERLVL<5 STAT41>9]: <<id_charm_yellow>>%NAME%		// Lightning Resist
+	ItemDisplay[FILTERLVL<5 STAT43>9]: <<id_charm_blue>>%NAME%		// Cold Resist
+	ItemDisplay[FILTERLVL<5 STAT45>9]: <<id_charm_purple>>%NAME%		// Poison Resist
+// -----------------------------------------------------------------------------------------------------------------------------------------
+	ItemDisplay[FILTERLVL<3 cm1]: %NAME%			// Show everything Character level below Filterlevel 3
+	ItemDisplay[ID]:
+
+EndIf[]
+
 //
 // -------------------------------------------------------------------------------------------------------------
 //					Unidentified Small Charms Here						|
