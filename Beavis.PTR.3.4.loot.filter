@@ -2,7 +2,7 @@
 //			THIS FILTER WORKS SEASON 12 - Beginning March 2024
 // *******************************************************************************
 // Beavvis filter	Version 3.40
-// Date:		December 2024
+// Date:		March 2025
 //
 // DISCORD:		Beavis_
 // DII 2024:	Beevvis
@@ -147,11 +147,11 @@ ItemDisplay[ear]: %NOTIFY(ITEM,LOW)% %ORANGE%%NAME%
 //						PoD Items							|
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[std]: %NOTIFY(ITEM,HIGH)% %NAME%
-ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%SPACE%%NL%%GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###%NL%%SPACE% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[cx6]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 ItemDisplay[cx7]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** KEY OF CHAOS ****
 ItemDisplay[cx8]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** %NAME ****
-ItemDisplay[cx9]: %NOTIFY(ITEM,HIGH)% %MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(10)%%GREEN%###   %TEAL%Orb of Alteration   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%{%GREEN%Abysall Furnace: %WHITE%TP-Scroll + %TEAL%Orb of Alteration}
+ItemDisplay[cx9]: %NOTIFY(ITEM,HIGH)% %MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(10)%%SPACE%%NL%%GREEN%###   %TEAL%Orb of Alteration   %GREEN%###%NL%%SPACE% %NOTIFYSOUND(2664,HIGH)%{%GREEN%Abysall Furnace: %WHITE%TP-Scroll + %TEAL%Orb of Alteration}
 // -------------------------------------------------------------------------------------------------------------
 //						Dclone relic?							|
 // -------------------------------------------------------------------------------------------------------------
@@ -159,12 +159,12 @@ ItemDisplay[maz]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 // -------------------------------------------------------------------------------------------------------------
 //						Uber Keys							|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %NL%%SPACE%%GOLD%Terror %PURPLE%*%GOLD%Countess%PURPLE%*%NL%%SPACE%
-ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %NL%%SPACE%%GOLD%Hate %RED%*%GOLD%Summoner%RED%*%NL%%SPACE%
-ItemDisplay[pk3]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Destruction %GREEN%*%GOLD%Nihlathak%GREEN%*%NL%%SPACE%
-ItemDisplay[dhn]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Diablo's Horn%NL%%SPACE%
-ItemDisplay[bey]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Baal's Eye%NL%%SPACE%
-ItemDisplay[mbr]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)%%NL%%SPACE%%GOLD%Mephisto's Brain%NL%%SPACE%
+ItemDisplay[pk1]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %SPACE%%NL%%GOLD%Terror %PURPLE%*%GOLD%Countess%PURPLE%*%NL%%SPACE%
+ItemDisplay[pk2]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %SPACE%%NL%%GOLD%Hate %RED%*%GOLD%Summoner%RED%*%NL%%SPACE%
+ItemDisplay[pk3]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %SPACE%%NL%%GOLD%Destruction %GREEN%*%GOLD%Nihlathak%GREEN%*%NL%%SPACE%
+ItemDisplay[dhn]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %SPACE%%NL%%GOLD%Diablo's Horn%NL%%SPACE%
+ItemDisplay[bey]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %SPACE%%NL%%GOLD%Baal's Eye%NL%%SPACE%
+ItemDisplay[mbr]: %NOTIFY(ITEM,HIGH)% %BGCOLOR(155)% %BORDER(10,3)% %SPACE%%NL%%GOLD%Mephisto's Brain%NL%%SPACE%
 // -------------------------------------------------------------------------------------------------------------
 //					UNIDENTIFIED MAPS							|
 // -------------------------------------------------------------------------------------------------------------
@@ -224,9 +224,9 @@ EnableIf[jew]
 	// -----------------------------------
 	//            UNIDENTIFIED           |
 	// -----------------------------------
-	ItemDisplay[!ID MAG]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(152,3)%%BGCOLOR(118)% %NL%%GREEN%* JEWEL *%NL% 
-	ItemDisplay[!ID RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(111,3)%%BGCOLOR(7)% %YELLOW%%NL%*%YELLOW% JEWEL %YELLOW%*%NL%
-	ItemDisplay[!ID UNI]: %NL%%GREEN% %%%%%% %PURPLE% %NAME% %GREEN% %%%%%%% %NL% %MAPICON(15,2)%
+	ItemDisplay[!ID MAG]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(152,3)%%BGCOLOR(118)%%GREEN%+%NL%+ JEWEL +%NL%+
+	ItemDisplay[!ID RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(111,3)%%BGCOLOR(7)%%YELLOW%%NL%+ JEWEL +%NL%+
+	ItemDisplay[!ID UNI]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %BORDER(111,3)%%BGCOLOR(155)%%SPACE%%NL%%GREEN% %%%%%% %PURPLE% %NAME% %GREEN% %%%%%%% %NL%%SPACE% 
 	// -----------------------------------
 	//    IDENTIFIED-IAS + Resistances   |
 	// -----------------------------------
@@ -408,7 +408,7 @@ ItemDisplay[MAG cm3 ID RES>10]: %GREEN%ALL Resistances			// * ALL Resist *
 // -------------------------------------------------------------------------------------------------------------
 //
 ItemDisplay[MAG cm3 ILVL<50]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)% %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
-ItemDisplay[MAG cm3 !ID ILVL>49]: %NOTIFY(ITEM,HIGH)%%BORDER(118,1)% %BGCOLOR(118)%%MAPICON(56,0)%%NL%%GREEN% *** %ORANGE%[%ILVL%]%GREEN% %NAME% %ORANGE%[%ILVL%] %GREEN% *** %NL%		// Unidentified Grand Charms
+ItemDisplay[MAG cm3 !ID ILVL>49]: %NOTIFY(ITEM,HIGH)%%BORDER(118,1)% %BGCOLOR(118)%%MAPICON(56,0)% %SPACE%%NL% %GREEN% *** %ORANGE%[%ILVL%]%GREEN% %NAME% %ORANGE%[%ILVL%] %GREEN% *** %NL%%SPACE	// Unidentified Grand Charms
 //
 ItemDisplay[cm3 MAG !ID ILVL>77]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3)% %BGCOLOR(140)% %BLUE%* %NAME% %ORANGE%[%ILVL%]%BLUE% *  // %MAPICON(60,0)% // %MAPICON(56,0)%
 ItemDisplay[cm3 MAG !ID ILVL<78]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3)% %BGCOLOR(140)% %BLUE%* %NAME% %WHITE%[%ILVL%]%BLUE% *   
@@ -550,7 +550,7 @@ EndIf[]
 //					Unidentified Small Charms Here						|
 // -------------------------------------------------------------------------------------------------------------
 //
-ItemDisplay[MAG cm1 !ID ILVL>47]: %NOTIFY(ITEM,HIGH)%%MAPICON(55,25)% %BORDER(118,140)% %BGCOLOR(145)%%NL%%GREEN%*** %NAME% %ORANGE%[%ILVL%]%GREEN% ***%NL% 
+ItemDisplay[MAG cm1 !ID ILVL>47]: %NOTIFY(ITEM,HIGH)%%MAPICON(55,25)% %BORDER(118,140)% %BGCOLOR(145)% %SPACE%NL% %GREEN%*** %NAME% %ORANGE%[%ILVL%]%GREEN% *** %NL%%SPACE%
 ItemDisplay[FILTERLVL<3 MAG cm1 ILVL<48]: %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
 //
 ItemDisplay[cm1 MAG !ID ILVL>89]: %NOTIFY(ITEM,HIGH)%%MAPICON(2)% %BLUE%* %NAME% %ORANGE%[%ILVL%]%BLUE% *
