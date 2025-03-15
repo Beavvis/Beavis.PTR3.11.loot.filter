@@ -225,7 +225,7 @@ EnableIf[jew]
 	//            UNIDENTIFIED           |
 	// -----------------------------------
 	ItemDisplay[!ID MAG]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(152,3)%%BGCOLOR(118)%%GREEN%+%NL%+ JEWEL +%NL%+
-	ItemDisplay[!ID RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(111,3)%%BGCOLOR(7)%%YELLOW%%NL%+ JEWEL +%NL%+
+	ItemDisplay[!ID RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(22,2)% %BORDER(111,3)%%BGCOLOR(7)%%YELLOW%+%NL%+ JEWEL +%NL%+
 	ItemDisplay[!ID UNI]: %NOTIFY(ITEM,HIGH)%%MAPICON(15,2)% %BORDER(111,3)%%BGCOLOR(155)%%SPACE%%NL%%GREEN% %%%%%% %PURPLE% %NAME% %GREEN% %%%%%%% %NL%%SPACE% 
 	// -----------------------------------
 	//    IDENTIFIED-IAS + Resistances   |
