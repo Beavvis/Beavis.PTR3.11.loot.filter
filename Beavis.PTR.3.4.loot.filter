@@ -408,7 +408,7 @@ ItemDisplay[MAG cm3 ID RES>10]: %GREEN%ALL Resistances			// * ALL Resist *
 // -------------------------------------------------------------------------------------------------------------
 //
 ItemDisplay[MAG cm3 ILVL<50]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)% %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
-ItemDisplay[MAG cm3 !ID ILVL>49]: %NOTIFY(ITEM,HIGH)%%BORDER(118,1)% %BGCOLOR(118)%%MAPICON(56,0)% %SPACE%%NL% %GREEN% *** %ORANGE%[%ILVL%]%GREEN% %NAME% %ORANGE%[%ILVL%] %GREEN% *** %NL%%SPACE	// Unidentified Grand Charms
+ItemDisplay[MAG cm3 !ID ILVL>49]: %NOTIFY(ITEM,HIGH)%%BORDER(118,1)% %BGCOLOR(118)%%MAPICON(56,0)% %SPACE%%NL% %GREEN% *** %ORANGE%[%ILVL%]%GREEN% %NAME% %ORANGE%[%ILVL%] %GREEN% *** %NL%%SPACE%	// Unidentified Grand Charms
 //
 ItemDisplay[cm3 MAG !ID ILVL>77]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3)% %BGCOLOR(140)% %BLUE%* %NAME% %ORANGE%[%ILVL%]%BLUE% *  // %MAPICON(60,0)% // %MAPICON(56,0)%
 ItemDisplay[cm3 MAG !ID ILVL<78]: %NOTIFY(ITEM,LOW)%%MAPICON(56,0)%%BORDER(140,3)% %BGCOLOR(140)% %BLUE%* %NAME% %WHITE%[%ILVL%]%BLUE% *   
@@ -550,7 +550,7 @@ EndIf[]
 //					Unidentified Small Charms Here						|
 // -------------------------------------------------------------------------------------------------------------
 //
-ItemDisplay[MAG cm1 !ID ILVL>47]: %NOTIFY(ITEM,HIGH)%%MAPICON(55,25)% %BORDER(118,140)% %BGCOLOR(145)% %SPACE%NL% %GREEN%*** %NAME% %ORANGE%[%ILVL%]%GREEN% *** %NL%%SPACE%
+ItemDisplay[MAG cm1 !ID ILVL>47]: %NOTIFY(ITEM,HIGH)%%MAPICON(55,25)% %BORDER(118,140)% %BGCOLOR(145)% %SPACE%%NL% %GREEN%*** %NAME% %ORANGE%[%ILVL%]%GREEN% *** %NL%%SPACE%
 ItemDisplay[FILTERLVL<3 MAG cm1 ILVL<48]: %GREEN% %NAME% %ORANGE%[%ILVL%] (LOW)
 //
 ItemDisplay[cm1 MAG !ID ILVL>89]: %NOTIFY(ITEM,HIGH)%%MAPICON(2)% %BLUE%* %NAME% %ORANGE%[%ILVL%]%BLUE% *
