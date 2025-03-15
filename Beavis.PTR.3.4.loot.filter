@@ -607,7 +607,7 @@ ItemDisplay[FILTERLVL<6 amu MAG]: %NAME%{%NL%%GREEN%Craft: %ORANGE%(Caster)  %GO
 // -------------------------------------------------------------------------------------------------------------
 //					UNIQUE Amulet or Ring
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[(rin OR amu OR jew) UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BORDER(10,2)%%BGCOLOR(155)%%NL%%RED%******************%PURPLE%[%ILVL%] %NAME% [%ILVL%]%RED%******************%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[(rin OR amu OR jew) UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BORDER(10,2)%%BGCOLOR(155)%%SPACE%%NL%%RED%******************%PURPLE%[%ILVL%] %NAME% [%ILVL%]%RED%******************%NL%%SPACE% %NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 //						Rings								|
 // -------------------------------------------------------------------------------------------------------------
