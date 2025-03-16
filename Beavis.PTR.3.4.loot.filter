@@ -151,7 +151,7 @@ ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)
 ItemDisplay[cx6]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 ItemDisplay[cx7]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** KEY OF CHAOS ****
 ItemDisplay[cx8]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** %NAME ****
-ItemDisplay[cx9]: %NOTIFY(ITEM,HIGH)% %MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(10)%%SPACE%%NL%%GREEN%###   %TEAL%Orb of Alteration   %GREEN%###%NL%%SPACE% %NOTIFYSOUND(2664,HIGH)%{%GREEN%Abysall Furnace: %WHITE%TP-Scroll + %TEAL%Orb of Alteration}
+ItemDisplay[cx9]: %NOTIFY(ITEM,HIGH)% %MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(10)%%SPACE%%NL%%GREEN%###   %TEAL%Orb of Alteration   %GREEN%###%NL%%SPACE% %NOTIFYSOUND(2664,HIGH)%{%SAGE%Cube w/MAP to reroll same Tier Map}
 // -------------------------------------------------------------------------------------------------------------
 //						Dclone relic?							|
 // -------------------------------------------------------------------------------------------------------------
