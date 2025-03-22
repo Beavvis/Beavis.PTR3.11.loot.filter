@@ -545,6 +545,33 @@ ItemStyle[id_charm_purple]: MapIcon = 56, BorderColor = 143, BorderSize = 4, Bac
 
 EndIf[]
 
+EnableIf[aq2 OR cq2]
+
+	ItemDisplay[ID]: %CONTINUE%
+	//---------------------------------------------------------------------
+	ItemDisplay[ALLSK>0]: %PURPLE%+1 All Skills %CONTINUE%
+	ItemDisplay[STAT156>0]: %NAME% %YELLOW%+%STAT(156)%% Pierce %CONTINUE%
+	//---------------------------------------------------------------------
+	ItemDisplay[TABSK0=1]: %NAME% %ORANGE%+1 Bow Skills %CONTINUE%
+	ItemDisplay[TABSK0=2]: %NAME% %ORANGE%+2 Bow Skills %CONTINUE%
+	ItemDisplay[TABSK0=3]: %NAME% %ORANGE%+3 Bow Skills %CONTINUE%
+	//---------------------------------------------------------------------
+	ItemDisplay[STAT218=3]: %NAME% %DGREEN%+35 MaxDamage %CONTINUE%
+	ItemDisplay[STAT218=4]: %NAME% %DGREEN%+50 MaxDamage %CONTINUE%
+	ItemDisplay[STAT218=5]: %NAME% %DGREEN%+60 MaxDamage %CONTINUE%
+	//---------------------------------------------------------------------
+	ItemDisplay[STAT93]: %NAME% %GREEN%+%STAT(93)%% IAS %CONTINUE%
+	ItemDisplay[STAT96]: %NAME% %CORAL%+%STAT(96)%% Run/Walk %CONTINUE%
+	ItemDisplay[STAT495]: %NAME% %SAGE%+%STAT(495)% Element&Poison Skills%CONTINUE%
+	ItemDisplay[STAT427]: %NAME% %NL%%TEAL%+2 Ice Arrows %CONTINUE%
+	//---------------------------------------------------------------------
+	ItemDisplay[FILTERLVL<5 aq2 MAG !ID]: %BLUE%%NAME%
+	ItemDisplay[FILTERLVL<5 cq2 MAG !ID]: %BLUE%%NAME%
+	ItemDisplay[ALLSK>0 OR TABSK0>0 OR STAT86>0 OR STAT156>0 OR STAT218>0 OR STAT427>0]: %NAME%
+	ItemDisplay[FILTERLVL<5]:
+
+EndIf[]
+
 //
 // -------------------------------------------------------------------------------------------------------------
 //					Unidentified Small Charms Here						|
