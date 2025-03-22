@@ -565,7 +565,7 @@ EnableIf[aq2 OR cq2]
 	ItemDisplay[STAT495]: %NAME% %SAGE%+%STAT(495)% Element&Poison Skills%CONTINUE%
 	ItemDisplay[STAT427]: %NAME% %NL%%TEAL%+2 Ice Arrows %CONTINUE%
 	//---------------------------------------------------------------------
-	ItemDisplay[FILTERLVL<5 aq2 MAG !ID]: %BLUE%%NAME%
+	ItemDisplay[FILTERLVL<5 aq2 MAG !ID]: %BLUE%%NAME% {%GREEN%Craft +2 Ice-Arrow: %BLUE%MAG-Arrow%WHITE% + %TAN%Eld%WHITE% + %PURPLE%Amethest%WHITE% + %TEAL%GEM}
 	ItemDisplay[FILTERLVL<5 cq2 MAG !ID]: %BLUE%%NAME%
 	ItemDisplay[ALLSK>0 OR TABSK0>0 OR STAT86>0 OR STAT156>0 OR STAT218>0 OR STAT427>0]: %NAME%
 	ItemDisplay[FILTERLVL<5]:
