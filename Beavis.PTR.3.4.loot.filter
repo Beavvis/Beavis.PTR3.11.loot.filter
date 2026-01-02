@@ -2117,7 +2117,7 @@ ItemDisplay[FILTERLVL<7 7p7 NMAG (SOCK=0 OR SOCK=4)]: %NAME% [%SOCKETS%]
 //					Thresher+Giant Thresher
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<7 7wc NMAG ETH SOCK>2]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<7 7wc NMAG !ETH (SOCK=0 OR SOCK>2)]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[FILTERLVL<6 7wc NMAG !ETH (SOCK=0 OR SOCK>2)]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7s8 !SUP NMAG ETH SOCK=0]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[0]{%GRAY%Socket: %ORANGE%Ral-Amn-%PURPLE%Amethyst}
 ItemDisplay[7s8 NMAG ETH SOCK=3]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]{%YELLOW%Plague: %ORANGE%Cham-Fal-Um}
 ItemDisplay[7s8 NMAG ETH SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%Base: ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]{%YELLOW%Pride: %ORANGE%Cham-Sur-Io-Lo%NL%%YELLOW%Insight: %ORANGE%Ral-Tir-Tal-Sol %NL%%YELLOW%Infinity: %ORANGE%Ber-Mal-Ber-Ist}
@@ -3087,5 +3087,6 @@ ItemDisplay[FILTERLVL<3 ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %BGCOLOR(15)%%BORDE
 //			Hide Stuff from MAC's Fitler
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 NMAG ILVL>74]:
+
 
 
