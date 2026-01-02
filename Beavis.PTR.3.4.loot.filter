@@ -2040,19 +2040,57 @@ ItemDisplay[UNI jew STAT58>1]: %GREEN% % % % % % % %PURPLE% POISON-FACET %GREEN%
 ItemDisplay[UNI jew STAT53>1]: %GREEN% % % % % % % %GREEN% MAGIC-FACET %GREEN% % % % % % % %
 ItemDisplay[UNI jew STAT399>1]: %GREEN% % % % % % % %WHITE% PHYSICAL-FACET %GREEN% % % % % % % %
 ItemDisplay[UNI !ID cm3]:  %NL%          %%RED% %%% %GOLD%%NAME% %RED% %%%%         %NL%
+// ----------------------
+//       BASE ARMORS	|
 // -------------------------------------------------------------------------------------------------------------
-//						Archon Plate
+// EQ2 = Armors		ELT = Elite Armors	EXC = Exceptional	NORM = Normal
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[utp NMAG ETH !SOCK=1 ED=13]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% +13ED%PURPLE%[%SOCKETS%]
-ItemDisplay[utp NMAG !ETH !SOCK=1 ED=13]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%]%BLUE% +13ED%PURPLE%[%SOCKETS%]
-//
+
+EnableIf[EQ2 NMAG]
+
+  EnableIf[ELT DEF>599]
+      ItemDisplay[ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %BORDER(155,8)%%BGCOLOR(0)%%SPACE% %GRAY%ETH-%RED%%NAME% %PURPLE%[%DEF%] %NOTIFYSOUND(2664,HIGH)% %CONTINUE%
+      ItemDisplay[!ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %BORDER(155,8)%%BGCOLOR(0)%%SPACE% %RED%%NAME% %PURPLE%[%DEF%] %NOTIFYSOUND(2664,HIGH)% %CONTINUE%
+      ItemDisplay[SOCK=0]: %NAME% %WHITE%[%SOCKETS%]{%GRAY%RollSocket: %ORANGE%Tal-Thul-%YELLOW%Topaz%NL%%GREEN%Max-Socket: %ORANGE%Larzuk Quest}
+      ItemDisplay[SOCK=2]: %NAME% %WHITE%[%SOCKETS%]{%YELLOW%Smoke: %ORANGE%Nef-Lum %NL%%YELLOW%Stealth: %ORANGE%Tal-Eth %NL%%YELLOW%Prudence: %ORANGE%Mal-Tir}
+      ItemDisplay[SOCK=3]: %NAME% %PURPLE%[%SOCKETS%]{%YELLOW%Treachery: %ORANGE%Shael-Thul-Lem%NL%%YELLOW%Duress: %ORANGE%Shael-Um-Thul %NL%%YELLOW%Gloom: %ORANGE%Fal-Um-Pul %NL%%YELLOW%Bone: %ORANGE%Sol-Um-Um %NL%%YELLOW%Enigma: %ORANGE%Jah-Ith-Ber}
+      ItemDisplay[SOCK=4]: %NAME% %PURPLE%[%SOCKETS%]{%YELLOW%Chains of Honor: %ORANGE%Dol-Um-Ber-Ist%NL%%YELLOW%Fortitude: %ORANGE%El-Sol-Dol-Lo%NL%%YELLOW%Bramble: %ORANGE%Ral-Ohm-Sur-Eth%NL%%YELLOW%Famine: %ORANGE%Fal-Ohm-Ort-Jah%NL%%YELLOW%Stone: %ORANGE%Shael-Um-Pul-Lum}
+  EndIf[]
+
+  EnableIf[ELT (DEF>499 AND DEF<600)]
+      ItemDisplay[!ETH]: %DGREEN%%NAME% %CONTINUE%
+      ItemDisplay[ETH]: %GRAY%ETH-%NAME% %CONTINUE%
+      ItemDisplay[SOCK=0]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]{%GRAY%RollSocket: %ORANGE%Tal-Thul-%YELLOW%Topaz%NL%%GREEN%Max-Socket: %ORANGE%Larzuk Quest}
+      ItemDisplay[SOCK=2]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %GREEN%[%DEF%] %WHITE%[%SOCKETS%]{%YELLOW%Smoke: %ORANGE%Nef-Lum %NL%%YELLOW%Stealth: %ORANGE%Tal-Eth %NL%%YELLOW%Prudence: %ORANGE%Mal-Tir}
+      ItemDisplay[SOCK=3]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% %GREEN%[%DEF%] %PURPLE%[%SOCKETS%]{%YELLOW%Treachery: %ORANGE%Shael-Thul-Lem%NL%%YELLOW%Duress: %ORANGE%Shael-Um-Thul %NL%%YELLOW%Gloom: %ORANGE%Fal-Um-Pul %NL%%YELLOW%Bone: %ORANGE%Sol-Um-Um %NL%%YELLOW%Enigma: %ORANGE%Jah-Ith-Ber}
+      ItemDisplay[SOCK=4]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %NAME% %GREEN%[%DEF%] %PURPLE%[%SOCKETS%]{%YELLOW%Chains of Honor: %ORANGE%Dol-Um-Ber-Ist%NL%%YELLOW%Fortitude: %ORANGE%El-Sol-Dol-Lo%NL%%YELLOW%Bramble: %ORANGE%Ral-Ohm-Sur-Eth%NL%%YELLOW%Famine: %ORANGE%Fal-Ohm-Ort-Jah%NL%%YELLOW%Stone: %ORANGE%Shael-Um-Pul-Lum}
+  EndIf[]
+
+  EnableIf[FILTERLVL<3 EXC]
+      ItemDisplay[!ETH]: %DGREEN%%NAME% %CONTINUE%
+      ItemDisplay[ETH]: %GRAY%ETH-%NAME% %CONTINUE%
+
+      ItemDisplay[SOCK=0]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %WHITE%[%SOCKETS%]{%GRAY%RollSocket: %ORANGE%Tal-Thul-%YELLOW%Topaz}
+      ItemDisplay[SOCK=2]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %WHITE%[%SOCKETS%]{%YELLOW%Smoke: %ORANGE%Nef-Lum %NL%%YELLOW%Stealth: %ORANGE%Tal-Eth %NL%%YELLOW%Prudence: %ORANGE%Mal-Tir}
+      ItemDisplay[SOCK=3]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %ORANGE%[%SOCKETS%]{%YELLOW%Treachery: %ORANGE%Shael-Thul-Lem%NL%%YELLOW%Gloom: %ORANGE%Fal-Um-Pul %NL%%YELLOW%Bone: %ORANGE%Sol-Um-Um}
+      ItemDisplay[SOCK=4]: %NOTIFY(ITEM,MEDIUM)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %ORANGE%[%SOCKETS%]
+  EndIf[]
+
 // -------------------------------------------------------------------------------------------------------------
-//					Archon Plate 30%from highest
+// NORM = Normal Armors
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[utp NMAG ETH SOCK>2 DEF>620]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[utp NMAG !ETH SOCK=0 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[0]{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
-ItemDisplay[utp NMAG !ETH SOCK=3 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]{%YELLOW%Treachery: %ORANGE%Shael-Thul-Lem%NL%%YELLOW%Duress: %ORANGE%Shael-Um-Thul %NL%%YELLOW%Gloom: %ORANGE%Fal-Um-Pul %NL%%YELLOW%Bone: %ORANGE%Sol-Um-Um %NL%%YELLOW%Enigma: %ORANGE%Jah-Ith-Ber}
-ItemDisplay[utp NMAG !ETH SOCK=4 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]{%YELLOW%Chains of Honor: %ORANGE%Dol-Um-Ber-Ist%NL%%YELLOW%Fortitude: %ORANGE%El-Sol-Dol-Lo%NL%%YELLOW%Bramble: %ORANGE%Ral-Ohm-Sur-Eth%NL%%YELLOW%Famine: %ORANGE%Fal-Ohm-Ort-Jah%NL%%YELLOW%Stone: %ORANGE%Shael-Um-Pul-Lum}
+
+   EnableIf[FILTERLVL<2 NORM]
+      ItemDisplay[!ETH]: %DGREEN%%NAME% %CONTINUE%
+      ItemDisplay[ETH]: %GRAY%ETH-%NAME% %CONTINUE%
+      ItemDisplay[SOCK=0]: %NOTIFY(ITEM,LOW)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %WHITE%[%SOCKETS%]{%GRAY%RollSocket: %ORANGE%Tal-Thul-%YELLOW%Topaz}
+      ItemDisplay[SOCK=2]: %NOTIFY(ITEM,LOW)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %WHITE%[%SOCKETS%]{%YELLOW%Smoke: %ORANGE%Nef-Lum %NL%%YELLOW%Stealth: %ORANGE%Tal-Eth %NL%%YELLOW%Prudence: %ORANGE%Mal-Tir}
+      ItemDisplay[SOCK=3]: %NOTIFY(ITEM,LOW)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %ORANGE%[%SOCKETS%]{%YELLOW%Treachery: %ORANGE%Shael-Thul-Lem%NL%%YELLOW%Gloom: %ORANGE%Fal-Um-Pul %NL%%YELLOW%Bone: %ORANGE%Sol-Um-Um}
+      ItemDisplay[SOCK=4]: %NOTIFY(ITEM,LOW)%%MAPICON(14,5)% %NAME% %DGREEN%[%DEF%] %ORANGE%[%SOCKETS%]
+   EndIf[]
+
+EndIf[]
+
 //
 // -------------------------------------------------------------------------------------------------------------
 //						EQ3 SHIELDS
@@ -2238,65 +2276,6 @@ ItemDisplay[FILTERLVL<5 ci2 NMAG !ETH SOCK=0]: %NAME% [%ILVL%]
 //						Masks
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<5 (msk OR xsk) NMAG SOCK=3 !ETH]: %NAME% [%SOCKETS%]
-// -------------------------------------------------------------------------------------------------------------
-//						EQ2 BODY ARMORS
-//						92+ base hide
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[EQ2 ELT NMAG ETH SOCK>2]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%DGREEN%[%SOCKETS%]%MAPICON(14,5)%
-ItemDisplay[EQ2 ELT NMAG ETH SOCK=0 ED>9]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% 10+ED%DGREEN%[%SOCKETS%]%MAPICON(14,5)%
-ItemDisplay[EQ2 ELT NMAG !ETH SOCK>2 (uui OR uea OR ula OR utu OR urs OR utp) DEF>495]: %DGREEN%%NAME% %ORANGE%[%DEF%]%DGREEN%[%SOCKETS%]%MAPICON(14,5)%
-ItemDisplay[EQ2 ELT NMAG !ETH SOCK=0 ED>9 (uui OR uea OR ula OR utu OR urs OR utp)]: %DGREEN%%NAME% [%DEF%]%BLUE% 10+ED%DGREEN%[%SOCKETS%]%MAPICON(14,5)%
-ItemDisplay[EQ2 CLVL>91 NMAG]:
-// -------------------------------------------------------------------------------------------------------------
-//						All elite (!Shadow/Sacred/Hellforged)
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[EQ2 !uar !uld ELT NMAG ETH !SOCK=1 ED=15]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% +15ED%PURPLE%[%SOCKETS%]
-ItemDisplay[EQ2 !uar !uul !uld ELT NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% +ED%RED%[%SOCKETS%]
-ItemDisplay[EQ2 !uth !ult !uar !uld ELT NMAG !ETH !SOCK=1 ED=15]: %DGREEN%%NAME% [%DEF%]%BLUE% +15ED%PURPLE%[%SOCKETS%]
-ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT NMAG !ETH !SOCK=1 ED>0 ED<15]: %DGREEN%%NAME% [%DEF%]%BLUE% +ED%RED%[%SOCKETS%]
-ItemDisplay[EQ2 !uar !uul !uld ELT NMAG ETH !SOCK=1]: ETH %NAME% [%DEF%] [%SOCKETS%]
-ItemDisplay[EQ2 !uth !ult !uar !uul !uld ELT NMAG !ETH !SOCK=1]: %NAME% [%DEF%] [%SOCKETS%]
-// -------------------------------------------------------------------------------------------------------------
-//				Dusk Shroud/Great Hauberk/Archon Plate/Sacred Armor
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[(utp OR uui OR urs) NMAG ETH !SOCK=1 ED=14]: %GRAY%ETH %DGREEN%%NAME% [%DEF%]%BLUE% +14ED%PURPLE%[%SOCKETS%]%MAPICON(14,5)%
-ItemDisplay[(utp OR uui OR urs) NMAG !ETH !SOCK=1 ED=14]: %DGREEN%%NAME% [%DEF%]%BLUE% +14ED%PURPLE%[%SOCKETS%]%MAPICON(14,5)%
-
-// -------------------------------------------------------------------------------------------------------------
-//				HIGH DEF ARMORS (MAX 5% FROM HIGHEST NON ED DEF)
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[uui NMAG ETH !SOCK=1 DEF>664]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[uui NMAG !ETH !SOCK=1 DEF>439]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[uea NMAG ETH !SOCK=1 DEF>668]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[uea NMAG !ETH !SOCK=1 DEF>441]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ula NMAG ETH !SOCK=1 DEF>674]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ula NMAG !ETH !SOCK=1 DEF>445]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[utu NMAG ETH !SOCK=1 DEF>684]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[utu NMAG !ETH !SOCK=1 DEF>450]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ung NMAG ETH !SOCK=1 DEF>695]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ung NMAG !ETH !SOCK=1 DEF>460]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ucl NMAG ETH !SOCK=1 DEF>705]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ucl NMAG !ETH !SOCK=1 DEF>470]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[urs NMAG ETH !SOCK=1 DEF>710]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[urs NMAG !ETH !SOCK=1 DEF>459]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[uhn NMAG ETH !SOCK=1 DEF>718]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[uhn NMAG !ETH !SOCK=1 DEF>475]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[upl NMAG ETH !SOCK=1 DEF>730]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[upl NMAG !ETH !SOCK=1 DEF>485]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[uld NMAG ETH SOCK>1 DEF>744]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ult NMAG ETH !SOCK=1 DEF>754]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[uth NMAG ETH !SOCK=1 DEF>768]: %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-ItemDisplay[ucl NMAG !ETH SOCK=4 DEF>529]: %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
-// ItemDisplay[uul uth NMAG ETH]:				// Disabled
-// ItemDisplay[uul NMAG !ETH]: 					// Disabled
-
-// -------------------------------------------------------------------------------------------------------------
-//					Light Plate/Mage Plate
-// -------------------------------------------------------------------------------------------------------------
-ItemDisplay[xtp NMAG !ETH !SOCK=1]: %NAME% [%DEF%] [%SOCKETS%]
-ItemDisplay[xtp NMAG ETH !SOCK=1]: %GRAY%ETH %NAME% [%DEF%] %WHITE%[%SOCKETS%]
-ItemDisplay[ltp NMAG !ETH !SOCK=1]: %NAME% [%DEF%] [%SOCKETS%]
-ItemDisplay[ltp NMAG ETH !SOCK=1]: %GRAY%ETH %NAME% [%DEF%] %WHITE%[%SOCKETS%]
 
 // -------------------------------------------------------------------------------------------------------------
 //					Troll Nest
@@ -3088,6 +3067,7 @@ ItemDisplay[FILTERLVL<3 ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %BGCOLOR(15)%%BORDE
 //			Hide Stuff from MAC's Fitler
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 NMAG ILVL>74]:
+
 
 
 
