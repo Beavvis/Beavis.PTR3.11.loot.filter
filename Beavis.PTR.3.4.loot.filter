@@ -2105,7 +2105,7 @@ ItemDisplay[7br NMAG ETH (SOCK=0 OR SOCK>3)]: %GRAY%Base: ETH %DGREEN%%NAME% %WH
 ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>3) ED=15]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +15ED %RED%[%SOCKETS%]
 ItemDisplay[7st NMAG ETH (SOCK=0 OR SOCK>3) ED>0 ED<15]: %GRAY%ETH %DGREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
 ItemDisplay[7st NMAG !ETH (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%%NAME%%BLUE% +15ED %RED%[%SOCKETS%]
-ItemDisplay[FILTERLVL<7 7st NMAG (SOCK=0 OR SOCK=4)]: %NAME% [%SOCKETS%]
+ItemDisplay[FILTERLVL<6 7st NMAG (SOCK=0 OR SOCK=4)]: %NAME% [%SOCKETS%]
 //War Pike
 ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>4) ED=15]: %GRAY%Base: ETH %DGREEN%%NAME%%BLUE% +15ED %PURPLE%[%SOCKETS%]{%GREEN%Socket: Larzuk Quest}
 ItemDisplay[7p7 NMAG ETH (SOCK=0 OR SOCK>4) ED>0 ED<15]: %GRAY%Base: ETH %DGREEN%%NAME%%BLUE% +ED %PURPLE%[%SOCKETS%]
@@ -3087,4 +3087,5 @@ ItemDisplay[FILTERLVL<3 ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %BGCOLOR(15)%%BORDE
 //			Hide Stuff from MAC's Fitler
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 NMAG ILVL>74]:
+
 
