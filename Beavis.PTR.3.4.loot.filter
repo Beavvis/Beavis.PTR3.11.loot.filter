@@ -2052,7 +2052,7 @@ ItemDisplay[utp NMAG !ETH !SOCK=1 ED=13]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DG
 ItemDisplay[utp NMAG ETH SOCK>2 DEF>620]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %GRAY%ETH %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
 ItemDisplay[utp NMAG !ETH SOCK=0 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[0]{%YELLOW%Socket(4): %ORANGE%Larzuk Quest}
 ItemDisplay[utp NMAG !ETH SOCK=3 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]{%YELLOW%Treachery: %ORANGE%Shael-Thul-Lem%NL%%YELLOW%Duress: %ORANGE%Shael-Um-Thul %NL%%YELLOW%Gloom: %ORANGE%Fal-Um-Pul %NL%%YELLOW%Bone: %ORANGE%Sol-Um-Um %NL%%YELLOW%Enigma: %ORANGE%Jah-Ith-Ber}
-ItemDisplay[utp NMAG !ETH SOCK=4 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]
+ItemDisplay[utp NMAG !ETH SOCK=4 DEF>499]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %DGREEN%%NAME% [%DEF%] %PURPLE%[%SOCKETS%]{%YELLOW%Chains of Honor: %ORANGE%Dol-Um-Ber-Ist%NL%%YELLOW%Fortitude: %ORANGE%El-Sol-Dol-Lo%NL%%YELLOW%Bramble: %ORANGE%Ral-Ohm-Sur-Eth%NL%%YELLOW%Famine: %ORANGE%Fal-Ohm-Ort-Jah%NL%%YELLOW%Stone: %ORANGE%Shael-Um-Pul-Lum}
 //
 // -------------------------------------------------------------------------------------------------------------
 //						EQ3 SHIELDS
@@ -3088,6 +3088,7 @@ ItemDisplay[FILTERLVL<3 ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %BGCOLOR(15)%%BORDE
 //			Hide Stuff from MAC's Fitler
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 NMAG ILVL>74]:
+
 
 
 
