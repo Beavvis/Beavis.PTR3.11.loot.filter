@@ -2050,7 +2050,7 @@ EnableIf[EQ2 NMAG]
 
   EnableIf[ELT DEF>599]
       ItemDisplay[ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %BORDER(155,8)%%BGCOLOR(0)%%SPACE% %GRAY%ETH-%RED%%NAME% %PURPLE%[%DEF%] %CONTINUE%
-      ItemDisplay[!ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %BORDER(155,8)%%BGCOLOR(0)%%SPACE% %RED%%NAME% %PURPLE%[%DEF%] %NOTIFYSOUND(2664,HIGH)% %CONTINUE%
+      ItemDisplay[!ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(14,5)% %BORDER(155,8)%%BGCOLOR(0)%%SPACE% %RED%%NAME% %PURPLE%[%DEF%] %CONTINUE%
       ItemDisplay[SOCK=0]: %NAME% %WHITE%[%SOCKETS%]{%GRAY%RollSocket: %ORANGE%Tal-Thul-%YELLOW%Topaz%NL%%GREEN%Max-Socket: %ORANGE%Larzuk Quest}
       ItemDisplay[SOCK=2]: %NAME% %WHITE%[%SOCKETS%]{%YELLOW%Smoke: %ORANGE%Nef-Lum %NL%%YELLOW%Stealth: %ORANGE%Tal-Eth %NL%%YELLOW%Prudence: %ORANGE%Mal-Tir}
       ItemDisplay[SOCK=3]: %NAME% %PURPLE%[%SOCKETS%]{%YELLOW%Treachery: %ORANGE%Shael-Thul-Lem%NL%%YELLOW%Duress: %ORANGE%Shael-Um-Thul %NL%%YELLOW%Gloom: %ORANGE%Fal-Um-Pul %NL%%YELLOW%Bone: %ORANGE%Sol-Um-Um %NL%%YELLOW%Enigma: %ORANGE%Jah-Ith-Ber}
@@ -3067,6 +3067,7 @@ ItemDisplay[FILTERLVL<3 ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %BGCOLOR(15)%%BORDE
 //			Hide Stuff from MAC's Fitler
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 NMAG ILVL>74]:
+
 
 
 
